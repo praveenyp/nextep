@@ -9,7 +9,7 @@ const Navbar = () => {
         </a>
         </span>
         <nav className="">
-            <span className="">
+            {/* <span className="">
                 <ul className="sm:mt-5 mt-12  flex flex-row sm:text-base text-xs sm:space-x-24 space-x-3 sm:ml-0 ml-0 bg-green-700 sm:px-5 px-1  sm:py-2 rounded-md text-white sm:uppercase lowercase">
                     <li className="">
                         <a href="/" className="bg-green-700 sm:px-0 px-1  sm:py-2">Hardware</a>
@@ -21,7 +21,7 @@ const Navbar = () => {
                         <a href="/" className="bg-green-700 sm:px-0 px-1  sm:py-2">Consumables</a>
                     </li>
                 </ul>
-            </span>
+            </span> */}
         </nav>
         <span className="sm:mt-7 mt-3 sm:text-base text-xs sm:space-x-9 space-x-3 sm:mr-0 mr-2 hover:text-green-800">
             <a href="/">Call</a>

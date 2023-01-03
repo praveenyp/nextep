@@ -2,7 +2,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-*{
-  background-color:#f0fdf4;
-}
