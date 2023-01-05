@@ -1,5 +1,6 @@
 import React from 'react'
 import Printer from './Printer'
+import Scanning from './Scanning'
 import Sidebar from "./Sidebar"
 
 function Hardware() {
@@ -7,6 +8,7 @@ function Hardware() {
     <div>
     <Sidebar/>
       <Printer/>
+      <Scanning/>
     </div>
   )
 }
