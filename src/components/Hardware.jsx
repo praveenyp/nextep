@@ -1,14 +1,21 @@
 import React from 'react'
+import Automation from './Automation'
+import Inspection from './Inspection'
 import Printer from './Printer'
+import Rfid from './Rfid'
 import Scanning from './Scanning'
-import Sidebar from "./Sidebar"
+
+import Tablets from './Tablets'
 
 function Hardware() {
   return (
     <div>
-    <Sidebar/>
       <Printer/>
       <Scanning/>
+      <Inspection/>
+      <Rfid/>
+      <Automation/>
+      <Tablets/>
     </div>
   )
 }
