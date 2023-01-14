@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 function IndustrialLable() {
   return (
     <>
-      <div className="h-full bg-gradient-to-r from-green-300 to-indigo-300 dark:text-black">
+      <div className="h-full bg-gradient-to-r from-gray-900 to-gray-700 dark:text-gray-300">
         <div className="flex items-center justify-center">
-            <h1 className="mt-4 sm:text-6xl text-3xl sm:my-6 my-2 font-semibold">Industrial Labels</h1>
+            <h1 className="mt-4 sm:text-6xl text-3xl sm:my-6 my-2 font-semibold text-gray-200">Industrial Labels</h1>
         </div>
         <div className="flex items-center justify-center">
             <motion.img
@@ -39,7 +39,7 @@ function IndustrialLable() {
                   transition={{ duration: 2 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
-                className="sm:text-2xl text-lg text-gray-800 font-bold">We provide all of the following categories</motion.h4>
+                className="sm:text-2xl text-lg text-gray-400 font-bold">We provide all of the following categories</motion.h4>
                 <div className="pt-3 items-center justify-center">
                     <motion.ol 
                      initial={{
@@ -49,7 +49,7 @@ function IndustrialLable() {
                       transition={{ duration: 2 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true }}
-                    className="space-y-4 text-gray-900 list-decimal list-inside dark:text-gray-900 sm:font-semibold font-medium">
+                    className="space-y-4 text-gray-900 list-decimal list-inside dark:text-gray-500 sm:font-semibold font-medium">
                         <li>Label Types
                             <ul className="pl-5 mt-2 space-y-1 list-disc list-inside">
                                 <li>Direct Thermal</li>

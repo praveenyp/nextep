@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 function Rfidtags() {
   return (
     <>
-      <div className="h-full bg-gradient-to-r from-green-300 to-indigo-300 dark:text-black">
+      <div className="h-full bg-gradient-to-r from-gray-900 to-gray-700 dark:text-gray-300">
         <div className="flex flex-col items-center justify-center">
-          <h1 className="mt-4 sm:text-6xl text-3xl sm:my-6 my-2 font-semibold">
+          <h1 className="mt-4 sm:text-6xl text-3xl sm:my-6 my-2 font-semibold text-gray-200">
             RFID Tags
           </h1>
           <motion.p 
@@ -77,7 +77,7 @@ function Rfidtags() {
                 </p>
               </div>
               <div className="mx-12">
-                <ol className="space-y-4 sm:text-lg text-sm list-disc list-inside dark:text-gray-900  items-center justify-center text-start mt-3">
+                <ol className="space-y-4 sm:text-lg text-sm list-disc list-inside dark:text-gray-500  items-center justify-center text-start mt-3">
                   <li>
                     Transportation and Logistics Distribution, shipping and
                     receiving and warehouse operations including case, pallet
@@ -134,7 +134,7 @@ function Rfidtags() {
                 </p>
               </div>
               <div className="mx-12">
-                <ol className="space-y-4 sm:text-lg text-sm list-disc list-inside dark:text-gray-900  items-center justify-center text-start mt-3">
+                <ol className="space-y-4 sm:text-lg text-sm list-disc list-inside dark:text-gray-500  items-center justify-center text-start mt-3">
                   <li>
                     IT Equipment Tracking: Asset tracking of mobile computers,
                     printers, antennas and infrastructure components

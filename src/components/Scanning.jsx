@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 function Scanning() {
   return (
     <>
-      <div className="pt-16 sm:h-screen h-full bg-gradient-to-r from-green-300 to-indigo-300 dark:text-black">
+      <div className="pt-16 sm:h-screen h-full bg-gradient-to-r from-gray-900 to-gray-700 dark:text-gray-300">
         <div className="flex items-center justify-center">
-          <h1 className="sm:text-6xl text-3xl sm:my-6 my-2 font-semibold">
+          <h1 className="sm:text-6xl text-3xl sm:my-6 my-2 font-semibold text-gray-200">
             Scanning
           </h1>
         </div>
@@ -19,7 +19,7 @@ function Scanning() {
             transition={{ duration: 2 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2"
+            className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 text-gray-500"
           >
             Our advanced machine vision & industrial vision systems help improving product quality for any manufacturing process and further make production process error free, reduces cost of production and ensure high quality products are produced at affordable costs.
           </motion.p>
@@ -62,7 +62,7 @@ function Scanning() {
             <div className="flex items-center justify-center sm:pt-2 pt-2 border-solid border-2 border-green-700 rounded-b-md">
               <p 
                
-              className="text-center sm:text-lg text-sm sm:font-medium from-neutral-600">
+              className="text-center sm:text-lg text-sm sm:font-medium from-neutral-600 text-gray-500">
                 QN scanner portfolio offers a wide range of scanning capability
                 starting from retail solutions to high speed production lines
                 with high built in intelligence that can read barcodes easily
@@ -93,7 +93,7 @@ function Scanning() {
             <div className="flex items-center justify-center sm:pt-2 pt-2 border-solid border-2 border-green-700 rounded-b-md">
               <p 
                
-              className="text-center sm:text-lg text-sm sm:font-medium from-neutral-600">
+              className="text-center sm:text-lg text-sm sm:font-medium from-neutral-600 text-gray-500">
                 QN offers different range of mobility scanners and form factors
                 to cater need of production, warehouse and last mile users.
                 These devices have sturdy built-in software intelligence

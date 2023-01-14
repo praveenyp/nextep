@@ -1,19 +1,21 @@
 import React from "react";
 import AboutUs from "../components/AboutUs";
-import Hardware from "../components/Hardware";
+import Enquiry from "../components/enquiry/Enquiry";
+
 import Navbar from "../components/Navbar";
+import Partner from "../components/partner/Partner";
 import Testimonial from "../components/Testimonial";
-import Consumable from "./Consumable";
+
 
 
 const Home = () => {
   return (
     <div>
-      {/* <Navbar/> */}
-      {/* <AboutUs/> */}
-      {/* <Testimonial/> */}
-      <Hardware/>
-      {/* <Consumable/> */}
+      <Navbar/>
+      <AboutUs/>
+      <Testimonial/>
+      <Partner/>
+      <Enquiry/>
     </div>
   );
 };

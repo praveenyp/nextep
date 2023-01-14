@@ -3,9 +3,9 @@ import { motion } from 'framer-motion'
 function Ribbons() {
   return (
     <>
-      <div className="h-full bg-gradient-to-r from-green-300 to-blue-300 dark:text-black">
+      <div className="h-full bg-gradient-to-r from-gray-700 to-gray-900 dark:text-gray-300">
         <div className='flex flex-col items-center justify-center'>
-            <h1 className="sm:text-6xl text-3xl sm:my-6 my-2 font-semibold">Industrial Ribbons</h1>
+            <h1 className="sm:text-6xl text-3xl sm:my-6 my-2 font-semibold text-gray-200">Industrial Ribbons</h1>
             <motion.p 
             initial={{
                 y: 100,
@@ -39,8 +39,8 @@ function Ribbons() {
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                 className='mb-3 flex flex-col items-center justify-center sm:mx-0 mx-12'>
-                    <h2 className='sm:text-2xl text-md  font-semibold text-gray-500'>Our Ribbons addresses the following complications:</h2>
-                    <ul className='space-y-4 sm:text-lg text-sm list-disc list-inside dark:text-gray-900  items-center justify-center text-start mt-3'>
+                    <h2 className='sm:text-2xl text-md  font-semibold text-gray-400'>Our Ribbons addresses the following complications:</h2>
+                    <ul className='space-y-4 sm:text-lg text-sm list-disc list-inside dark:text-gray-500  items-center justify-center text-start mt-3'>
                         <li>The bar within the barcode expands or grow beyond their normal growth</li>
                         <li>Image is light or washed out and poor scanning read rates</li>
                         <li>Dead spots on labels</li>
@@ -74,8 +74,8 @@ function Ribbons() {
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                 className='mb-3 flex flex-col items-center justify-center sm:mx-0 mx-12 '>
-                    <h2 className='sm:text-2xl text-md font-semibold text-gray-500'>Wax Ribbons for Cost-Effective Performance</h2>
-                    <ul className='space-y-4 sm:text-lg text-sm list-disc list-inside dark:text-gray-900  items-center justify-center text-start mt-3'>
+                    <h2 className='sm:text-2xl text-md font-semibold text-gray-400'>Wax Ribbons for Cost-Effective Performance</h2>
+                    <ul className='space-y-4 sm:text-lg text-sm list-disc list-inside dark:text-gray-500  items-center justify-center text-start mt-3'>
                         <li>For standards printing on paper materials</li>
                         <li>Compatible with uncoated and coated paper</li>
                         <li>Offers crystal clear text and high-density black ink printing</li>
@@ -107,8 +107,8 @@ function Ribbons() {
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                 className='mb-3 flex flex-col items-center justify-center sm:mx-0 mx-12'>
-                    <h2 className='sm:text-2xl text-md  font-semibold text-gray-500'>Wax/Resin Ribbons for All Around Performance</h2>
-                    <ul className='space-y-4 sm:text-lg text-sm list-disc list-inside dark:text-gray-900  items-center justify-center text-start mt-3'>
+                    <h2 className='sm:text-2xl text-md  font-semibold text-gray-400'>Wax/Resin Ribbons for All Around Performance</h2>
+                    <ul className='space-y-4 sm:text-lg text-sm list-disc list-inside dark:text-gray-500  items-center justify-center text-start mt-3'>
                         <li>Excellent resistance to chemicals on paper and synthetics</li>
                         <li>Compatible with glossy paper, coated paper and synthetic / thin film materials</li>
                         <li>Anti-scratch and antifouling for long-lasting barcode and image life</li>
@@ -141,8 +141,8 @@ function Ribbons() {
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                 className='mb-3 flex flex-col items-center justify-center sm:mx-0 mx-12 '>
-                    <h2 className='sm:text-2xl text-md font-semibold text-gray-500'>Resin Ribbons for Premium Performance</h2>
-                    <ul className='space-y-4 sm:text-lg text-sm list-disc list-inside dark:text-gray-900  items-center justify-center text-start mt-3'>
+                    <h2 className='sm:text-2xl text-md font-semibold text-gray-400'>Resin Ribbons for Premium Performance</h2>
+                    <ul className='space-y-4 sm:text-lg text-sm list-disc list-inside dark:text-gray-500  items-center justify-center text-start mt-3'>
                         <li>Provide ultimate durability against chemicals and heat on synthetics</li>
                         <li>Compatible with multiple synthetic materials (PVC, PET, PE, PP), semi-gloss paper, glossy coated paper and washable materials</li>
                         <li>Excellent antifouling and anti-scratch performance, maintaining high quality images even when exposed to dissolvent</li>

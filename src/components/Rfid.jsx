@@ -4,9 +4,9 @@ import { motion } from 'framer-motion'
 function Rfid() {
   return (
     <>
-      <div className="sm:h-screen h-full bg-gradient-to-r from-green-300 to-indigo-300 dark:text-black">
+      <div className="sm:h-screen h-full bg-gradient-to-r from-gray-900 to-gray-700 dark:text-gray-300">
         <div className="flex items-center justify-center">
-          <h1 className="sm:text-6xl text-3xl sm:my-6 my-2 font-semibold">
+          <h1 className="sm:text-6xl text-3xl sm:my-6 my-2 font-semibold text-gray-200">
             RFID
           </h1>
         </div>
@@ -19,7 +19,7 @@ function Rfid() {
             transition={{ duration: 2 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2"
+            className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 text-gray-500"
           >
             RFID technology is a way for Manufacturers and retailers to identify items using radio waves. It transmits data from a RFID Tag to a reader giving you accurate real-time tracking data of your inventory. QN RFID technology helps in attaining over the top challenges faced by every industry to improve the bottom line by increased efficiency.
           </motion.p>

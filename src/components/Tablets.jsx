@@ -3,9 +3,9 @@ import { motion } from 'framer-motion'
 function Tablets() {
   return (
     <>
-      <div className="h-full bg-gradient-to-r from-green-300 to-indigo-300 dark:text-black">
+      <div className="h-full bg-gradient-to-r from-gray-900 to-gray-700 dark:text-gray-300">
         <div className="flex items-center justify-center">
-          <h1 className="sm:text-6xl text-3xl sm:my-6 my-2 font-semibold">
+          <h1 className="sm:text-6xl text-3xl sm:my-6 my-2 font-semibold text-gray-200">
           Industrial Tablet
           </h1>
         </div>
@@ -18,7 +18,7 @@ function Tablets() {
             transition={{ duration: 2 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2"
+            className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 text-gray-400"
           >
             Our Industrial PCs and tablets are designed in such a way as to meet different performance and complex interface needs. It has stable performance, user-friendly applications, and high-performance industrial-grade processors to ensure the reliability of industry applications.
 

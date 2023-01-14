@@ -3,9 +3,9 @@ import { motion } from 'framer-motion'
 function Automation() {
   return (
     <>
-      <div className="pt-16 h-full bg-gradient-to-r from-green-300 to-blue-300 dark:text-black">
+      <div className="pt-16 h-full bg-gradient-to-r from-gray-700 to-gray-900 dark:text-gray-300">
         <div className="flex items-center justify-center">
-          <h1 className="sm:text-6xl text-3xl sm:my-6 my-2 font-semibold">
+          <h1 className="sm:text-6xl text-3xl sm:my-6 my-2 font-semibold text-gray-200">
             Automation
           </h1>
         </div>
@@ -18,7 +18,7 @@ function Automation() {
             transition={{ duration: 2 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2"
+            className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 text-gray-300"
           >
             For capturing any data, scanning is the prime aspect.
           </motion.p>
@@ -61,7 +61,7 @@ function Automation() {
             <div className="flex items-center justify-center sm:pt-2 pt-2 border-solid border-2 border-green-700 rounded-b-md">
               <p 
             
-              className="text-center sm:text-lg text-sm sm:font-medium from-neutral-600">
+              className="text-center sm:text-lg text-sm sm:font-medium from-neutral-600 text-gray-500">
                 Any manufacturing process includes material handling equipment like conveyors that can transport raw materials or semi-finished products from one workstation to another. These automated conveyors are designed based on the type of manufacturing product or the process. QN focuses on industrial conveyors that classify all kinds of available conveyors.
               </p>
             </div>
@@ -89,7 +89,7 @@ function Automation() {
             <div className="flex items-center justify-center sm:pt-2 pt-2 border-solid border-2 border-green-700 rounded-b-md">
               <p 
                
-              className="text-center sm:text-lg text-sm sm:font-medium from-neutral-600">
+              className="text-center sm:text-lg text-sm sm:font-medium from-neutral-600 text-gray-500">
                 These picking technologies enhance the productivity & efficacy of the picker in a person-to-goods picking process, thus, it can get integrated into any existing warehousing operations. Our pick-to-light process entitles high-speed order fulfilment operation, with top-notch picking rates and excellent productivity.
               </p>
             </div>
@@ -117,7 +117,7 @@ function Automation() {
             <div className="flex items-center justify-center sm:pt-2 pt-2 border-solid border-2 border-green-700 rounded-b-md ">
               <p 
               
-              className="text-center sm:text-lg text-sm sm:font-medium from-neutral-600">
+              className="text-center sm:text-lg text-sm sm:font-medium from-neutral-600 text-gray-500">
                 We are also into Autonomous robotics solution that are used for production and logistics activities. These autonomous mobile robots are typically used in assembly lines and for transportation and loading which have a moderate effect on energy consumption.
               </p>
             </div>

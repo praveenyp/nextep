@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 function Printer() {
   return (
     <>
-      <div className="sm:h-screen h-full bg-gradient-to-r from-green-300 to-blue-300 dark:text-black">
+      <div className="sm:h-screen h-full bg-gradient-to-r from-gray-700 to-gray-900 dark:text-gray-300">
         <div className="flex items-center justify-center">
-          <h1 className="sm:text-6xl text-3xl sm:my-6 my-2 font-semibold">
+          <h1 className="sm:text-6xl text-3xl sm:my-6 my-2 font-semibold text-gray-200">
             Printers
           </h1>
         </div>
@@ -19,7 +19,7 @@ function Printer() {
             transition={{ duration: 2 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2"
+            className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 text-gray-500"
           >
             In the Manufacturing, EMS, FMCG & Logistics industry a single
             operational flaw impacts the whole supply chain and data capture

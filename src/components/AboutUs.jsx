@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 function AboutUs() {
   return (
     <>
-      <div className=" mt-10 bg-gradient-to-r from-green-200 to-blue-200">
+      <div className=" mt-10 bg-gradient-to-r from-gray-700 to-gray-900">
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -26,7 +26,7 @@ function AboutUs() {
             />
           </div>
           <div className="w-[100%] sm:pt-24 pt-3">
-            <div className="flex justify-start uppercase font-semibold text-lg text-gray-700">
+            <div className="flex justify-start uppercase font-semibold text-lg text-gray-100">
               <h5>About Us</h5>
             </div>
             <div className="m-3">
@@ -38,7 +38,7 @@ function AboutUs() {
                 transition={{ duration: 2 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                className="sm:text-4xl text-lg font-bold sm:pr-10 pr-0 sm:ml-5 ml-0"
+                className="sm:text-4xl text-lg font-bold sm:pr-10 pr-0 sm:ml-5 ml-0 text-gray-200"
               >
                 We are a leading solutions provider focused on creating stories
                 around product.
@@ -80,7 +80,7 @@ function AboutUs() {
             </div>
           </div>
         </motion.div>
-        <div className="flex sm:flex-row flex-col sm:justify-evenly justify-start sm:items-center items-start sm:mt-32 mt-0 sm:mx-0 mx-4 bg-green-200 py-10">
+        <div className="flex sm:flex-row flex-col sm:justify-evenly justify-start sm:items-center items-start sm:mt-32 mt-0 sm:mx-0 mx-4 bg-gray-800 py-10">
           <div className="flex flex-row  w-[100%] justify-center">
             <div className="sm:h-20 h-10 sm:w-20 w-10 transform hover:hue-rotate-180 hover:rotate-180 duration-500 ease-in-out">
               <img
@@ -89,10 +89,10 @@ function AboutUs() {
               />
             </div>
             <div className="flex flex-col items-center  justify-center bg">
-              <span className="sm:text-5xl text-xl  font-bold   text-[#4c1d95]">
+              <span className="sm:text-5xl text-xl  font-bold   text-black">
                 <NumberCounter end={100} start={0} delay="3" postFix="+" />
               </span>
-              <span className="sm:text-lg text-xs  uppercase sm:font-bold font-semibold font-sans">
+              <span className="sm:text-lg text-xs  uppercase sm:font-bold font-semibold font-sans text-gray-400">
                 active clients
               </span>
             </div>
@@ -105,10 +105,10 @@ function AboutUs() {
               />
             </div>
             <div className="flex flex-col items-center justify-center">
-              <span className="sm:text-5xl text-xl font-bold text-[#4c1d95]">
+              <span className="sm:text-5xl text-xl font-bold text-black">
                 <NumberCounter end={10} start={0} delay="3" postFix="+" />
               </span>
-              <span className="sm:text-lg text-xs uppercase sm:font-bold font-semibold font-sans">
+              <span className="sm:text-lg text-xs uppercase sm:font-bold font-semibold font-sans text-gray-400">
                 year of experience
               </span>
             </div>
@@ -121,10 +121,10 @@ function AboutUs() {
               />
             </div>
             <div className="flex flex-col items-center justify-center">
-              <span className="sm:text-5xl text-xl font-bold text-[#4c1d95]">
+              <span className="sm:text-5xl text-xl font-bold text-black">
                 <NumberCounter end={1} start={0} delay="3" postFix="+" />
               </span>
-              <span className="sm:text-lg text-xs uppercase sm:font-bold font-semibold font-sans">
+              <span className="sm:text-lg text-xs uppercase sm:font-bold font-semibold font-sans text-gray-400">
                 experience center
               </span>
             </div>
@@ -136,10 +136,10 @@ function AboutUs() {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1.5 }}
-        className="h-screen bg-gradient-to-r from-green-200 to-blue-200"
+        className="h-screen bg-gradient-to-r from-gray-900 to-gray-700"
       >
         <div className="flex items-center justify-center ">
-          <h1 className="sm:text-9xl text-5xl sm:font-extrabold font-bold opacity-5">
+          <h1 className="sm:text-9xl text-5xl sm:font-extrabold font-bold opacity-5 text-green-400">
             NEXTEP
           </h1>
         </div>
@@ -153,7 +153,7 @@ function AboutUs() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="font-bold sm:text-5xl text-2xl sm:mb-5 mb-1"
+              className="font-bold sm:text-5xl text-2xl sm:mb-5 mb-1 text-gray-200"
             >
               Vision
             </motion.h2>
@@ -165,7 +165,7 @@ function AboutUs() {
               transition={{ duration: 1.5 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="text-gray-700 font-san sm:text-2xl text-md sm:font-bold font-semibold"
+              className="text-gray-500 font-san sm:text-2xl text-md sm:font-bold font-semibold"
             >
               Our Vision is to be the premier and preferred supplier of Advance
               Technology enabled service and innovative products that our
@@ -183,7 +183,7 @@ function AboutUs() {
               viewport={{ once: true }}
               src=" https://png.pngtree.com/png-vector/20220808/ourmid/pngtree-business-success-and-target-png-image_5777671.png"
               alt=""
-              className="sm:h-[350px] h-[200px] sm:w-550px w-[400px]]"
+              className="sm:h-[350px] h-[200px] sm:w-[500px] w-[280px] rounded-2xl"
             />
           </div>
         </div>
@@ -200,7 +200,7 @@ function AboutUs() {
               viewport={{ once: true }}
               src="https://png.pngtree.com/png-vector/20220621/ourmid/pngtree-minimalist-stile-vision-success-mission-png-image_5231999.png "
               alt=""
-              className="sm:h-[350px] h-[200px] sm:w-[500px] w-[280px]"
+              className="sm:h-[350px] h-[200px] sm:w-[500px] w-[280px] rounded-2xl"
             />
           </div>
           <div className="flex flex-col items-center justify-center w-[50%]">
@@ -212,7 +212,7 @@ function AboutUs() {
               transition={{ duration: 1.5 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="font-bold sm:text-5xl text-2xl sm:mb-5 mb-1"
+              className="font-bold sm:text-5xl text-2xl sm:mb-5 mb-1 text-gray-200"
             >
               Mission
             </motion.h2>
@@ -224,7 +224,7 @@ function AboutUs() {
               transition={{ duration: 1.5 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className=" text-gray-700 font-san sm:text-2xl text-md sm:font-bold font-semibold"
+              className=" text-gray-500 font-san sm:text-2xl text-md sm:font-bold font-semibold"
             >
               We deliver turn-key solutions through our innovative products and
               creative engineering concepts. To be the most reliable supplier
@@ -236,18 +236,18 @@ function AboutUs() {
       </div>
 
 
-      <div className="flex sm:flex-row flex-col items-center justify-evenly  bg-gradient-to-r from-green-200 to-blue-200">
+      <div className=" h-full flex sm:flex-row flex-col items-center justify-evenly  bg-gradient-to-r from-gray-700 to-gray-900">
         <div className="w-[50%] sm:ml-32 ml-0">
-          <img src="https://themerange.net/wp/moko/wp-content/uploads/2021/11/mission.png" alt="" className="sm:h-[510px] h-[220px] sm:w-[650px] w-[750px] sm:mt-0 mt-40"/>
+          <img src="https://themerange.net/wp/moko/wp-content/uploads/2021/11/mission.png" alt="" className="sm:h-[400px] h-[220px] sm:w-[600px] w-[750px] sm:mt-0 mt-40 sm:my-20 my-0"/>
         </div>
         <div className="w-[50%] sm:mr-32 mr-0">
-          <div className="flex justify-start uppercase font-semibold text-lg text-gray-700">
+          <div className="flex justify-start uppercase font-semibold text-lg text-white">
             <h3>who we are</h3>
            </div>
            <div> 
-            <h1 className="sm:text-4xl text-lg font-bold sm:pr-10 pr-0 sm:ml-5 ml-0 mt-3">Right Partner Right Product.</h1>
+            <h1 className="sm:text-4xl text-lg font-bold sm:pr-10 pr-0 sm:ml-5 ml-0 mt-3 text-gray-600">Right Partner Right Product.</h1>
 
-            <p className="sm:text-xl text-sm font-semibold  text-gray-500 items-center justify-center sm:pr-10 pr-0 sm:m-5 m-1">Nextep Engineering Pvt Ltd. is an Indian based company providing customized solutions to Automobiles, Retail, Logistics, Manufacturing and many other verticals across the industry.</p>
+            <p className="sm:text-xl text-sm font-semibold  text-gray-200 items-center justify-center sm:pr-10 pr-0 sm:m-5 m-1">Nextep Engineering Pvt Ltd. is an Indian based company providing customized solutions to Automobiles, Retail, Logistics, Manufacturing and many other verticals across the industry.</p>
           </div>
           <div className="items-center justify-center">
             <div className="flex flex-row items-center justify-center sm:py-3 py-0">
@@ -255,7 +255,7 @@ function AboutUs() {
                 <img src="https://themerange.net/wp/moko/wp-content/uploads/2021/11/mission-1.png" alt="" />
               </div>
               <div>
-                <p className="sm:text-sm text-xs sm:font-medium font-normal  text-gray-500 items-center justify-center sm:pr-10 pr-0 sm:m-5 m-0 sm:my-0 my-2 sm:mx-3  ml-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium facere dicta esse nihil laborios</p>
+                <p className="sm:text-sm text-xs sm:font-medium font-normal  text-gray-300 items-center justify-center sm:pr-10 pr-0 sm:m-5 m-0 sm:my-0 my-2 sm:mx-3  ml-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium facere dicta esse nihil laborios</p>
               </div>
             </div>
             <div className="flex flex-row items-center justify-center sm:py-3 py-0">
@@ -263,7 +263,7 @@ function AboutUs() {
                 <img src="https://themerange.net/wp/moko/wp-content/uploads/2021/11/mission-1.png" alt="" />
               </div>
               <div>
-                <p className="sm:text-sm text-xs sm:font-medium font-normal  text-gray-500 items-center justify-center sm:pr-10 pr-0 sm:m-5 m-0 sm:my-0 my-2 sm:mx-3  ml-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium facere dicta esse nihil laborios</p>
+                <p className="sm:text-sm text-xs sm:font-medium font-normal  text-gray-300 items-center justify-center sm:pr-10 pr-0 sm:m-5 m-0 sm:my-0 my-2 sm:mx-3  ml-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium facere dicta esse nihil laborios</p>
               </div>
             </div>
             <div className="flex flex-row items-center justify-center sm:py-3 py-0">
@@ -271,7 +271,7 @@ function AboutUs() {
                 <img src="https://themerange.net/wp/moko/wp-content/uploads/2021/11/mission-1.png" alt=""/>
               </div>
               <div className="items-center justify-start">
-                <p className="sm:text-sm text-xs sm:font-medium font-normal  text-gray-500 items-center justify-center sm:pr-10 pr-0 sm:m-5 m-0 sm:my-0 my-2 sm:mx-3  ml-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium facere dicta esse nihil laborios</p>
+                <p className="sm:text-sm text-xs sm:font-medium font-normal  text-gray-300 items-center justify-center sm:pr-10 pr-0 sm:m-5 m-0 sm:my-0 my-2 sm:mx-3  ml-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium facere dicta esse nihil laborios</p>
               </div>
             </div>
           </div>
