@@ -5,6 +5,7 @@ import Hero from "../components/hero/Hero";
 
 import Navbar from "../components/Navbar";
 import Partner from "../components/partner/Partner";
+import ScrollButton from "../components/ScrollButton";
 import Testimonial from "../components/Testimonial";
 
 
@@ -12,6 +13,7 @@ import Testimonial from "../components/Testimonial";
 const Home = () => {
   return (
     <div>
+      <ScrollButton/>
       <Navbar/>
       <Hero/>
       <AboutUs/>

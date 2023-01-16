@@ -1,10 +1,9 @@
-import React,{useState} from "react";
-import Logo from "../assets/Nextep logo.png";
+import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
+import Logo from "./logo/Nextep logo.png"
 
-const Navbar = () => {
+function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-
   return (
     <>
       <nav className="bg-slate-700">
@@ -18,23 +17,28 @@ const Navbar = () => {
                   alt="Workflow"
                 />
               </div>
-              <div className="hidden md:block ml-24">
+              <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
                   <a
                     href="/"
-                    className=" hover:bg-green-700 text-gray-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium uppercase"
+                    className=" hover:bg-green-700 text-gray-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
-                    Hardware
+                    Industrial Lables
                   </a>
 
                   <a
                     href="/"
-                    className=" hover:bg-green-700 text-gray-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium uppercase"
+                    className=" hover:bg-green-700 text-gray-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
-                    Consumables
+                    Industrial Ribbons
                   </a>
 
-                 
+                  <a
+                    href="/"
+                    className=" hover:bg-green-700 text-gray-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  >
+                    RFID Tags
+                  </a>
 
                  
 
@@ -58,7 +62,7 @@ const Navbar = () => {
                         />
                       </svg>
                       <button className="bg-green-700 w-24 h-10 text-lg font-semibold uppercase text-white rounded-lg hover:text-green-700 hover:bg-transparent">
-                        Enquiry
+                        Enqiry
                       </button>
                     </div>
                   </a>
@@ -142,19 +146,24 @@ const Navbar = () => {
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <a
                   href="/"
-                  className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium uppercase"
+                  className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  hardware
+                  Industrial Lables
                 </a>
 
                 <a
                   href="/"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium uppercase"
+                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                 Consumables
+                 Industrial Ribbons
                 </a>
 
-                
+                <a
+                  href="/"
+                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                >
+                 RFID Tags
+                </a>
 
                 
 
@@ -174,6 +183,6 @@ const Navbar = () => {
       </nav>
     </>
   );
-};
+}
 
 export default Navbar;

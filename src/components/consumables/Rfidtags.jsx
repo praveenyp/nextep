@@ -16,7 +16,7 @@ function Rfidtags() {
             transition={{ duration: 2 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-          className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 sm:mx-36 mx-10">
+          className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 sm:mx-36 mx-10 text-gray-400">
             Nextep provides a comprehensive range of RFID Tag Labels that can be
             used for a variety of applications across manufacturing,
             distribution and services. RFID solutions give you the real-time
@@ -31,7 +31,7 @@ function Rfidtags() {
             transition={{ duration: 2.2 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-          className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 sm:mx-36 mx-10">
+          className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 sm:mx-36 mx-10 text-gray-400">
             Selecting the right RFID labels for your application can be
             complicated. Nextep’s technical experts will advise you on the best
             ribbon that suits your application, need and budget. We will choose
@@ -43,11 +43,11 @@ function Rfidtags() {
           <div className=" flex sm:flex-row flex-col items-center justify-evenly">
             <motion.div 
              initial={{
-              x: -100,
+              y: -100,
               opacity: 0,
             }}
             transition={{ duration: 2.2 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             className="flex items-center justify-center w-[100%] sm:ml-[200px] ml-0 sm:mr-10 mr-0">
               <img
@@ -58,18 +58,18 @@ function Rfidtags() {
             </motion.div>
             <motion.div 
              initial={{
-              x: 100,
+              y: 100,
               opacity: 0,
             }}
             transition={{ duration: 2.2 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             className="flex flex-col items-center justify-center sm:mr-[200px] mr-0 sm:ml-10 ml-0 w-[100%]">
               <div className="mb-3 flex flex-col items-center justify-center sm:mx-0 mx-12 sm:mt-0 mt-4">
-                <h5 className="sm:text-2xl text-md  font-semibold text-gray-500">
+                <h5 className="sm:text-2xl text-md  font-semibold text-gray-300">
                   General Purpose
                 </h5>
-                <p className="sm:text-lg text-sm font-semibold text-center mt-3">
+                <p className="sm:text-lg text-sm font-semibold text-center mt-3 text-gray-400">
                   These labels are designed for use with standard RFID readers
                   and are stocked in a variety of inlay types and sizes. They
                   are available in paper and synthetic materials that work on
@@ -77,7 +77,7 @@ function Rfidtags() {
                 </p>
               </div>
               <div className="mx-12">
-                <ol className="space-y-4 sm:text-lg text-sm list-disc list-inside dark:text-gray-500  items-center justify-center text-start mt-3">
+                <ol className="space-y-4 sm:text-lg text-sm list-disc list-inside text-gray-400  items-center justify-center text-start mt-3">
                   <li>
                     Transportation and Logistics Distribution, shipping and
                     receiving and warehouse operations including case, pallet
@@ -101,11 +101,11 @@ function Rfidtags() {
           <div className=" flex sm:flex-row-reverse flex-col items-center justify-evenly">
             <motion.div 
             initial={{
-              x: -100,
+              y: -100,
               opacity: 0,
             }}
             transition={{ duration: 2.2 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             className="flex items-center justify-center w-[100%] sm:mr-[200px] mr-0 sm:ml-10 ml-0">
               <img
@@ -116,25 +116,25 @@ function Rfidtags() {
             </motion.div>
             <motion.div 
             initial={{
-              x: 100,
+              y: 100,
               opacity: 0,
             }}
             transition={{ duration: 2.2 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             className="flex flex-col items-center justify-center sm:ml-[200px] ml-0 sm:mr-10 mr-0 w-[100%]">
               <div className="mb-3 flex flex-col items-center justify-center sm:mx-0 mx-12 sm:mt-0 mt-4">
-                <h5 className="sm:text-2xl text-md  font-semibold text-gray-500">
+                <h5 className="sm:text-2xl text-md  font-semibold text-gray-300">
                   Speciality
                 </h5>
-                <p className="sm:text-lg text-sm font-semibold text-center mt-3">
+                <p className="sm:text-lg text-sm font-semibold text-center mt-3 text-gray-400">
                   For speciality situations, such as asset tagging on metal
                   surface or for liquid-filled containers, we offer Silverline
                   on-metal labels.
                 </p>
               </div>
               <div className="mx-12">
-                <ol className="space-y-4 sm:text-lg text-sm list-disc list-inside dark:text-gray-500  items-center justify-center text-start mt-3">
+                <ol className="space-y-4 sm:text-lg text-sm list-disc list-inside text-gray-400  items-center justify-center text-start mt-3">
                   <li>
                     IT Equipment Tracking: Asset tracking of mobile computers,
                     printers, antennas and infrastructure components
@@ -157,11 +157,11 @@ function Rfidtags() {
           <div className=" flex sm:flex-row flex-col items-center justify-evenly">
             <motion.div 
             initial={{
-              x: -100,
+              y: -100,
               opacity: 0,
             }}
             transition={{ duration: 2.2 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             className="flex items-center justify-center w-[100%] sm:ml-[200px] ml-0 sm:mr-10 mr-0">
               <img
@@ -172,18 +172,18 @@ function Rfidtags() {
             </motion.div>
             <motion.div 
             initial={{
-              x: 100,
+              y: 100,
               opacity: 0,
             }}
             transition={{ duration: 2.2 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             className="flex flex-col items-center justify-center sm:mr-[200px] mr-0 sm:ml-10 ml-0 w-[100%]">
               <div className="mb-3 flex flex-col items-center justify-center sm:mx-0 mx-12 sm:mt-0 mt-4">
-                <h5 className="sm:text-2xl text-md  font-semibold text-gray-500">
+                <h5 className="sm:text-2xl text-md  font-semibold text-gray-300">
                   Advanced
                 </h5>
-                <p className="sm:text-lg text-sm font-semibold text-center mt-3">
+                <p className="sm:text-lg text-sm font-semibold text-center mt-3 text-gray-400">
                   These labels offer a higher level of read performance than our
                   general-purpose labels. Regularly used in retail, healthcare
                   and manufacturing applications.

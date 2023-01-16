@@ -28,7 +28,7 @@ function IndustrialLable() {
                   transition={{ duration: 2 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
-                className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2">Nextep provides a comprehensive range of Self-Adhesive labels that are compatible with all printers on the market: Zebra, Sato, Datamax, Honeywell, etc. Since we manufacture labels, we can handle all design or modification. Our technical experts will advise you on the best label that suits your application, need and budget.</motion.p>
+                className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 text-gray-400">Nextep provides a comprehensive range of Self-Adhesive labels that are compatible with all printers on the market: Zebra, Sato, Datamax, Honeywell, etc. Since we manufacture labels, we can handle all design or modification. Our technical experts will advise you on the best label that suits your application, need and budget.</motion.p>
             </div>
             <div className="flex flex-col items-center justify-center pt-4">
                 <motion.h4 
@@ -39,7 +39,7 @@ function IndustrialLable() {
                   transition={{ duration: 2 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
-                className="sm:text-2xl text-lg text-gray-400 font-bold">We provide all of the following categories</motion.h4>
+                className="sm:text-2xl text-lg text-gray-300 font-bold">We provide all of the following categories</motion.h4>
                 <div className="pt-3 items-center justify-center">
                     <motion.ol 
                      initial={{
@@ -49,7 +49,7 @@ function IndustrialLable() {
                       transition={{ duration: 2 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true }}
-                    className="space-y-4 text-gray-900 list-decimal list-inside dark:text-gray-500 sm:font-semibold font-medium">
+                    className="space-y-4  list-decimal list-inside text-gray-400 sm:font-semibold font-medium">
                         <li>Label Types
                             <ul className="pl-5 mt-2 space-y-1 list-disc list-inside">
                                 <li>Direct Thermal</li>

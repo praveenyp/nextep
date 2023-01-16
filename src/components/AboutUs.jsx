@@ -4,7 +4,8 @@ import { motion } from "framer-motion";
 function AboutUs() {
   return (
     <>
-      <div className=" mt-10 bg-gradient-to-r from-gray-700 to-gray-900">
+   
+      <div className=" mt-0 bg-gradient-to-r from-gray-700 to-gray-900">
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -277,6 +278,9 @@ function AboutUs() {
           </div>
         </div>
       </div>
+      <script>
+        
+      </script>
     </>
   );
 }

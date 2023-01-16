@@ -1,6 +1,5 @@
 
 import React,{useState} from 'react'
-
 import { BsArrowRightShort, BsArrowLeftShort } from 'react-icons/bs';
 
 const Hero = () => {
@@ -34,22 +33,22 @@ const Hero = () => {
 	];
   return (
     <>
-        <div className=" h-screen bg-gray-900 flex w-[200vw] gap-x-4  overflow-hidden p-2 md:gap-x-20 md:p-7">
+        <div className=" sm:h-screen h-full flex w-[200vw] gap-x-0  overflow-hidden  md:gap-x-0 sm:p-0 bg-slate-500">
 			{data.map(item => (
 				<div
-					className="w-screen  overflow-x-hidden transition-all duration-500 ease-linear"
+					className="w-screen  overflow-hidden transition-all duration-500 ease-linear snap-x snap-mandatory"
 					key={item.id}
 					style={{ transform: `translateX(-${currentSlide * 100}vw)` }}>
 					<img
 						src={item.img}
 						alt="banner"
-						className="h-[100%]  w-full rounded-2xl object-cover object-right "
+						className="sm:h-[100%] h-[400px]  w-[100%] rounded-none object-fit object-right"
 					/>
-					<div className="absolute top-16 left-10 w-[80%] rounded  bg-white/[0.8] bg-none p-4 md:top-0 md:left-20 md:max-w-none md:bg-transparent md:p-8">
-						<h2 className="text-3xl font-semibold uppercase tracking-wider  text-green-700 md:text-4xl">
+					<div className="absolute top-16 left-10 w-[80%] rounded  bg-white/[0.8] bg-none p-4 md:top-0 md:left-20 md:max-w-none md:bg-transparent md:p-8 sm:mt-[300px] mt-0">
+						<h2 className="text-3xl font-semibold uppercase tracking-wider  text-green-700 md:text-6xl">
 							{item.subTitle}
 						</h2>
-						<h1 className="mt-2 text-2xl font-bold tracking-wide  md:mt-4 md:text-2xl">
+						<h1 className="mt-2 text-2xl font-bold tracking-wide  md:mt-4 md:text-5xl">
 							{item.t1} <br></br>
 							{item.t2} <br></br>
 							{item.t3}
