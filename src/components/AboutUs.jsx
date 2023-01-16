@@ -236,7 +236,7 @@ function AboutUs() {
       </div>
 
 
-      <div className=" h-full flex sm:flex-row flex-col items-center justify-evenly  bg-gradient-to-r from-gray-700 to-gray-900">
+      <div className=" h-full flex sm:flex-row flex-col items-center justify-evenly  bg-gradient-to-r from-gray-700 to-gray-900 mt-0">
         <div className="w-[50%] sm:ml-32 ml-0">
           <img src="https://themerange.net/wp/moko/wp-content/uploads/2021/11/mission.png" alt="" className="sm:h-[400px] h-[220px] sm:w-[600px] w-[750px] sm:mt-0 mt-40 sm:my-20 my-0"/>
         </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import AboutUs from "../components/AboutUs";
 import Enquiry from "../components/enquiry/Enquiry";
+import Hero from "../components/hero/Hero";
 
 import Navbar from "../components/Navbar";
 import Partner from "../components/partner/Partner";
@@ -12,6 +13,7 @@ const Home = () => {
   return (
     <div>
       <Navbar/>
+      <Hero/>
       <AboutUs/>
       <Testimonial/>
       <Partner/>
