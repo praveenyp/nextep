@@ -7,8 +7,8 @@ import Consumable from "./pages/Consumable"
 function App() {
   return (
     <div className="App">
-     <Home/>
-     {/* <Hardware/> */}
+     {/* <Home/> */}
+     <Hardware/>
      {/* <Consumable/> */}
     </div>
   );

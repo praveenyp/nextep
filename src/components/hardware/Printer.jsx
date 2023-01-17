@@ -1,13 +1,13 @@
-import React from 'react'
-import { motion } from 'framer-motion'
+import React from "react";
+import { motion } from "framer-motion";
 
-function Rfid() {
+function Printer() {
   return (
     <>
-      <div className="sm:h-screen h-full bg-gradient-to-r from-gray-900 to-gray-700 dark:text-gray-300">
+      <div className="sm:h-screen h-full bg-gradient-to-r from-gray-700 to-gray-900 dark:text-gray-300">
         <div className="flex items-center justify-center">
           <h1 className="sm:text-6xl text-3xl sm:my-6 my-2 font-semibold text-gray-200">
-            RFID
+            Printers
           </h1>
         </div>
         <div className="flex items-center justify-center sm:mx-36 mx-10">
@@ -21,7 +21,12 @@ function Rfid() {
             viewport={{ once: true }}
             className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 text-gray-500"
           >
-            RFID technology is a way for Manufacturers and retailers to identify items using radio waves. It transmits data from a RFID Tag to a reader giving you accurate real-time tracking data of your inventory. QN RFID technology helps in attaining over the top challenges faced by every industry to improve the bottom line by increased efficiency.
+            In the Manufacturing, EMS, FMCG & Logistics industry a single
+            operational flaw impacts the whole supply chain and data capture
+            process at each stage. QodeNext offers a wide range of printers and
+            printer supplies to enhance the supply chain process that makes
+            operational schedules reach its destination on time. We have wide
+            range of printing capabilities from online to offline printing.
           </motion.p>
         </div>
         <div className="flex items-center justify-center sm:my-7 my-2">
@@ -48,7 +53,7 @@ function Rfid() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              src="https://www.qodenext.com/images/hardware/RFID-Handheld.webp"
+              src="https://www.qodenext.com/images/hardware/Industrial-Desktop-Barcode-Printers.webp"
               alt=""
             />
             <motion.p
@@ -61,61 +66,10 @@ function Rfid() {
               viewport={{ once: true }}
               className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3"
             >
-              RFID Handlder
+              Barcode Printers
             </motion.p>
           </div>
-          <div className="sm:h-[16%] h-[20%] sm:w-[16%] w-[20%] sm:mx-10 mx-3 my-5 sm:pt-0 pt-4">
-            <motion.img
-              initial={{
-                x: -100,
-                opacity: 0,
-              }}
-              transition={{ duration: 2 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              src="https://www.qodenext.com/images/hardware/RFID-Tunnel.webp"
-              alt=""
-              className=""
-            />
-            <motion.p
-              initial={{
-                x: -200,
-                opacity: 0,
-              }}
-              transition={{ duration: 2 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3"
-            >
-              RFID Tunnel
-            </motion.p>
-          </div>
-          <div className="sm:h-[16%] h-[20%] sm:w-[16%] w-[20%] sm:mx-10 mx-3 my-5 sm:pt-0 pt-6">
-            <motion.img
-              initial={{
-                x: 100,
-                opacity: 0,
-              }}
-              transition={{ duration: 2 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              src="https://www.qodenext.com/images/hardware/Fixed-RFID-Reader.webp"
-              alt=""
-            />
-            <motion.p
-              initial={{
-                x: 200,
-                opacity: 0,
-              }}
-              transition={{ duration: 2 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3"
-            >
-              Fixed RFID Reader
-            </motion.p>
-          </div>
-          <div className="sm:h-[16%] h-[20%] sm:w-[16%] w-[20%] sm:mx-8 mx-3 my-5">
+          <div className="sm:h-[16%] h-[20%] sm:w-[16%] w-[20%] sm:mx-10 mx-3 my-5">
             <motion.img
               initial={{
                 y: -100,
@@ -124,8 +78,9 @@ function Rfid() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              src="https://www.qodenext.com/images/hardware/RFID-Reader-Antenna.webp"
+              src="https://www.qodenext.com/images/hardware/Inkjet-Printer.webp"
               alt=""
+              className=""
             />
             <motion.p
               initial={{
@@ -137,7 +92,7 @@ function Rfid() {
               viewport={{ once: true }}
               className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3"
             >
-              RFID Reader Antenna
+              Inkjet Printer
             </motion.p>
           </div>
           <div className="sm:h-[16%] h-[20%] sm:w-[16%] w-[20%] sm:mx-10 mx-3 my-5">
@@ -149,7 +104,57 @@ function Rfid() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              src="https://www.qodenext.com/images/hardware/RFID-Printer.webp"
+              src="https://www.qodenext.com/images/hardware/Laser-Printer.webp"
+              alt=""
+            />
+            <motion.p
+              initial={{
+                y: 200,
+                opacity: 0,
+              }}
+              transition={{ duration: 2 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3"
+            >
+              Laser Printer
+            </motion.p>
+          </div>
+          <div className="sm:h-[16%] h-[20%] sm:w-[16%] w-[20%] sm:mx-8 mx-3 my-5">
+            <motion.img
+              initial={{
+                y: -100,
+                opacity: 0,
+              }}
+              transition={{ duration: 2 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              src="https://www.qodenext.com/images/hardware/ID-Card-Printer.webp"
+              alt=""
+            />
+            <motion.p
+              initial={{
+                y: -200,
+                opacity: 0,
+              }}
+              transition={{ duration: 2 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3"
+            >
+              Id card Printer
+            </motion.p>
+          </div>
+          <div className="sm:h-[16%] h-[20%] sm:w-[16%] w-[20%] sm:mx-10 mx-3 my-5">
+            <motion.img
+              initial={{
+                y: 100,
+                opacity: 0,
+              }}
+              transition={{ duration: 2 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              src="https://www.qodenext.com/images/hardware/Mobile-Printers.webp"
               alt=""
             />
             <motion.p
@@ -162,15 +167,64 @@ function Rfid() {
               viewport={{ once: true }}
               className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3"
             >
+              Mobile Printer
+            </motion.p>
+          </div>
+          <div className="sm:h-[16%] h-[20%] sm:w-[16%] w-[20%] sm:mx-10 mx-3 my-5">
+            <motion.img
+              initial={{
+                y: -100,
+                opacity: 0,
+              }}
+              transition={{ duration: 2 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              src="https://www.qodenext.com/images/hardware/RFID-Printers.webp"
+              alt=""
+            />
+            <motion.p
+              initial={{
+                y: -200,
+                opacity: 0,
+              }}
+              transition={{ duration: 2 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3"
+            >
               RFID Printer
             </motion.p>
           </div>
-         
+          <div className="sm:h-[16%] h-[20%] sm:w-[16%] w-[20%] sm:mx-10 mx-3 my-5">
+            <motion.img
+              initial={{
+                y: 100,
+                opacity: 0,
+              }}
+              transition={{ duration: 2 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              src="https://www.qodenext.com/images/hardware/Print-Engines.webp"
+              alt=""
+            />
+            <motion.p
+              initial={{
+                y: -100,
+                opacity: 0,
+              }}
+              transition={{ duration: 2 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3"
+            >
+              Print Engines
+            </motion.p>
+          </div>
         </div>
       <hr class="w-48 h-1 mx-auto mt-10 bg-gray-200 border-0 rounded  dark:bg-gray-700"></hr>
       </div>
     </>
-  )
+  );
 }
 
-export default Rfid
+export default Printer;
