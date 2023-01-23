@@ -8,6 +8,7 @@ import Rfid from '../components/hardware/Rfid'
 import Scanning from '../components/hardware/Scanning'
 import Tablets from '../components/hardware/Tablets'
 import Partners from "../components/partner/Partner"
+import ScrollButton from '../components/ScrollButton'
 function Hardware() {
   return (
     <div>
@@ -17,6 +18,7 @@ function Hardware() {
           <h1 className='sm:text-8xl text-lg font-bold pt-[25%] uppercase text-green-800'>hardware</h1>
         </div>
       </div>
+      <ScrollButton/>
       <Printer/>
       <Scanning/>
        <Automation/>

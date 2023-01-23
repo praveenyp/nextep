@@ -14,8 +14,8 @@ const Slide = ({ imgUrl, t1, t2, t3, title, linkTo }) => {
 					{t3}
 				</h1>
 
-				<button className="mt-4 rounded-md bg-green-700  md:px-8 px-4 md:py-4 py-2 capitalize text-white hover:bg-green-800">
-					<Link to={linkTo}>Explore More</Link>
+				<button className="mt-4 rounded-md bg-green-700  md:px-8 px-4 md:py-3 py-2 capitalize text-white hover:bg-green-800">
+					<Link to={linkTo}>Explore More +</Link>
 				</button>
 			</div>
 		</div>

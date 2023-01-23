@@ -1,12 +1,15 @@
-import React from 'react'
-import { motion } from 'framer-motion'
+import React from "react";
+import { motion } from "framer-motion";
 function Tablets() {
   return (
     <>
-      <div className="h-full bg-gradient-to-r from-gray-900 to-gray-700 dark:text-gray-300">
+      <div
+        id="tablet"
+        className="h-full bg-gradient-to-r from-gray-900 to-gray-700 dark:text-gray-300"
+      >
         <div className="flex items-center justify-center">
           <h1 className="sm:text-6xl text-3xl sm:my-6 my-2 font-semibold text-gray-200">
-          Industrial Tablet
+            Industrial Tablet
           </h1>
         </div>
         <div className="flex items-center justify-center sm:mx-36 mx-10">
@@ -20,9 +23,13 @@ function Tablets() {
             viewport={{ once: true }}
             className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 text-gray-400"
           >
-            Our Industrial PCs and tablets are designed in such a way as to meet different performance and complex interface needs. It has stable performance, user-friendly applications, and high-performance industrial-grade processors to ensure the reliability of industry applications.
-
-The scope of customization is huge, thus, the peripheral interface of the product and the screen size can be selected according to customer needs and the adaptability.
+            Our Industrial PCs and tablets are designed in such a way as to meet
+            different performance and complex interface needs. It has stable
+            performance, user-friendly applications, and high-performance
+            industrial-grade processors to ensure the reliability of industry
+            applications. The scope of customization is huge, thus, the
+            peripheral interface of the product and the screen size can be
+            selected according to customer needs and the adaptability.
           </motion.p>
         </div>
         <div className="flex items-center justify-center sm:my-7 my-2">
@@ -36,7 +43,7 @@ The scope of customization is huge, thus, the peripheral interface of the produc
             viewport={{ once: true }}
             className="text-2xl font-semibold text-yellow-700"
           >
-            Value Proposition
+            Our products
           </motion.h2>
         </div>
         <div className="flex flex-wrap items-center justify-center cursor-pointer">
@@ -62,7 +69,7 @@ The scope of customization is huge, thus, the peripheral interface of the produc
               viewport={{ once: true }}
               className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3"
             >
-             Rugged Tablet
+              Rugged Tablet
             </motion.p>
           </div>
           <div className="sm:h-[16%] h-[20%] sm:w-[16%] w-[20%] sm:mx-10 mx-3 my-5 sm:pt-0 pt-10">
@@ -91,12 +98,11 @@ The scope of customization is huge, thus, the peripheral interface of the produc
               Industrial PC
             </motion.p>
           </div>
-         
         </div>
         <hr class="w-48 h-1 mx-auto mt-10 bg-gray-200 border-0 rounded  dark:bg-gray-700"></hr>
       </div>
     </>
-  )
+  );
 }
 
-export default Tablets
+export default Tablets;

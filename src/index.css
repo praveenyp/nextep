@@ -7,3 +7,30 @@
 .contactInput{
     @apply outline-none bg-slate-900 rounded-xl border-b px-6 py-4 border-[#242424] text-gray-500 placeholder-gray-500 transition-all focus:border-[#f7ab0a]/40 focus:text-white hover:border-[#f7ab0a]/40
 }
+
+*{
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ===== Scrollbar CSS ===== */
+  
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #9b83a1 #ffffff;
+  }
+
+  
+  *::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: rgb(9, 15, 24);
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #010111;
+    border-radius: 10px;
+    border: 1px dotted rgb(243, 246, 243);
+  }

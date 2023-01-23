@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 function Inspection() {
   return (
     <>
-      <div className="h-full bg-gradient-to-r from-gray-700 to-gray-900 dark:text-gray-300">
+      <div id="inspection" className="h-full bg-gradient-to-r from-gray-700 to-gray-900 dark:text-gray-300">
         <div className="flex items-center justify-center">
           <h1 className="sm:text-6xl text-3xl sm:my-6 my-2 font-semibold text-gray-200">
             Inspection
@@ -38,7 +38,7 @@ function Inspection() {
             viewport={{ once: true }}
             className="text-2xl font-semibold text-yellow-700"
           >
-            Value Proposition
+           Our products
           </motion.h2>
         </div>
         <div className="flex flex-wrap items-center justify-center cursor-pointer">

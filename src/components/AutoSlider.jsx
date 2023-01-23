@@ -21,7 +21,7 @@ export default function AutoSlider() {
 			t1: 'High quality, reliable,',
 			t2: ' and backed up by a ',
 			t3: 'dependable service network.',
-			img: 'https://qodenext.com/images/banner/banner1.webp'
+			img: 'https://images.unsplash.com/photo-1609230430613-13cf4862a80f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
 		},
 		{
 			id: 2,
@@ -29,7 +29,7 @@ export default function AutoSlider() {
 			t1: 'Optimizing deliveries  ',
 			t2: ' with data visibility ',
 			t3: '  and Workforce Automation',
-			img: 'https://qodenext.com/images/banner/banner2.webp'
+			img: 'https://images.unsplash.com/photo-1661956600684-97d3a4320e45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
 		}
 	];
 	return (

@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 function Rfidtags() {
   return (
     <>
-      <div className="h-full bg-gradient-to-r from-gray-900 to-gray-700 dark:text-gray-300">
+      <div id="rfidtags" className="h-full bg-gradient-to-r from-gray-900 to-gray-700 dark:text-gray-300">
         <div className="flex flex-col items-center justify-center">
           <h1 className="mt-4 sm:text-6xl text-3xl sm:my-6 my-2 font-semibold text-gray-200">
             RFID Tags
@@ -51,7 +51,7 @@ function Rfidtags() {
             viewport={{ once: true }}
             className="flex items-center justify-center w-[100%] sm:ml-[200px] ml-0 sm:mr-10 mr-0">
               <img
-                src="https://www.qodenext.com/images/consumables/consum-img2.webp"
+                src="https://www.zebra.com/ap/en/products/supplies/rfid-labels-tags/jcr:content/mainpar/columncontrol_33d5_c_1095312672/col2par/fullwidthimage_9ccf_/fullWidthImage.transform/image-large/image.jpg"
                 alt=""
                 className="sm:h-[400px] h-[200px] rounded-xl"
               />
@@ -109,7 +109,7 @@ function Rfidtags() {
             viewport={{ once: true }}
             className="flex items-center justify-center w-[100%] sm:mr-[200px] mr-0 sm:ml-10 ml-0">
               <img
-                src="https://www.qodenext.com/images/consumables/consum-img3.webp"
+                src="https://www.zebra.com/ap/en/products/supplies/rfid-labels-tags/jcr:content/mainpar/columncontrol_33d5_c_797004224/col2par/fullwidthimage_9ccf_/fullWidthImage.transform/image-large/image.jpg"
                 alt=""
                 className="sm:h-[400px] h-[200px] rounded-xl"
               />
@@ -154,7 +154,7 @@ function Rfidtags() {
         </div>
 
         <div className="mt-20">
-          <div className=" flex sm:flex-row flex-col items-center justify-evenly">
+          <div className=" flex sm:flex-row flex-col items-center justify-evenly pb-20">
             <motion.div 
             initial={{
               y: -100,
@@ -165,7 +165,7 @@ function Rfidtags() {
             viewport={{ once: true }}
             className="flex items-center justify-center w-[100%] sm:ml-[200px] ml-0 sm:mr-10 mr-0">
               <img
-                src="https://www.qodenext.com/images/consumables/consum-img.webp"
+                src="https://www.zebra.com/ap/en/products/supplies/rfid-labels-tags/jcr:content/mainpar/columncontrol_33d5_c/col2par/fullwidthimage_8380_/fullWidthImage.transform/image-large/image.jpg"
                 alt=""
                 className="sm:h-[400px] h-[200px] rounded-xl"
               />

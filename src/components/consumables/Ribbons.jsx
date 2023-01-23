@@ -38,7 +38,7 @@ function Ribbons() {
 							viewport={{ once: true }}
 							className="flex items-center justify-center w-[100%] sm:ml-[200px] ml-0 sm:mr-10 mr-0">
 							<img
-								src="https://www.qodenext.com/images/consumables/ribbon.webp"
+								src="https://5.imimg.com/data5/KC/OJ/DR/SELLER-3156466/thermal-transfer-ribbon-500x500.jpg"
 								alt=""
 								className="sm:h-[400px] h-[200px] rounded-xl"
 							/>

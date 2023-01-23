@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 function Rfid() {
   return (
     <>
-      <div className="sm:h-screen h-full bg-gradient-to-r from-gray-900 to-gray-700 dark:text-gray-300">
+      <div id='rfid' className="sm:h-screen h-full bg-gradient-to-r from-gray-900 to-gray-700 dark:text-gray-300">
         <div className="flex items-center justify-center">
           <h1 className="sm:text-6xl text-3xl sm:my-6 my-2 font-semibold text-gray-200">
             RFID
@@ -21,7 +21,7 @@ function Rfid() {
             viewport={{ once: true }}
             className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 text-gray-500"
           >
-            RFID technology is a way for Manufacturers and retailers to identify items using radio waves. It transmits data from a RFID Tag to a reader giving you accurate real-time tracking data of your inventory. QN RFID technology helps in attaining over the top challenges faced by every industry to improve the bottom line by increased efficiency.
+            RFID technology is a way for Manufacturers and retailers to identify items using radio waves. It transmits data from a RFID Tag to a reader giving you accurate real-time tracking data of your inventory. Nextep RFID technology helps in attaining over the top challenges faced by every industry to improve the bottom line by increased efficiency.
           </motion.p>
         </div>
         <div className="flex items-center justify-center sm:my-7 my-2">
@@ -35,7 +35,7 @@ function Rfid() {
             viewport={{ once: true }}
             className="text-2xl font-semibold text-yellow-700"
           >
-            Value Proposition
+            Our products
           </motion.h2>
         </div>
         <div className="flex flex-wrap items-center justify-center cursor-pointer">
@@ -48,8 +48,9 @@ function Rfid() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              src="https://www.qodenext.com/images/hardware/RFID-Handheld.webp"
+              src="https://www.zebra.com/content/dam/zebra_new_ia/en-us/solutions-verticals/product/RFID/hand-held_reader/rfd40/photography-website/rfd40-premium-plus-standalone-photography-website-front-left-down-facing-1x1-300x300.jpg"
               alt=""
+              className='rounded-3xl'
             />
             <motion.p
               initial={{
@@ -99,8 +100,9 @@ function Rfid() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              src="https://www.qodenext.com/images/hardware/Fixed-RFID-Reader.webp"
+              src="https://www.zebra.com/content/dam/zebra_new_ia/en-us/solutions-verticals/product/RFID/Reader/FX7500%20Fixed%20RFID%20Reader/photos-website/fx7500-overhead-1x1-300x300.jpg"
               alt=""
+              className='rounded-3xl'
             />
             <motion.p
               initial={{
@@ -124,8 +126,9 @@ function Rfid() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              src="https://www.qodenext.com/images/hardware/RFID-Reader-Antenna.webp"
+              src="https://www.zebra.com/content/dam/zebra_new_ia/en-us/solutions-verticals/product/RFID/Antenna/GENERAL/photography-product/an480-300.png"
               alt=""
+              className='rounded-3xl'
             />
             <motion.p
               initial={{
@@ -149,8 +152,9 @@ function Rfid() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              src="https://www.qodenext.com/images/hardware/RFID-Printer.webp"
+              src="https://www.zebra.com/content/dam/zebra_new_ia/en-us/solutions-verticals/product/Printers/Industrial%20Printers/zt600-industrial-printer/photograph-web/zt610-photography-website-left-touch-screen-1x1-350x350.jpg"
               alt=""
+              className='rounded-3xl'
             />
             <motion.p
               initial={{

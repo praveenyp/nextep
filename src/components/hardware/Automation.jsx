@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 function Automation() {
   return (
     <>
-      <div className="pt-16 h-full bg-gradient-to-r from-gray-700 to-gray-900 dark:text-gray-300">
+      <div id='automation' className="pt-16 h-full bg-gradient-to-r from-gray-700 to-gray-900 dark:text-gray-300">
         <div className="flex items-center justify-center">
           <h1 className="sm:text-6xl text-3xl sm:my-6 my-2 font-semibold text-gray-200">
             Automation
@@ -34,7 +34,7 @@ function Automation() {
             viewport={{ once: true }}
             className="text-2xl font-semibold text-yellow-700"
           >
-            Value Proposition
+            Our products
           </motion.h2>
         </div>
         <div className="flex sm:flex-row flex-col justify-between sm:mx-20 mx-0 sm:my-10 my-2">
@@ -62,7 +62,7 @@ function Automation() {
               <p 
             
               className="text-center sm:text-lg text-sm sm:font-medium from-neutral-600 text-gray-500">
-                Any manufacturing process includes material handling equipment like conveyors that can transport raw materials or semi-finished products from one workstation to another. These automated conveyors are designed based on the type of manufacturing product or the process. QN focuses on industrial conveyors that classify all kinds of available conveyors.
+                Any manufacturing process includes material handling equipment like conveyors that can transport raw materials or semi-finished products from one workstation to another. These automated conveyors are designed based on the type of manufacturing product or the process. Nextep focuses on industrial conveyors that classify all kinds of available conveyors.
               </p>
             </div>
           </motion.div>
@@ -84,13 +84,13 @@ function Automation() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
             className="flex bg-green-700 dark:text-white uppercase justify-center items-center w-[100%] rounded-t-lg sm:h-12 h-9 -skew-x-12">
-              <h3 className="sm:text-2xl text-md font-semibold">PTL (Pick to Light)</h3>
+              <h3 className="sm:text-2xl text-md font-semibold">Pick to Light</h3>
             </motion.div>
             <div className="flex items-center justify-center sm:pt-2 pt-2 border-solid border-2 border-green-700 rounded-b-md">
               <p 
                
               className="text-center sm:text-lg text-sm sm:font-medium from-neutral-600 text-gray-500">
-                These picking technologies enhance the productivity & efficacy of the picker in a person-to-goods picking process, thus, it can get integrated into any existing warehousing operations. Our pick-to-light process entitles high-speed order fulfilment operation, with top-notch picking rates and excellent productivity.
+                These picking technologies enhance the productivity & efficacy of the picker in a person-to-goods picking process, thus, it can get integrated into any existing warehousing operations. Our pick-to-light process entitles high-speed order fulfillment operation, with top-notch picking rates and excellent productivity.
               </p>
             </div>
           </motion.div>

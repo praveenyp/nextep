@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 function Scanning() {
   return (
     <>
-      <div className="pt-16 sm:h-screen h-full bg-gradient-to-r from-gray-900 to-gray-700 dark:text-gray-300">
+      <div id="scanning" className="pt-16 sm:h-screen h-full bg-gradient-to-r from-gray-900 to-gray-700 dark:text-gray-300">
         <div className="flex items-center justify-center">
           <h1 className="sm:text-6xl text-3xl sm:my-6 my-2 font-semibold text-gray-200">
             Scanning
@@ -35,7 +35,7 @@ function Scanning() {
             viewport={{ once: true }}
             className="text-2xl font-semibold text-yellow-700"
           >
-            Value Proposition
+           Our products
           </motion.h2>
         </div>
         <motion.div 
@@ -63,9 +63,9 @@ function Scanning() {
               <p 
                
               className="text-center sm:text-lg text-sm sm:font-medium from-neutral-600 text-gray-500">
-                QN scanner portfolio offers a wide range of scanning capability
+                Nextep scanner portfolio offers a wide range of scanning capability
                 starting from retail solutions to high speed production lines
-                with high built in intelligence that can read barcodes easily
+                with high built in intelligence that can read barcode easily
                 even at a surged speed.
               </p>
             </div>
@@ -94,7 +94,7 @@ function Scanning() {
               <p 
                
               className="text-center sm:text-lg text-sm sm:font-medium from-neutral-600 text-gray-500">
-                QN offers different range of mobility scanners and form factors
+                Nextep offers different range of mobility scanners and form factors
                 to cater need of production, warehouse and last mile users.
                 These devices have sturdy built-in software intelligence
                 features that can help your tasks to be performed without

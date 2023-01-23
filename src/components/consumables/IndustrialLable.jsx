@@ -20,9 +20,9 @@ function IndustrialLable() {
 						transition={{ duration: 2 }}
 						whileInView={{ opacity: 1, y: 0 }}
 						viewport={{ once: true }}
-						src="https://www.qodenext.com/images/consumables/industrial-labels.webp"
+						src="https://www.zebra.com/ap/en/products/supplies/labels-tags/jcr:content/mainpar/columncontrol_c730/col2par/fullwidthimage_8380/fullWidthImage.transform/image-large/image.jpg"
 						alt=""
-						className="h-[400px] w-[600px]"
+						className="sm:h-[500px] h-[200px] sm:w-[900px] w-[500px] rounded-3xl"
 					/>
 				</div>
 				<div className="mt-4">
