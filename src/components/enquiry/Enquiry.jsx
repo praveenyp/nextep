@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-
+import { Link } from "react-router-dom";
 import { SocialIcon } from "react-social-icons";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -212,8 +212,8 @@ function Enquiry() {
           <div className="flex flex-col items-center sm:mt-0 mt-20">
             <h1 className="uppercase font-bold text-lg">General link</h1>
             <div className="flex flex-col uppercase font-semibold mt-4 gap-2">
-              <a href="/hardware">hardware</a>
-              <a href="/consumable">consumables</a>
+              <Link to="/hardware">hardware</Link>
+              <Link to="/consumable">consumables</Link>
             </div>
           </div>
           {/* social */}
@@ -254,7 +254,7 @@ function Enquiry() {
       </div>
       <div className=" flex items-center justify-center bg-gray-900 py-5">
         <BiCopyright className="text-green-600" />
-        <p className="text-gray-400">All Right Reserved @2023. Nextep Engineering Private Limited.</p>
+        <p className="text-gray-400 sm:text-lg text-sm">All Right Reserved @2023. Nextep Engineering Private Limited.</p>
       </div>
     </>
   );
