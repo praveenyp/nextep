@@ -7,7 +7,7 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-      <nav className="bg-gradient-to-r from-indigo-50 to-blue-500">
+      <nav className="bg-gradient-to-r from-indigo-200 to-indigo-200 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
             <div className="flex items-center">
@@ -17,29 +17,29 @@ function Navbar() {
                 </Link>
               </div>
               <div className="hidden md:block">
-                <div className="ml-24 flex items-baseline space-x-4 pb-3 text-black">
+                <div className="ml-24 flex items-baseline space-x-4 pb-3 text-black gap-5">
                   <a
                     href="#industrial"
-                    className="uppercase hover:bg-green-900 hover:text-white  px-3 py-2 rounded-md text-sm font-medium"
+                    className="hover:font-extrabold  rounded-md text-md font-medium"
                   >
                     Industrial Lables
                   </a>
 
                   <a
                     href="#ribbons"
-                    className="uppercase hover:bg-green-900 hover:text-white  px-3 py-2 rounded-md text-sm font-medium"
+                    className="hover:font-extrabold  rounded-md text-md font-medium"
                   >
                     Industrial Ribbons
                   </a>
 
                   <a
                     href="#rfidtags"
-                    className="uppercase hover:bg-green-900 hover:text-white  px-3 py-2 rounded-md text-sm font-medium"
+                    className=" hover:font-extrabold  rounded-md text-md font-medium"
                   >
                     RFID Tags
                   </a>
 
-                  <div className="ml-[400px] flex flex-row items-center justify-between gap-10">
+                  <div className="ml-[400px] flex flex-row items-center justify-between pl-[200px] gap-10">
                     <a href="tel:08029064414">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -47,7 +47,7 @@ function Navbar() {
                         viewBox="0 0 24 24"
                         strokeWidth={2}
                         stroke="currentColor"
-                        className="w-8 h-8 text-black dark:text-black mr-3 ml-[250px] pt-2"
+                        className="w-8 h-8 text-black dark:text-black pt-1"
                       >
                         <path
                           strokeLinecap="round"
@@ -57,8 +57,8 @@ function Navbar() {
                       </svg>
                     </a>
                     <div className="pt-3">
-                      <button className=" bg-green-900 w-24 h-10 text-md font-semibold uppercase text-black rounded-lg hover:text-black hover:bg-transparent">
-                        <a href="#enquiry">Enqiry</a>
+                      <button className="bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 text-indigo-200 uppercase">
+                        <a href="#enquiry">Enquiry</a>
                       </button>
                     </div>
                   </div>
@@ -141,24 +141,24 @@ function Navbar() {
         >
           {(ref) => (
             <div className="md:hidden" id="mobile-menu">
-              <div ref={ref} className="uppercase flex flex-col items-center justify-center px-2 pt-2 pb-3 space-y-1 sm:px-3 text-black">
+              <div ref={ref} className=" flex flex-col items-center justify-center px-2 pt-2 pb-3 space-y-1 sm:px-3 text-black">
                 <a
                   href="/"
-                  className=" block px-3 py-2 rounded-md text-base font-medium"
+                  className=" hover:font-extrabold  rounded-md text-md font-medium"
                 >
                   Industrial Lables
                 </a>
 
                 <a
                   href="/"
-                  className=" block px-3 py-2 rounded-md text-base font-medium"
+                  className=" hover:font-extrabold  rounded-md text-md font-medium"
                 >
                   Industrial Ribbons
                 </a>
 
                 <a
                   href="/"
-                  className="block px-3 py-2 rounded-md text-base font-medium"
+                  className="hover:font-extrabold  rounded-md text-md font-medium"
                 >
                   RFID Tags
                 </a>
@@ -167,7 +167,7 @@ function Navbar() {
                   href="#enquiry"
                   className=" block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  <button className="bg-green-900 w-24 h-10 text-md font-semibold uppercase text-black rounded-lg hover:text-green-900 hover:bg-transparent">
+                  <button className="bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 text-indigo-200 uppercase">
                     Enquiry
                   </button>
                 </a>

@@ -1,45 +1,42 @@
-import { useEffect, useState } from 'react'
-import { BiArrowFromBottom } from 'react-icons/bi'
-
-
-
+import { useEffect, useState } from "react";
+import { BiArrowFromBottom } from "react-icons/bi";
 
 const ScrollButton = () => {
-  const [isVisible, setIsVisible] = useState(false)
+  const [isVisible, setIsVisible] = useState(false);
 
   const toggleVisibility = () => {
     if (window.pageYOffset > 300) {
-      setIsVisible(true)
+      setIsVisible(true);
     } else {
-      setIsVisible(false)
+      setIsVisible(false);
     }
-  }
+  };
 
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth',
-    })
-  }
+      behavior: "smooth",
+    });
+  };
 
   useEffect(() => {
-    window.addEventListener('scroll', toggleVisibility)
+    window.addEventListener("scroll", toggleVisibility);
 
     return () => {
-      window.removeEventListener('scroll', toggleVisibility)
-    }
-  }, [])
+      window.removeEventListener("scroll", toggleVisibility);
+    };
+  }, []);
 
   return (
     <div className="fixed bottom-2 right-2 mr-10">
       <button
         type="button"
         onClick={scrollToTop}
-        className="bg-green-900 p-3 rounded-full text-white"
+        className=" p-2 rounded-full text-gray-200 bg-yellow-600"
       >
         <BiArrowFromBottom className="h-8 w-8" aria-hidden="true" />
       </button>
     </div>
-  )
-}
- export default ScrollButton;
+  );
+};
+export default ScrollButton;

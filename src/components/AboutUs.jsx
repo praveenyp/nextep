@@ -1,10 +1,17 @@
 import React from "react";
 import NumberCounter from "number-counter";
 import { motion } from "framer-motion";
+import abtone from "../assets/abt1.avif"
+import abttwo from "../assets/abt2.png"
+import abtthree from "../assets/abt3.svg"
+import abtfour from "../assets/abt4.png"
+import abtfive from "../assets/abt5.avif"
+import abtsix from "../assets/abt6.avif"
+import abtseven from "../assets/abt7.avif"
 function AboutUs() {
   return (
     <>
-      <div className=" pt-4 bg-gradient-to-r from-gray-700 to-gray-900">
+      <div className=" pt-4 bg-gradient-to-r from-gray-800 to-gray-900">
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -20,7 +27,7 @@ function AboutUs() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1630&q=80"
+              src={abtone}
               alt=""
               className="h-[90%] w-[90%] mt-10 rounded-3xl"
             />
@@ -38,10 +45,14 @@ function AboutUs() {
                 transition={{ duration: 2 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                className="sm:text-4xl text-lg font-bold sm:pr-10 pr-0 sm:ml-5 ml-0 text-gray-200"
+                className="sm:text-lg text-lg font-semibold sm:pr-10 pr-0 sm:ml-5 ml-0 text-gray-500"
               >
-                We are a leading solutions provider focused on creating stories
-                around product.
+                Nextep is one of the leading players in the Indian Label
+                manufacturing industry. We are a “design-to-delivery” Labeling
+                solutions provider with the ability to design, develop and
+                manufacture a diverse product portfolio for a wide range of
+                customers primarily in the automotive and pharmaceutical
+                industries.
               </motion.h2>
               <motion.h3
                 initial={{
@@ -51,10 +62,13 @@ function AboutUs() {
                 transition={{ duration: 2.3 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                className=" sm:text-xl text-md font-semibold sm:pt-5 pt-1 text-gray-500 items-center justify-center sm:pr-10 pr-0 sm:m-5 m-0"
+                className=" sm:text-lg text-md font-semibold sm:pt-5 pt-1 text-gray-500 items-center justify-center sm:pr-10 pr-0 sm:m-5 m-0"
               >
-                We specialize in marking and data capture processes. We focus on
-                creating a logical timeline for all main events in a product's
+                Our product offerings blank labels, pre-printed labels, domes,
+                overlays, aluminum name plates etc., <br />
+                Nextep has a strong focus on new product development and it has
+                a dedicated ‘new product development’ team. Our products are
+                subject to stringent quality checks and testing in laboratories.
               </motion.h3>
               <motion.h4
                 initial={{
@@ -64,22 +78,22 @@ function AboutUs() {
                 transition={{ duration: 2.5 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                className=" sm:text-md text-sm font-medium sm:pt-5 pt-1 text-gray-500 items-center justify-center sm:pr-10 pr-0 sm:m-5 m-0"
+                className=" sm:text-lg text-sm font-semibold sm:pt-5 pt-1 text-gray-500 items-center justify-center sm:pr-10 pr-0 sm:m-5 m-0"
               >
-                We have our in-house design and development teams who work with
-                leading hardware OEMs to create solutions around traceability
-                and automation. We have 3 specialty conversion units in the
-                North, West, and South of India focused on providing the
-                materials
+                We differentiate ourselves on the basis of the wide range of our
+                product portfolio, quality of our product offerings, our product
+                design and development capabilities and the strength of our
+                relationships with customers located across various industries
+                globally.
               </motion.h4>
             </div>
           </div>
         </motion.div>
-        <div className="flex sm:flex-row flex-col sm:justify-evenly justify-start sm:items-center items-start sm:mt-32 mt-0 sm:mx-0 mx-4 bg-black py-10">
+        <div className="flex sm:flex-row flex-col sm:justify-evenly justify-start sm:items-center items-start sm:mt-32 mt-0 sm:mx-0 mx-4 bg-black py-10 md:rounded-none rounded-3xl">
           <div className="flex flex-row  w-[100%] justify-center">
             <div className="sm:h-20 h-10 sm:w-20 w-10 transform hover:hue-rotate-180 hover:rotate-180 duration-500 ease-in-out">
               <img
-                src="https://fundal.org.gt/wp-content/uploads/2022/03/alegria.png"
+                src={abttwo}
                 alt=""
               />
             </div>
@@ -95,13 +109,13 @@ function AboutUs() {
           <div className="flex flex-row w-[100%] justify-center sm:pt-0 pt-5">
             <div className="sm:h-20 h-10 sm:w-20 w-10 transform hover:hue-rotate-180 hover:rotate-180 duration-500 ease-in-out">
               <img
-                src="https://worldgreeneconomy.org/wp-content/themes/WGEO/img/join-icon-2.svg"
+                src={abtthree}
                 alt=""
               />
             </div>
             <div className="flex flex-col items-center justify-center">
               <span className="sm:text-5xl text-xl font-bold text-white">
-                <NumberCounter end={10} start={0} delay="3" postFix="+" />
+                <NumberCounter end={8} start={0} delay="3" postFix="+" />
               </span>
               <span className="sm:text-lg text-xs uppercase sm:font-bold font-semibold font-sans text-gray-400">
                 year of experience
@@ -111,7 +125,7 @@ function AboutUs() {
           <div className="flex flex-row w-[100%] justify-center sm:pt-0 pt-5">
             <div className="sm:h-20 h-10 sm:w-20 w-10 transform hover:hue-rotate-180 hover:rotate-180 duration-500  ease-in-out">
               <img
-                src="https://www.viscaweb.com/wp-content/uploads/product-development@2x.png"
+                src={abtfour}
                 alt=""
               />
             </div>
@@ -131,7 +145,7 @@ function AboutUs() {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1.5 }}
-        className="h-screen bg-gradient-to-r from-gray-900 to-gray-700"
+        className="h-full bg-gradient-to-r from-gray-900 to-gray-800"
       >
         <div className="flex items-center justify-center ">
           <h1 className="sm:text-9xl text-5xl sm:font-extrabold font-bold opacity-5 text-green-400">
@@ -160,11 +174,12 @@ function AboutUs() {
               transition={{ duration: 1.5 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="text-gray-500 font-san sm:text-2xl text-md sm:font-bold font-semibold"
+              className="text-gray-500 font-san sm:text-lg text-md sm:font-semibold font-semibold"
             >
-              Our Vision is to be the premier and preferred supplier of Advance
-              Technology enabled service and innovative products that our
-              clients can trust along with market expertise.
+              Our Vision is aim to be a market leader in design & manufacture of
+              self-adhesive labels for engineering & industrial applications.
+              <br />
+              We strive to benchmark product with the very best available.
             </motion.p>
           </div>
           <div className="inset-0 object-cover transform hover:scale-105 transition duration-700 ease-out">
@@ -176,7 +191,7 @@ function AboutUs() {
               transition={{ duration: 1.5 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              src=" https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1324&q=80"
+              src={abtfive}
               alt=""
               className="sm:h-[350px] h-[200px] sm:w-[500px] w-[280px] rounded-2xl"
             />
@@ -193,7 +208,7 @@ function AboutUs() {
               transition={{ duration: 1.5 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              src="https://images.unsplash.com/photo-1504607798333-52a30db54a5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80 "
+              src={abtsix}
               alt=""
               className="sm:h-[350px] h-[200px] sm:w-[500px] w-[280px] rounded-2xl"
             />
@@ -219,100 +234,63 @@ function AboutUs() {
               transition={{ duration: 1.5 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className=" text-gray-500 font-san sm:text-2xl text-md sm:font-bold font-semibold"
+              className=" text-gray-500 font-san sm:text-lg text-md sm:font-semibold font-semibold"
             >
-              We deliver turn-key solutions through our innovative products and
-              creative engineering concepts. To be the most reliable supplier
-              with our dedication towards the quality of product and service
-              which we believe as our core strength.
+              To deliver desire. To play with colors, materials, textures and
+              most of all, possibilities. To make things that are visually
+              exciting. Sensorially pleasing. Delightfully intuitive. To be the
+              best in the business of aesthetic and functional industrial
+              graphics parts, using specialized design and printing
+              technologies.
             </motion.p>
           </div>
         </div>
       </div>
 
-      <div className=" h-full flex sm:flex-row flex-col items-center justify-evenly  bg-gradient-to-r from-gray-700 to-gray-900 mt-0">
-        <div className="w-[50%] sm:ml-32 ml-0">
+      <div className=" h-full flex sm:flex-row flex-col items-center justify-evenly  bg-gradient-to-r from-gray-800 to-gray-900 mt-0">
+        <div className="sm:w-[30%] w-[80%] sm:ml-32 ml-0">
           <img
-            src="https://images.unsplash.com/photo-1622037022824-0c71d511ef3c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+            src={abtseven}
             alt=""
-            className="sm:h-[400px] h-[220px] sm:w-[600px] w-[750px] sm:mt-20 mt-40 sm:my-20 my-0 rounded-3xl"
+            className="sm:h-[300px] h-[220px] sm:w-[400px] w-[550px] sm:mt-20 mt-10 sm:my-20 my-0 rounded-3xl"
           />
         </div>
-        <div className="w-[50%] sm:mr-32 mr-0">
+        <div className="w-[70%] sm:mr-32 mr-0">
           <div className="flex justify-start uppercase font-semibold text-lg text-white">
             <h3>who we are</h3>
           </div>
           <div>
-            <h1 className="sm:text-4xl text-lg font-bold sm:pr-10 pr-0 sm:ml-5 ml-0 mt-3 text-gray-600">
+            <h1 className="sm:text-2xl text-lg font-bold sm:pr-10 pr-0 sm:ml-5 ml-0 mt-3 text-gray-700">
               Right Partner Right Product.
             </h1>
 
-            <p className="sm:text-xl text-sm font-semibold  text-gray-200 items-center justify-center sm:pr-10 pr-0 sm:m-5 m-1">
-              Nextep Engineering Pvt Ltd. is an Indian based company providing
-              customized solutions to Automobiles, Retail, Logistics,
-              Manufacturing and many other verticals across the industry.
+            <p className="sm:text-lg text-sm font-semibold  text-gray-500 items-center justify-center sm:pr-10 pr-0 sm:m-5 m-1">
+              Nextep Engineering Pvt Ltd was established in the year 2015 as
+              manufacturer of specialty labels and printed electronics products
+              specific to the electronics, electrical and automobile industries.
+              We have an excellent and unique combination of expertise and rich
+              array of products providing customers with superior solutions to
+              their requirements.
             </p>
-          </div>
-          <div className="flex flex-row items-center justify-center">
-            <div className="flex flex-col sm:gap-10 gap-[100px] sm:mb-5 mb-12">
-
-				<div className="transform hover:hue-rotate-180 hover:rotate-180 duration-500  ease-in-out">
-              <img
-                src="https://themerange.net/wp/moko/wp-content/uploads/2021/11/mission-1.png"
-                alt=""
-              />
-			  </div>
-			  <div className="transform hover:hue-rotate-180 hover:rotate-180 duration-500  ease-in-out">
-
-              <img
-                src="https://themerange.net/wp/moko/wp-content/uploads/2021/11/mission-1.png"
-                alt=""
-              />
-			  </div>
-			  <div className="transform hover:hue-rotate-180 hover:rotate-180 duration-500  ease-in-out">
-
-              <img
-                src="https://themerange.net/wp/moko/wp-content/uploads/2021/11/mission-1.png"
-                alt=""
-              />
-            </div>
-			</div>
-            <div className="flex flex-col items-center justify-center sm:py-3 py-0">
-              <div>
-                <p className="sm:text-sm text-xs sm:font-medium font-normal  text-gray-300 items-center justify-center sm:pr-10 pr-0 sm:m-5 m-0 sm:my-0 my-2 sm:mx-3  ml-2">
-                  Extensive experience in the industry has helped us gauge the
-                  pulse of the market for affordable and versatile solutions
-                  that is backed by industry leading technical support and
-                  service.
-                </p>
-              </div>
-            <div className="flex flex-row items-center justify-center sm:py-3 py-0">
-              <div className="transform hover:hue-rotate-180 hover:rotate-180 duration-500  ease-in-out"></div>
-              <div>
-                <p className="sm:text-sm text-xs sm:font-medium font-normal  text-gray-300 items-center justify-center sm:pr-10 pr-0 sm:m-5 m-0 sm:my-0 my-2 sm:mx-3  ml-2">
-                  We provide customized solutions for a wide range of verticals
-                  including healthcare, retail, manufacturing, logistics,
-                  hospitality and lots more.
-                </p>
-              </div>
-            </div>
-            <div className="flex flex-row items-center justify-center sm:py-3 py-0">
-              <div className="transform hover:hue-rotate-180 hover:rotate-180 duration-500  ease-in-out"></div>
-              <div className="items-center justify-start">
-                <p className="sm:text-sm text-xs sm:font-medium font-normal  text-gray-300 items-center justify-center sm:pr-10 pr-0 sm:m-5 m-0 sm:my-0 my-2 sm:mx-3  ml-2">
-                  We are one of the leading providers of innovative enterprise
-                  mobility, data acquisition and safety equipments in India and
-                  our wide range of products, sourced exclusively from the most
-                  reputed brands from around the globe, are ensured to meet the
-                  highest standards of quality and precision.
-                </p>
-              </div>
-            </div>
+              <h1 className="text-xl font-semibold text-white mb-4">Our products Portfolio Includes</h1>
+            <div className="flex sm:flex-row flex-col sm:gap-[200px] gap-0 items-center justify-center font-semibold text-gray-500 sm:text-lg text-sm">
+              <ul className="list-disc">
+                <li>Graphic Fascia and panels</li>
+                <li>Membrane overlays</li>
+                <li>Membrane keypads/switches</li>
+                <li>Nameplates, Logo's</li>
+                <li>Automotive Decals/Dials</li>
+              </ul>
+              <ul className="list-disc">
+                <li>Rating plates</li>
+                <li>Warranty labels, cautions labels</li>
+                <li>PU domes</li>
+                <li>Die-cut insulators, Gaskets and foams</li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
-      <script></script>
     </>
   );
 }

@@ -1,10 +1,15 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import one from "./assets/rf1.jpg"
+import two from "./assets/rf2.webp"
+import three from "./assets/rf3.jpg"
+import four from "./assets/rf4.png"
+import five from "./assets/rf5.jpg"
 
 function Rfid() {
   return (
     <>
-      <div id='rfid' className="sm:h-screen h-full bg-gradient-to-r from-gray-900 to-gray-700 dark:text-gray-300">
+      <div id='rfid' className="sm:h-screen h-full bg-gradient-to-l from-gray-900 to-gray-700 dark:text-gray-300">
         <div className="flex items-center justify-center">
           <h1 className="sm:text-6xl text-3xl sm:my-6 my-2 font-semibold text-gray-200">
             RFID
@@ -48,7 +53,7 @@ function Rfid() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              src="https://www.zebra.com/content/dam/zebra_new_ia/en-us/solutions-verticals/product/RFID/hand-held_reader/rfd40/photography-website/rfd40-premium-plus-standalone-photography-website-front-left-down-facing-1x1-300x300.jpg"
+              src={one}
               alt=""
               className='rounded-3xl'
             />
@@ -74,7 +79,7 @@ function Rfid() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              src="https://www.qodenext.com/images/hardware/RFID-Tunnel.webp"
+              src={two}
               alt=""
               className=""
             />
@@ -100,7 +105,7 @@ function Rfid() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              src="https://www.zebra.com/content/dam/zebra_new_ia/en-us/solutions-verticals/product/RFID/Reader/FX7500%20Fixed%20RFID%20Reader/photos-website/fx7500-overhead-1x1-300x300.jpg"
+              src={three}
               alt=""
               className='rounded-3xl'
             />
@@ -126,7 +131,7 @@ function Rfid() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              src="https://www.zebra.com/content/dam/zebra_new_ia/en-us/solutions-verticals/product/RFID/Antenna/GENERAL/photography-product/an480-300.png"
+              src={four}
               alt=""
               className='rounded-3xl'
             />
@@ -152,7 +157,7 @@ function Rfid() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              src="https://www.zebra.com/content/dam/zebra_new_ia/en-us/solutions-verticals/product/Printers/Industrial%20Printers/zt600-industrial-printer/photograph-web/zt610-photography-website-left-touch-screen-1x1-350x350.jpg"
+              src={five}
               alt=""
               className='rounded-3xl'
             />

@@ -13,7 +13,6 @@ const Home = () => {
     <div className="scroll-smooth">
       <ScrollButton />
       <Navbar />
-
       <AutoSlider />
       <AboutUs />
       <Testimonial />

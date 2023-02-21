@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="bg-gradient-to-r from-indigo-50 to-blue-500">
+      <nav className="bg-gradient-to-r from-indigo-200 to-indigo-200 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
             <div className="flex items-center">
@@ -22,26 +22,26 @@ const Navbar = () => {
                 </Link>
               </div>
               <div className="hidden md:block ml-24  items-center">
-                <div className="ml-10 flex items-baseline space-x-4 pb-2 text-black">
+                <div className="ml-10 flex items-baseline space-x-2 pb-3 text-black gap-24">
                   <Link
-                    to="/hardware"
-                    className=" hover:bg-green-900  hover:text-white px-3 py-2 rounded-md text-base font-medium uppercase"
+                    to="/consumable"
+                    className=" hover:font-extrabold  rounded-md text-md font-medium"
                   >
-                    Hardware
+                    Consumables
                   </Link>
 
                   <Link
-                    to="/consumable"
-                    className=" hover:bg-green-900  hover:text-white px-3 py-2 rounded-md text-base font-medium uppercase"
+                    to="/hardware"
+                    className=" hover:font-extrabold  rounded-md text-md font-medium"
                   >
-                    Consumables
+                    Hardware
                   </Link>
 
                   {/* <a
                     href="/"
                     className="text-gray-300  py-0 rounded-md text-sm font-medium"
                   > */}
-                    <div className="ml-[400px] flex flex-row items-center justify-between pl-[400px] gap-10">
+                    <div className="ml-[400px] flex flex-row items-center justify-between pl-[200px] gap-10">
                       <a href="tel:08029064414">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -49,7 +49,7 @@ const Navbar = () => {
                           viewBox="0 0 24 24"
                           strokeWidth={2}
                           stroke="currentColor"
-                          className="w-8 h-8 text-black dark:text-black pt-2"
+                          className="w-8 h-8 text-black dark:text-black pt-1"
                         >
                           <path
                             strokeLinecap="round"
@@ -60,7 +60,7 @@ const Navbar = () => {
                       </a>
                       <a href="#enquiry">
                         <div className="pt-3">
-                          <button className=" bg-green-700 w-24 h-10 text-md font-semibold uppercase text-black rounded-lg hover:text-black hover:bg-transparent">
+                          <button className="bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 text-indigo-200 uppercase">
                             Enquiry
                           </button>
                         </div>
@@ -153,24 +153,24 @@ const Navbar = () => {
               <div ref={ref} className="text-black px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col items-center justify-center">
                 <Link
                   to={"/hardware"}
-                  className=" block px-3 py-2 rounded-md text-base font-medium uppercase"
+                  className=" hover:font-extrabold  rounded-md text-md font-medium"
                 >
-                  hardware
+                  Hardware
                 </Link>
 
                 <Link
                   to="/consumable"
-                  className=" block px-3 py-2 rounded-md text-base font-medium uppercase"
+                  className=" hover:font-extrabold  rounded-md text-md font-medium"
                 >
                   Consumables
                 </Link>
 
                 <a
                   href="#enquiry"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="block px-3 py-2 rounded-md text-base font-medium"
                 >
                   <div className="pt-3">
-                      <button className=" bg-green-700 w-24 h-10 text-md font-semibold uppercase text-black rounded-lg hover:text-green-700 hover:bg-transparent">
+                      <button className=" bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 text-indigo-200 uppercase">
                         <a href="#enquiry">Enquiry</a>
                       </button>
                     </div>

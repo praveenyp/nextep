@@ -46,7 +46,7 @@ function Automation() {
           transition={{ duration: 2 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="flex flex-col justify-center items-center sm:mx-20 mx-28">
+          className="flex flex-col justify-center items-center sm:mx-20 mx-28 w-[150%]">
             <motion.div 
             initial={{
                 y: 200,
@@ -74,7 +74,7 @@ function Automation() {
           transition={{ duration: 2 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="flex flex-col justify-center items-center sm:mx-20 mx-28 sm:pt-0 pt-5">
+          className="flex flex-col justify-center items-center sm:mx-20 mx-28 sm:pt-0 pt-5 w-[150%]">
             <motion.div 
             initial={{
                 y: 100,
@@ -102,7 +102,7 @@ function Automation() {
           transition={{ duration: 2 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="flex flex-col justify-center items-center sm:mx-20 mx-28 sm:pt-0 pt-5">
+          className="flex flex-col justify-center items-center sm:mx-20 mx-28 sm:pt-0 pt-5 w-[150%]">
             <motion.div 
             initial={{
                 y: 100,

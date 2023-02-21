@@ -47,7 +47,7 @@ function Scanning() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         className="flex sm:flex-row flex-col justify-center sm:mx-20 mx-0 sm:my-10 my-2">
-          <div className="flex flex-col justify-center items-center sm:mx-20 mx-28">
+          <div className="flex flex-col justify-center items-center sm:mx-20 mx-20 w-[60%]">
             <motion.div 
             initial={{
                 y: 100,
@@ -78,7 +78,7 @@ function Scanning() {
           transition={{ duration: 2 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="flex flex-col justify-center items-center sm:mx-20 mx-28 sm:pt-0 pt-5">
+          className="flex flex-col justify-center items-center sm:mx-20 mx-20 sm:pt-0 pt-5 w-[60%]">
             <motion.div 
             initial={{
                 y: 100,
@@ -179,31 +179,7 @@ function Scanning() {
               Barcode Scanners
             </motion.p>
           </div>
-          <div className="sm:h-[16%] h-[20%] sm:w-[16%] w-[20%] sm:mx-10 mx-3 my-5 sm:pt-0 pt-5">
-            <motion.img
-              initial={{
-                y: 100,
-                opacity: 0,
-              }}
-              transition={{ duration: 2 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              src="https://www.qodenext.com/images/hardware/Online-Scanners.webp"
-              alt=""
-            />
-            <motion.p
-              initial={{
-                y: 200,
-                opacity: 0,
-              }}
-              transition={{ duration: 2 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3"
-            >
-              Online Scanners
-            </motion.p>
-          </div>
+         
         </div>
         <hr class="w-48 h-1 mx-auto mt-24 bg-gray-200 border-0 rounded  dark:bg-gray-700"></hr>
 

@@ -1,5 +1,9 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import ribone from "./assets/rib1.webp"
+import ribtwo from "./assets/rib2.webp"
+import ribthree from "./assets/rib3.webp"
+import ribfour from "./assets/rib4.webp"
 function Ribbons() {
   return (
 		<>
@@ -38,7 +42,7 @@ function Ribbons() {
 							viewport={{ once: true }}
 							className="flex items-center justify-center w-[100%] sm:ml-[200px] ml-0 sm:mr-10 mr-0">
 							<img
-								src="https://5.imimg.com/data5/KC/OJ/DR/SELLER-3156466/thermal-transfer-ribbon-500x500.jpg"
+								src={ribone}
 								alt=""
 								className="sm:h-[400px] h-[200px] rounded-xl"
 							/>
@@ -53,7 +57,7 @@ function Ribbons() {
 								whileInView={{ opacity: 1, y: 0 }}
 								viewport={{ once: true }}
 								className="mb-3 flex flex-col items-center justify-center sm:mx-0 mx-12">
-								<h2 className="sm:text-2xl text-md  font-semibold text-gray-200">
+								<h2 className="sm:text-2xl text-md bg-cyan-900 p-2 rounded-lg my-2">
 									Our Ribbons addresses the following complications:
 								</h2>
 								<ul className="space-y-4 sm:text-lg text-sm list-disc list-inside text-gray-400  items-center justify-center text-start mt-3">
@@ -84,7 +88,7 @@ function Ribbons() {
 							viewport={{ once: true }}
 							className="flex items-center justify-center w-[100%] sm:mr-[200px] mr-0 sm:ml-10 ml-0">
 							<img
-								src="https://www.qodenext.com/images/consumables/wax-ribbon.webp"
+								src={ribtwo}
 								alt=""
 								className="sm:h-[400px] h-[200px] rounded-xl"
 							/>
@@ -99,7 +103,7 @@ function Ribbons() {
 								whileInView={{ opacity: 1, y: 0 }}
 								viewport={{ once: true }}
 								className="mb-3 flex flex-col items-center justify-center sm:mx-0 mx-12 ">
-								<h2 className="sm:text-2xl text-md font-semibold text-gray-200">
+								<h2 className="sm:text-2xl text-md bg-cyan-900 p-2 rounded-lg my-2">
 									Wax Ribbons for Cost-Effective Performance
 								</h2>
 								<ul className="space-y-4 sm:text-lg text-sm list-disc list-inside text-gray-400  items-center justify-center text-start mt-3">
@@ -129,7 +133,7 @@ function Ribbons() {
 							viewport={{ once: true }}
 							className="flex items-center justify-center w-[100%] sm:ml-[200px] ml-0 sm:mr-10 mr-0">
 							<img
-								src="https://www.qodenext.com/images/consumables/wax-rasin.webp"
+								src={ribthree}
 								alt=""
 								className="sm:h-[400px] h-[200px] rounded-xl"
 							/>
@@ -144,7 +148,7 @@ function Ribbons() {
 								whileInView={{ opacity: 1, y: 0 }}
 								viewport={{ once: true }}
 								className="mb-3 flex flex-col items-center justify-center sm:mx-0 mx-12">
-								<h2 className="sm:text-2xl text-md  font-semibold text-gray-200">
+								<h2 className="sm:text-2xl text-md bg-cyan-900 p-2 rounded-lg my-2">
 									Wax/Resin Ribbons for All Around Performance
 								</h2>
 								<ul className="space-y-4 sm:text-lg text-sm list-disc list-inside text-gray-400  items-center justify-center text-start mt-3">
@@ -181,7 +185,7 @@ function Ribbons() {
 							viewport={{ once: true }}
 							className="flex items-center justify-center w-[100%] sm:mr-[200px] mr-0 sm:ml-10 ml-0">
 							<img
-								src="https://www.qodenext.com/images/consumables/rasin-ribbon.webp"
+								src={ribfour}
 								alt=""
 								className="sm:h-[400px] h-[200px] rounded-xl"
 							/>
@@ -196,7 +200,7 @@ function Ribbons() {
 								whileInView={{ opacity: 1, y: 0 }}
 								viewport={{ once: true }}
 								className="mb-3 flex flex-col items-center justify-center sm:mx-0 mx-12 ">
-								<h2 className="sm:text-2xl text-md font-semibold text-gray-200">
+								<h2 className="sm:text-2xl text-md bg-cyan-900 p-2 rounded-lg my-2">
 									Resin Ribbons for Premium Performance
 								</h2>
 								<ul className="space-y-4 sm:text-lg text-sm list-disc list-inside text-gray-400  items-center justify-center text-start mt-3">

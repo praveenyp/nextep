@@ -1,6 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
-
+import one from "./assets/pri1.jpg"
+import two from "./assets/pri2.jpg"
+import three from "./assets/pri3.webp"
+import four from "./assets/pri4.webp"
 function Printer() {
   return (
     <>
@@ -53,7 +56,7 @@ function Printer() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              src="https://www.zebra.com/content/dam/zebra_new_ia/en-us/solutions-verticals/product/Printers/Desktop%20Printers/zd620-series/zd621d/photography-website/zd621d-photography-website-color-display-right-facing-72dpi-1x1-300x300.jpg"
+              src={one}
               alt=""
               className="rounded-3xl"
             />
@@ -82,7 +85,7 @@ function Printer() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              src="https://www.zebra.com/content/dam/zebra_dam/global/zcom-web-production/web-production-photography/web001/zq600hc-plus-photography-website-group-1x1-300x300.jpg"
+              src={two}
               alt=""
               className="rounded-3xl"
             />
@@ -108,8 +111,9 @@ function Printer() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              src="https://www.qodenext.com/images/hardware/RFID-Printers.webp"
+              src={three}
               alt=""
+              className="rounded-3xl"
             />
             <motion.p
               initial={{
@@ -133,8 +137,9 @@ function Printer() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              src="https://www.qodenext.com/images/hardware/Print-Engines.webp"
+              src={four}
               alt=""
+              className="rounded-3xl"
             />
             <motion.p
               initial={{
@@ -146,7 +151,7 @@ function Printer() {
               viewport={{ once: true }}
               className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3"
             >
-              Print Engines
+              ID Card printers
             </motion.p>
           </div>
         </div>

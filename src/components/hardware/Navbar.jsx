@@ -7,7 +7,7 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-      <nav className="bg-gradient-to-r from-indigo-50 to-blue-500">
+      <nav className="bg-gradient-to-r from-indigo-200 to-indigo-200 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
             <div className="flex items-center">
@@ -17,48 +17,48 @@ function Navbar() {
                 </Link>
               </div>
               <div className="hidden md:block">
-                <div className="ml-10 flex items-baseline space-x-2 pb-3 text-black">
+                <div className="ml-10 flex items-baseline space-x-2 pb-3 text-black gap-10">
                   <a
                     href="#printer"
-                    className="uppercase hover:bg-green-900 text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="hover:font-extrabold  rounded-md text-md font-medium"
                   >
                     Printers
                   </a>
 
                   <a
                     href="#scanning"
-                    className="uppercase hover:bg-green-900  hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="hover:font-extrabold  rounded-md text-md font-medium"
                   >
                     Scanning
                   </a>
 
-                  <a
+                  {/* <a
                     href="#automation"
                     className="uppercase hover:bg-green-900  hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                    automation
-                  </a>
+                  </a> */}
                   <a
                     href="#rfid"
-                    className="uppercase hover:bg-green-900  hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="hover:font-extrabold  rounded-md text-md font-medium"
                   >
                    RFID
                   </a>
 
-                  <a
+                  {/* <a
                     href="#inspection"
                     className="uppercase hover:bg-green-900  hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                    inspection
-                  </a>
+                  </a> */}
                   <a
                     href="#tablet"
-                    className="uppercase hover:bg-green-900  hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="hover:font-extrabold  rounded-md text-md font-medium"
                   >
-                   industrial tablet
+                   Industrial Tablet
                   </a>
 
-                  <div className=" ml-[400px] flex flex-row items-center justify-between gap-10">
+                  <div className="ml-[400px] pl-[200px] flex flex-row items-center justify-between gap-10">
                     <a href="tel:08029064414">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -66,7 +66,7 @@ function Navbar() {
                         viewBox="0 0 24 24"
                         strokeWidth={2}
                         stroke="currentColor"
-                        className="w-8 h-8 text-black dark:text-black mr-3 ml-[100px] pt-2"
+                        className=" w-8 h-8 text-black dark:text-black mr-0 pt-1"
                       >
                         <path
                           strokeLinecap="round"
@@ -76,7 +76,7 @@ function Navbar() {
                       </svg>
                     </a>
                     <div className="pt-3">
-                      <button className=" bg-green-700 w-24 h-10 text-md font-semibold uppercase text-black rounded-lg hover:text-black hover:bg-transparent">
+                      <button className=" bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 text-indigo-200 uppercase">
                         <a href="#enquiry">Enquiry</a>
                       </button>
                     </div>
@@ -163,49 +163,49 @@ function Navbar() {
               <div ref={ref} className=" flex flex-col px-2 pt-2 pb-3 space-y-1 sm:px-3 items-center justify-center text-black">
                 <a
                   href="#printer"
-                  className="uppercase  block px-3 py-2 rounded-md text-base font-medium"
+                  className="hover:font-extrabold  rounded-md text-md font-medium"
                 >
-                  printers
+                  Printers
                 </a>
 
                 <a
                   href="#scanning"
-                  className="uppercase  block px-3 py-2 rounded-md text-base font-medium"
+                  className="hover:font-extrabold  rounded-md text-md font-medium"
                 >
-                  scanning
+                  Scanning
                 </a>
 
-                <a
+                {/* <a
                   href="#automation"
                   className="uppercase  block px-3 py-2 rounded-md text-base font-medium"
                 >
                   automation
-                </a>
+                </a> */}
                 <a
                   href="#rifd"
-                  className="uppercase  block px-3 py-2 rounded-md text-base font-medium"
+                  className="hover:font-extrabold  rounded-md text-md font-medium"
                 >
-                 rfid
+                 RFID
                 </a>
-                <a
+                {/* <a
                   href="#inspection"
                   className="uppercase  block px-3 py-2 rounded-md text-base font-medium"
                 >
                   inspection
-                </a>
+                </a> */}
 
                 <a
                   href="#tablet"
-                  className="uppercase  hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="hover:font-extrabold  rounded-md text-md font-medium"
                 >
-                  industrial tablet
+                  Industrial tablet
                 </a>
 
                 <a
                   href="#enquiry"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  <button className="bg-green-700 w-24 h-10 text-md font-semibold uppercase text-black rounded-lg hover:text-green-700 hover:bg-transparent">
+                  <button className="bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 text-indigo-200 uppercase">
                     Enquiry
                   </button>
                 </a>

@@ -1,7 +1,8 @@
 import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-
+import slideone from "../assets/slide3.avif"
+import slidetwo from "../assets/slide4.jpg"
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -21,7 +22,7 @@ export default function AutoSlider() {
 			t1: 'High quality, reliable,',
 			t2: ' and backed up by a ',
 			t3: 'dependable service network.',
-			img: 'https://dummyimage.com/16:9x1080/'
+			img: slideone
 		},
 		{
 			id: 2,
@@ -29,7 +30,7 @@ export default function AutoSlider() {
 			t1: 'Optimizing deliveries  ',
 			t2: ' with data visibility ',
 			t3: '  and Workforce Automation',
-			img: 'https://dummyimage.com/16:9x1080/'
+			img: slidetwo
 		}
 	];
 	return (

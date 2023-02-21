@@ -6,7 +6,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import validator from "validator";
 import { FaMapPin } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
+// import { MdEmail } from "react-icons/md";
 import { BiMobile } from "react-icons/bi";
 import { HiPhone } from "react-icons/hi";
 import { BiCopyright } from "react-icons/bi";
@@ -23,10 +23,10 @@ function Enquiry() {
 
     emailjs
       .sendForm(
-        "service_wq93jzm",
-        "template_l0phhfd",
+        "service_uz6b2zd",
+        "template_n9m13uh",
         form.current,
-        "xycgfKYDGSu6Hiyo4"
+        "OfPD9OpD-iuo1oAyN"
       )
       .then(
         (result) => {
@@ -126,7 +126,7 @@ function Enquiry() {
             <button
               type="submit"
               disabled={pending ? true : false}
-              className=" bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 shadow-lg shadow-green-500/50 dark:shadow-lg dark:shadow-green-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 text-black"
+              className=" bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 text-black"
             >
               {pending ? "Loading.." : "Send Message"}
             </button>
@@ -143,7 +143,9 @@ function Enquiry() {
           {/* address */}
           <div className="flex flex-col items-center">
             <h1 className="uppercase font-bold text-lg">Address</h1>
-            <h2 className="uppercase font-semibold mt-4 mb-2">(registered office)</h2>
+            <h2 className="uppercase font-semibold mt-4 mb-2">
+              (registered office)
+            </h2>
             <div className="flex flex-col gap-5">
               <a href="/">
                 <div className="flex flex-row gap-6">
@@ -164,9 +166,7 @@ function Enquiry() {
 
               <a
                 href="https://www.google.com/maps/dir/12.8845097,77.6035522/Nextep+Engineering+Pvt+Ltd,+207%2F2,+Bommasandra+Lake+Rd,+Tranquil+City,+Bommasandra+Village,+Bommasandra,+Karnataka+560099/@12.8514323,77.5714167,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bae6d992e923ab3:0x7305a5b4fbd07601!2m2!1d77.6983561!2d12.8137019"
-                target="_blank"
-                target="_blank"
-              >
+                              >
                 <div className="flex flex-row gap-6">
                   <FaMapPin className="text-red-500 mt-8 text-xl" />
                   <span className="flex flex-col">
@@ -180,21 +180,11 @@ function Enquiry() {
                   </span>
                 </div>
               </a>
-              <div className="flex flex-row gap-6">
-                <MdEmail className="text-red-500 mt-1 text-xl" />
-                <span className="flex sm:flex-row flex-col font-semibold">
-                  <a href="mailto:info@nextepind.com" target="_blank">
-                    info@nextepind.com /{" "}
-                  </a>
-                  <a href="mailto:sales@nextepind.com" target="_blank">
-                    sales@nextepind.com
-                  </a>
-                </span>
-              </div>
+
               <div className="flex flex-row gap-6">
                 <BiMobile className="text-red-500 mt-1 text-xl" />
                 +91
-                <span className="flex flex-row font-semibold">
+                <span className="flex sm:flex-row flex-col font-semibold">
                   <a href="tel:08884440909">88844 40909 / </a>
                   <a href="tel:09980063407">99800 63407</a>
                 </span>
@@ -224,28 +214,30 @@ function Enquiry() {
                 url="https://www.linkedin.com/in/praveenputtappa/"
                 fgColor=""
                 bgColor=""
-                className="rounded-xl text-blue-900"
                 target="_blank"
               />
               <SocialIcon
                 url="https://www.instagram.com/"
                 fgColor=""
                 bgColor=""
-                className="rounded-xl text-pink-500"
                 target="_blank"
               />
               <SocialIcon
-                url="https://twitter.com/"
+                url="https://twitter.com/NextepLtd?t=KDwflkIdl6TkiFFnQi3Q4Q&s=09"
                 fgColor=""
                 bgColor=""
-                className="rounded-xl text-blue-300"
                 target="_blank"
               />
               <SocialIcon
-                url="https://www.youtube.com/"
+                url="https://www.youtube.com/channel/UCJDtzqempyxO1m-zBfqfp7w"
                 fgColor=""
                 bgColor=""
-                className="rounded-xl text-red-600"
+                target="_blank"
+              />
+              <SocialIcon
+                url="https://www.facebook.com/"
+                fgColor=""
+                bgColor=""
                 target="_blank"
               />
             </div>
@@ -254,7 +246,9 @@ function Enquiry() {
       </div>
       <div className=" flex items-center justify-center bg-gray-900 py-5">
         <BiCopyright className="text-green-600" />
-        <p className="text-gray-400 sm:text-lg text-sm">All Right Reserved @2023. Nextep Engineering Private Limited.</p>
+        <p className="text-gray-400 sm:text-lg text-[10px]">
+          All Right Reserved @2023. Nextep Engineering Private Limited.
+        </p>
       </div>
     </>
   );
