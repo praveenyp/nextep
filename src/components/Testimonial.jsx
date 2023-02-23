@@ -43,10 +43,11 @@ function Testimonial() {
           </span>
           <div className="flex items-center justify-center">
             <span className="flex flex-row gap-2 sm:text-sm text-[13px] text-cyan-800 skew-x-6">
-            <span className="flex flex-col justify-center items-center">
+              <span className="flex flex-col justify-center items-center">
                 <p>person name</p>
                 <p>CEO</p>
-              </span>|<p>company</p>
+              </span>
+              |<p>company</p>
             </span>
           </div>
         </div>
@@ -63,10 +64,11 @@ function Testimonial() {
           </span>
           <div className="flex items-center justify-center">
             <span className="flex flex-row gap-2 sm:text-sm text-[13px] text-cyan-800 skew-x-6">
-            <span className="flex flex-col justify-center items-center">
+              <span className="flex flex-col justify-center items-center">
                 <p>person name</p>
                 <p>CEO</p>
-              </span>|<p>company</p>
+              </span>
+              |<p>company</p>
             </span>
           </div>
         </div>
@@ -83,10 +85,11 @@ function Testimonial() {
           </span>
           <div className="flex items-center justify-center">
             <span className="flex flex-row gap-2 sm:text-sm text-[13px] text-cyan-800 skew-x-6">
-            <span className="flex flex-col justify-center items-center">
+              <span className="flex flex-col justify-center items-center">
                 <p>person name</p>
                 <p>CEO</p>
-              </span>|<p>company</p>
+              </span>
+              |<p>company</p>
             </span>
           </div>
         </div>
