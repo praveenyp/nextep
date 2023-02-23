@@ -29,10 +29,10 @@ function AboutUs() {
               viewport={{ once: true }}
               src={abtone}
               alt=""
-              className="h-[90%] w-[90%] mt-10 rounded-3xl"
+              className="h-[80%] w-[90%] mt-28 rounded-3xl "
             />
           </div>
-          <div className="w-[100%] sm:pt-24 pt-3">
+          <div className="w-[100%] sm:pt-28 pt-3">
             <div className="flex justify-start uppercase font-semibold text-lg text-gray-100">
               <h5>About Us</h5>
             </div>
@@ -45,7 +45,7 @@ function AboutUs() {
                 transition={{ duration: 2 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                className="sm:text-lg text-lg font-semibold sm:pr-10 pr-0 sm:ml-5 ml-0 text-gray-500"
+                className="sm:text-lg text-sm font-semibold sm:pr-10 pr-0 sm:ml-5 ml-0 text-gray-500 sm:text-start text-center"
               >
                 Nextep is one of the leading players in the Indian Label
                 manufacturing industry. We are a “design-to-delivery” Labeling
@@ -62,7 +62,7 @@ function AboutUs() {
                 transition={{ duration: 2.3 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                className=" sm:text-lg text-md font-semibold sm:pt-5 pt-1 text-gray-500 items-center justify-center sm:pr-10 pr-0 sm:m-5 m-0"
+                className=" sm:text-lg text-sm font-semibold sm:pt-5 pt-1 text-gray-500 items-center justify-center sm:text-start text-center sm:pr-10 pr-0 sm:m-5 m-0"
               >
                 Our product offerings blank labels, pre-printed labels, domes,
                 overlays, aluminum name plates etc., <br />
@@ -78,7 +78,7 @@ function AboutUs() {
                 transition={{ duration: 2.5 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                className=" sm:text-lg text-sm font-semibold sm:pt-5 pt-1 text-gray-500 items-center justify-center sm:pr-10 pr-0 sm:m-5 m-0"
+                className=" sm:text-lg text-sm font-semibold sm:pt-5 pt-1 text-gray-500 items-center justify-center sm:text-start text-center sm:pr-10 pr-0 sm:m-5 m-0"
               >
                 We differentiate ourselves on the basis of the wide range of our
                 product portfolio, quality of our product offerings, our product
@@ -153,7 +153,7 @@ function AboutUs() {
           </h1>
         </div>
         <div className="flex sm:flex-row flex-col items-center justify-evenly">
-          <div className="flex flex-col items-center  sm:justify-center w-[50%]">
+          <div className="flex flex-col items-center justify-center sm:text-start text-center sm:w-[50%] w-[80%]">
             <motion.h2
               initial={{
                 y: 100,
@@ -213,7 +213,7 @@ function AboutUs() {
               className="sm:h-[350px] h-[200px] sm:w-[500px] w-[280px] rounded-2xl"
             />
           </div>
-          <div className="flex flex-col items-center justify-center w-[50%]">
+          <div className="flex flex-col items-center justify-center sm:text-start text-center sm:w-[50%] w-[80%]">
             <motion.h2
               initial={{
                 y: -100,

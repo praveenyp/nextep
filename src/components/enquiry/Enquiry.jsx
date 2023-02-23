@@ -14,6 +14,8 @@ import { BiCopyright } from "react-icons/bi";
 function Enquiry() {
   const [pending, setPending] = useState(false);
   const [emailError, setEmailError] = useState("");
+  const [numberError, setNumberError] = useState("");
+  const [nameError, setNameError] = useState("");
 
   const form = useRef();
 
@@ -59,6 +61,23 @@ function Enquiry() {
     }
   };
 
+  const validateNumber = (e) => {
+    var number = e.target.value;
+    if (validator.isNumeric(number)) {
+      setNumberError("");
+    } else {
+      setNumberError("Enter Valid Number!");
+    }
+  };
+  const validateName = (e) => {
+    var name = e.target.value;
+    if (validator.isAlpha(name)) {
+      setNameError("");
+    } else {
+      setNameError("Enter Valid Name!");
+    }
+  };
+
   return (
     <>
       <div
@@ -74,13 +93,19 @@ function Enquiry() {
           className="flex flex-col items-center justify-center"
         >
           <div className="sm:my-6 my-3 flex sm:flex-row flex-col items-center justify-center">
-            <input
-              name="name"
-              required
-              type="text"
-              placeholder="name"
-              className="contactInput sm:mr-3 mr-0  sm:w-[500px] w-[100%] sm:my-0 my-3"
-            />
+            <span className="gap-20">
+              <input
+                name="name"
+                onChange={(e) => validateName(e)}
+                required
+                type="text"
+                placeholder="name"
+                className="contactInput sm:mr-3 mr-0  sm:w-[500px] w-[100%] sm:my-0 my-3"
+              />
+              <div style={{ fontweight: "bold", color: "red", gap: "20px" }}>
+                {nameError}
+              </div>
+            </span>
             <span className="gap-20">
               <input
                 id="userEmail"
@@ -97,9 +122,12 @@ function Enquiry() {
             </span>
           </div>
           <div className="sm:my-3 my-0 flex sm:flex-row flex-col items-center justify-center">
-            <span>
+            <span className="gap-20">
               <input
                 id="number"
+                onChange={(e) => {
+                  validateNumber(e);
+                }}
                 name="number"
                 required
                 type="tel"
@@ -107,6 +135,9 @@ function Enquiry() {
                 disabled=""
                 className="contactInput sm:mr-3 mr-0 sm:w-[500px] w-[100%] sm:my-0 my-2"
               />
+              <div style={{ fontweight: "bold", color: "red", gap: "20px" }}>
+                {numberError}
+              </div>
             </span>
             <input
               required
@@ -164,9 +195,7 @@ function Enquiry() {
                 (factory)
               </h2>
 
-              <a
-                href="https://www.google.com/maps/dir/12.8845097,77.6035522/Nextep+Engineering+Pvt+Ltd,+207%2F2,+Bommasandra+Lake+Rd,+Tranquil+City,+Bommasandra+Village,+Bommasandra,+Karnataka+560099/@12.8514323,77.5714167,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bae6d992e923ab3:0x7305a5b4fbd07601!2m2!1d77.6983561!2d12.8137019"
-                              >
+              <a href="https://www.google.com/maps/dir/12.8845097,77.6035522/Nextep+Engineering+Pvt+Ltd,+207%2F2,+Bommasandra+Lake+Rd,+Tranquil+City,+Bommasandra+Village,+Bommasandra,+Karnataka+560099/@12.8514323,77.5714167,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bae6d992e923ab3:0x7305a5b4fbd07601!2m2!1d77.6983561!2d12.8137019">
                 <div className="flex flex-row gap-6">
                   <FaMapPin className="text-red-500 mt-8 text-xl" />
                   <span className="flex flex-col">
