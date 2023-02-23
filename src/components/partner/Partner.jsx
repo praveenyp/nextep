@@ -15,7 +15,7 @@ function Partner() {
           <h1 className="sm:text-6xl text-2xl text-red-800 font-bold mt-8">
             Our trusted partners
           </h1>
-          <p className="sm:text-lg text-md text-center mt-8 text-gray-500 font-medium sm:mx-0 mx-10">
+          <p className="sm:text-lg text-md text-center mt-8 text-gray-700 font-medium sm:mx-0 mx-10">
             We just got featured in the following companies and its has been the
             most incredible journey. We work with the best companies across the
             world
