@@ -7,7 +7,7 @@ import four from "./assets/pri4.webp"
 function Printer() {
   return (
     <>
-      <div className="sm:h-screen h-full bg-gradient-to-r from-blue-200 to-red-50 dark:text-gray-300" id="printer">
+      <div className="sm:h-screen h-full bg-gradient-to-r from-blue-100 to-red-50 dark:text-gray-300" id="printer">
         <div className="flex items-center justify-center">
           <h1 className="sm:text-6xl text-3xl sm:my-6 my-2 font-semibold text-red-800">
             Printers

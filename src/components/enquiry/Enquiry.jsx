@@ -168,7 +168,7 @@ function Enquiry() {
 
       {/* footer */}
 
-      <div className="text-gray-500 bg-black">
+      <div className="text-gray-500 bg-slate-900">
         <hr />
         <div className="flex sm:flex-row flex-col justify-between sm:mx-[100px] mx-10 py-10  ">
           {/* address */}
@@ -240,13 +240,13 @@ function Enquiry() {
             <h1 className="uppercase font-bold text-lg">follow us on</h1>
             <div className="flex sm:flex-col flex-row gap-3 mt-4">
               <SocialIcon
-                url="https://www.linkedin.com/in/praveenputtappa/"
+                url="https://www.linkedin.com/company/nextep-engineering-pvt-ltd/"
                 fgColor=""
                 bgColor=""
                 target="_blank"
               />
               <SocialIcon
-                url="https://www.instagram.com/"
+                url="https://www.instagram.com/nextep_engineering_pvt_ltd/"
                 fgColor=""
                 bgColor=""
                 target="_blank"
@@ -264,7 +264,7 @@ function Enquiry() {
                 target="_blank"
               />
               <SocialIcon
-                url="https://www.facebook.com/"
+                url="https://www.facebook.com/nextepind?mibextid=ZbWKwL"
                 fgColor=""
                 bgColor=""
                 target="_blank"
@@ -273,7 +273,7 @@ function Enquiry() {
           </div>
         </div>
       </div>
-      <div className=" flex items-center justify-center bg-gray-900 py-5">
+      <div className=" flex items-center justify-center bg-black py-5">
         <BiCopyright className="text-green-600" />
         <p className="text-gray-400 sm:text-lg text-[10px]">
           All Right Reserved @2023. Nextep Engineering Private Limited.

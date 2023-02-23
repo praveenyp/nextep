@@ -10,7 +10,7 @@ import urovo from "./urovo.png";
 function Partner() {
   return (
     <>
-      <div className="h-full bg-gradient-to-r from-blue-200 to-red-50">
+      <div className="h-full bg-gradient-to-r from-blue-400 to-red-200">
         <div className="flex flex-col items-center justify-center">
           <h1 className="sm:text-6xl text-2xl text-red-800 font-bold mt-8">
             Our trusted partners
@@ -23,14 +23,14 @@ function Partner() {
         </div>
 
         <div className="flex flex-wrap  sm:justify-center justify-center items-center gap-28 mt-10 pb-8">
-          <img className="h-20 w-56" src={threem} alt="3m" />
-          <img className="h-20 w-56" src={ad} alt="avery dennison" />
-          <img className="h-20 w-56" src={zebra} alt="zebra" />
-          <img className="h-20 w-56" src={impinj} alt="impinj" />
-          <img className="h-20 w-56" src={tsc} alt="tcs" />
-          <img className="h-20 w-56" src={sato} alt="sato" />
-          <img className="h-20 w-56" src={honeywell} alt="honeywell" />
-          <img className="h-20 w-56" src={urovo} alt="urovo" />
+          <img className="sm:h-20 h-10 sm:w-56 w-32" src={threem} alt="3m" />
+          <img className="sm:h-20 h-10 sm:w-56 w-32" src={ad} alt="avery dennison" />
+          <img className="sm:h-20 h-10 sm:w-56 w-32" src={zebra} alt="zebra" />
+          <img className="sm:h-20 h-10 sm:w-56 w-32" src={impinj} alt="impinj" />
+          <img className="sm:h-20 h-10 sm:w-56 w-32" src={tsc} alt="tcs" />
+          <img className="sm:h-20 h-10 sm:w-56 w-32" src={sato} alt="sato" />
+          <img className="sm:h-20 h-10 sm:w-56 w-32" src={honeywell} alt="honeywell" />
+          <img className="sm:h-20 h-10 sm:w-56 w-32" src={urovo} alt="urovo" />
         </div>
       </div>
     </>

@@ -11,7 +11,7 @@ function Rfid() {
     <>
       <div
         id="rfid"
-        className="sm:h-screen h-full bg-gradient-to-r from-blue-200 to-red-50 dark:text-gray-300"
+        className="sm:h-screen h-full bg-gradient-to-r from-blue-100 to-red-50 dark:text-gray-300"
       >
         <div className="flex items-center justify-center">
           <h1 className="sm:text-6xl text-3xl sm:my-6 my-2 font-semibold text-red-800">
