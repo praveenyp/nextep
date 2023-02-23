@@ -82,9 +82,9 @@ function Enquiry() {
     <>
       <div
         id="enquiry"
-        className="h-full bg-black  text-gray-300 flex flex-col justify-center items-center"
+        className="h-full bg-gradient-to-r from-blue-300 to-blue-300  text-gray-300 flex flex-col justify-center items-center"
       >
-        <h1 className="flex justify-center items-center sm:text-6xl text-3xl sm:mb-24 mb-0 font-bold  sm:mt-20 mt-10">
+        <h1 className="flex justify-center items-center sm:text-6xl text-3xl sm:mb-24 mb-0 font-bold  sm:mt-20 mt-10 text-black">
           Get In Touch With Us
         </h1>
         <form

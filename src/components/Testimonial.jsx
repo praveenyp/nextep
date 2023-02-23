@@ -3,8 +3,8 @@ import { RiDoubleQuotesL, RiDoubleQuotesR } from "react-icons/ri";
 
 function Testimonial() {
   return (
-    <div className="bg-gradient-to-r from-gray-900 to-gray-800">
-      <h1 className="sm:text-6xl text-3xl sm:py-10 py-2  text-slate-400 flex justify-center pt-10">
+    <div className="bg-gradient-to-r from-blue-200 to-red-50">
+      <h1 className="sm:text-6xl text-3xl sm:py-10 py-2  text-red-600 flex justify-center pt-10">
         What People Says!
       </h1>
 

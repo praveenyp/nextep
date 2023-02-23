@@ -11,7 +11,7 @@ import abtseven from "../assets/abt7.avif"
 function AboutUs() {
   return (
     <>
-      <div className=" pt-4 bg-gradient-to-r from-gray-800 to-gray-900">
+      <div className=" pt-4 bg-gradient-to-r from-blue-200 to-red-50">
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -33,7 +33,7 @@ function AboutUs() {
             />
           </div>
           <div className="w-[100%] sm:pt-28 pt-3">
-            <div className="flex justify-start uppercase font-semibold text-lg text-gray-100">
+            <div className="flex justify-start uppercase font-semibold text-lg text-red-800">
               <h5>About Us</h5>
             </div>
             <div className="m-3">
@@ -45,7 +45,7 @@ function AboutUs() {
                 transition={{ duration: 2 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                className="sm:text-lg text-sm font-semibold sm:pr-10 pr-0 sm:ml-5 ml-0 text-gray-500 sm:text-start text-center"
+                className="sm:text-lg text-sm font-medium sm:pr-10 pr-0 sm:ml-5 ml-0 text-gray-500 sm:text-start text-center"
               >
                 Nextep is one of the leading players in the Indian Label
                 manufacturing industry. We are a “design-to-delivery” Labeling
@@ -62,7 +62,7 @@ function AboutUs() {
                 transition={{ duration: 2.3 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                className=" sm:text-lg text-sm font-semibold sm:pt-5 pt-1 text-gray-500 items-center justify-center sm:text-start text-center sm:pr-10 pr-0 sm:m-5 m-0"
+                className=" sm:text-lg text-sm font-medium sm:pt-5 pt-1 text-gray-500 items-center justify-center sm:text-start text-center sm:pr-10 pr-0 sm:m-5 m-0"
               >
                 Our product offerings blank labels, pre-printed labels, domes,
                 overlays, aluminum name plates etc., <br />
@@ -78,7 +78,7 @@ function AboutUs() {
                 transition={{ duration: 2.5 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                className=" sm:text-lg text-sm font-semibold sm:pt-5 pt-1 text-gray-500 items-center justify-center sm:text-start text-center sm:pr-10 pr-0 sm:m-5 m-0"
+                className=" sm:text-lg text-sm font-medium sm:pt-5 pt-1 text-gray-500 items-center justify-center sm:text-start text-center sm:pr-10 pr-0 sm:m-5 m-0"
               >
                 We differentiate ourselves on the basis of the wide range of our
                 product portfolio, quality of our product offerings, our product
@@ -145,10 +145,10 @@ function AboutUs() {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1.5 }}
-        className="h-full bg-gradient-to-r from-gray-900 to-gray-800"
+        className="h-full bg-gradient-to-r from-blue-200 to-red-50"
       >
-        <div className="flex items-center justify-center ">
-          <h1 className="sm:text-9xl text-5xl sm:font-extrabold font-bold opacity-5 text-green-400">
+        <div className="flex items-center justify-center">
+          <h1 className="sm:text-9xl text-5xl sm:font-extrabold font-bold opacity-5 text-cyan-900">
             NEXTEP
           </h1>
         </div>
@@ -162,7 +162,7 @@ function AboutUs() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="font-bold sm:text-5xl text-2xl sm:mb-5 mb-1 text-gray-200"
+              className="font-bold sm:text-5xl text-2xl sm:mb-5 mb-1 text-red-800"
             >
               Vision
             </motion.h2>
@@ -174,7 +174,7 @@ function AboutUs() {
               transition={{ duration: 1.5 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="text-gray-500 font-san sm:text-lg text-md sm:font-semibold font-semibold"
+              className="text-gray-500 font-san sm:text-lg text-md sm:font-medium font-medium"
             >
               Our Vision is aim to be a market leader in design & manufacture of
               self-adhesive labels for engineering & industrial applications.
@@ -222,7 +222,7 @@ function AboutUs() {
               transition={{ duration: 1.5 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="font-bold sm:text-5xl text-2xl sm:mb-5 mb-1 text-gray-200"
+              className="font-bold sm:text-5xl text-2xl sm:mb-5 mb-1 text-red-800"
             >
               Mission
             </motion.h2>
@@ -234,7 +234,7 @@ function AboutUs() {
               transition={{ duration: 1.5 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className=" text-gray-500 font-san sm:text-lg text-md sm:font-semibold font-semibold"
+              className=" text-gray-500 font-san sm:text-lg text-md font-medium"
             >
               To deliver desire. To play with colors, materials, textures and
               most of all, possibilities. To make things that are visually
@@ -247,7 +247,7 @@ function AboutUs() {
         </div>
       </div>
 
-      <div className=" h-full flex sm:flex-row flex-col items-center justify-evenly  bg-gradient-to-r from-gray-800 to-gray-900 mt-0">
+      <div className=" h-full flex sm:flex-row flex-col items-center justify-evenly  bg-gradient-to-r from-blue-200 to-red-50 mt-0">
         <div className="sm:w-[30%] w-[80%] sm:ml-32 ml-0">
           <img
             src={abtseven}
@@ -256,15 +256,15 @@ function AboutUs() {
           />
         </div>
         <div className="w-[70%] sm:mr-32 mr-0">
-          <div className="flex justify-start uppercase font-semibold text-lg text-white">
+          <div className="flex justify-start uppercase font-semibold text-lg text-red-800">
             <h3>who we are</h3>
           </div>
           <div>
-            <h1 className="sm:text-2xl text-lg font-bold sm:pr-10 pr-0 sm:ml-5 ml-0 mt-3 text-gray-700">
+            <h1 className="sm:text-2xl text-lg font-bold sm:pr-10 pr-0 sm:ml-5 ml-0 mt-3 text-cyan-100">
               Right Partner Right Product.
             </h1>
 
-            <p className="sm:text-lg text-sm font-semibold  text-gray-500 items-center justify-center sm:pr-10 pr-0 sm:m-5 m-1">
+            <p className="sm:text-lg text-sm font-medium  text-gray-500 items-center justify-center sm:pr-10 pr-0 sm:m-5 m-1">
               Nextep Engineering Pvt Ltd was established in the year 2015 as
               manufacturer of specialty labels and printed electronics products
               specific to the electronics, electrical and automobile industries.
@@ -272,8 +272,8 @@ function AboutUs() {
               array of products providing customers with superior solutions to
               their requirements.
             </p>
-              <h1 className="text-xl font-semibold text-white mb-4">Our products Portfolio Includes</h1>
-            <div className="flex sm:flex-row flex-col sm:gap-[200px] gap-0 items-center justify-center font-semibold text-gray-500 sm:text-lg text-sm">
+              <h1 className="text-xl font-semibold text-red-600 mb-4">Our products Portfolio Includes</h1>
+            <div className="flex sm:flex-row flex-col sm:gap-[200px] gap-0 items-center justify-center font-medium text-gray-500 sm:text-lg text-sm">
               <ul className="list-disc">
                 <li>Graphic Fascia and panels</li>
                 <li>Membrane overlays</li>

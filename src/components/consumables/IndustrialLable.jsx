@@ -37,17 +37,17 @@ function IndustrialLable() {
   return (
     <>
       <div
-        className="h-full bg-gradient-to-r from-gray-900 to-gray-700 dark:text-gray-300"
+        className="h-full bg-gradient-to-r from-blue-200 to-red-50 dark:text-gray-300"
         id="industrial"
       >
         <div className="flex items-center justify-center">
-          <h1 className="mt-4 sm:text-6xl text-3xl sm:my-6 my-2 font-semibold text-gray-200 ">
+          <h1 className="mt-4 sm:text-6xl text-3xl sm:my-6 my-2 font-semibold text-red-800 ">
             Industrial Labels
           </h1>
         </div>
         <div className="flex items-center justify-center flex-col">
           <div className="flex flex-col items-center justify-center">
-            <h4 className="text-2xl bg-cyan-900 p-2 rounded-lg my-2">
+            <h4 className="text-2xl bg-cyan-500 p-2 rounded-lg my-2">
               Automotive Labels
             </h4>
             <div className="flex sm:flex-row flex-col gap-10">
@@ -70,7 +70,7 @@ function IndustrialLable() {
             </div>
           </div>
           <div className="flex flex-col items-center justify-center">
-            <h4 className="text-2xl bg-cyan-900 p-2 rounded-lg my-2">
+            <h4 className="text-2xl bg-cyan-500 p-2 rounded-lg my-2">
               Barcode Labels
             </h4>
             <div className="flex sm:flex-row flex-col gap-10">
@@ -80,7 +80,7 @@ function IndustrialLable() {
                   alt=""
                   className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
                 />
-                <h2 className="mt-2">Water proof</h2>
+                <h2 className="mt-2 text-black">Water proof</h2>
               </div>
               <div className="flex flex-col items-center justify-center">
                 <img
@@ -88,7 +88,7 @@ function IndustrialLable() {
                   alt=""
                   className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
                 />
-                <h2 className="mt-2">Oil proof</h2>
+                <h2 className="mt-2 text-black">Oil proof</h2>
               </div>
               <div className="flex flex-col items-center justify-center">
                 <img
@@ -96,15 +96,15 @@ function IndustrialLable() {
                   alt=""
                   className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
                 />
-                <h2 className="mt-2">Scratch proof</h2>
+                <h2 className="mt-2 text-black">Scratch proof</h2>
               </div>
             </div>
           </div>
           <div className="flex flex-col items-center justify-center">
-            <h4 className="text-2xl bg-cyan-900 p-2 rounded-lg my-2">
+            <h4 className="text-2xl bg-cyan-500 p-2 rounded-lg my-2">
               Electronics & Appliances
             </h4>
-            <p className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 text-gray-400">
+            <p className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 text-gray-600">
               Polyamide, High performance Polyester, ESD labels
             </p>
             <div className="flex sm:flex-row flex-col gap-10">
@@ -126,10 +126,10 @@ function IndustrialLable() {
             </div>
           </div>
           <div className="flex flex-col items-center justify-center">
-            <h4 className="text-2xl bg-cyan-900 p-2 rounded-lg my-2">
+            <h4 className="text-2xl bg-cyan-500 p-2 rounded-lg my-2">
               Wire And Cable
             </h4>
-            <p className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 text-gray-400">
+            <p className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 text-gray-600">
               Sleeves, Self-laminating, Wrap around and Flag Label
             </p>
             <div className="flex sm:flex-row flex-col gap-10">
@@ -151,10 +151,10 @@ function IndustrialLable() {
             </div>
           </div>
           <div className="flex flex-col items-center justify-center">
-            <h4 className="text-2xl bg-cyan-900 p-2 rounded-lg my-2">
+            <h4 className="text-2xl bg-cyan-500 p-2 rounded-lg my-2">
               Food and Beverages
             </h4>
-            <p className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 text-gray-400">
+            <p className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 text-gray-600">
               Pre-printed multicolor labels, low temperature resistant, Label
               for frozen food, FSSAI and FDA Complaint.
             </p>
@@ -177,10 +177,10 @@ function IndustrialLable() {
             </div>
           </div>
           <div className="flex flex-col items-center justify-center">
-            <h4 className="text-2xl bg-cyan-900 p-2 rounded-lg my-2">
+            <h4 className="text-2xl bg-cyan-500 p-2 rounded-lg my-2">
               Laboratory and Pharma
             </h4>
-            <p className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 text-gray-400">
+            <p className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 text-gray-600">
               Brand protection labels, cold chain + cryogenic label, Intelligent
               RFID labels, syringe and blood bag labels.
             </p>
@@ -208,10 +208,10 @@ function IndustrialLable() {
             </div>
           </div>
           <div className="flex flex-col items-center justify-center">
-            <h4 className="text-2xl bg-cyan-900 p-2 rounded-lg my-2">
+            <h4 className="text-2xl bg-cyan-500 p-2 rounded-lg my-2">
               Chemical and Fertilizers
             </h4>
-            <p className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 text-gray-400">
+            <p className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 text-gray-600">
               Chemical and Oil tolerant Label
             </p>
             <div className="flex sm:flex-row flex-col gap-10">
@@ -233,10 +233,10 @@ function IndustrialLable() {
             </div>
           </div>
           <div className="flex flex-col items-center justify-center">
-            <h4 className="text-2xl bg-cyan-900 p-2 rounded-lg my-2">
-              Labels by property and Custom Labels
+            <h4 className="text-2xl bg-cyan-500 p-2 rounded-lg my-2">
+              Labels by property <br/>and Custom Labels
             </h4>
-            <p className="items-center justify-center sm:text-lg text-sm text-center font-medium mb-8 text-gray-400">
+            <p className="items-center justify-center sm:text-lg text-sm text-center font-medium mb-8 text-gray-600">
               Body Graphics, Decals, Interior Trims, Name Plates & Logos, High
               Temperature Labels, Asset Tracking Labels and PVC Sun visors
             </p>
@@ -259,10 +259,10 @@ function IndustrialLable() {
             </div>
           </div>
           <div className="flex flex-col items-center justify-center">
-            <h4 className="text-2xl bg-cyan-900 p-2 rounded-lg my-2">
+            <h4 className="text-2xl bg-cyan-500 p-2 rounded-lg my-2">
               Electrical and Electronics
             </h4>
-            <p className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 mb-8 text-gray-400">
+            <p className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 mb-8 text-gray-600">
               Tamper evident products, Display articles, Name Plates, EL
               products, Laser marked Solutions and Asset tracking Labels.
             </p>
@@ -286,10 +286,10 @@ function IndustrialLable() {
           </div>
 
           <div className="flex flex-col items-center justify-center">
-            <h4 className="text-2xl bg-cyan-900 p-2 rounded-lg my-2">
+            <h4 className="text-2xl bg-cyan-500 p-2 rounded-lg my-2">
               Name Plates
             </h4>
-            <p className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 mb-8 text-gray-400">
+            <p className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 mb-8 text-gray-600">
               Aluminum Name Plates, Stainless Steel, Laser Etching and Laser
               Engraving.
             </p>
@@ -313,10 +313,10 @@ function IndustrialLable() {
           </div>
 
           <div className="flex flex-col items-center justify-center">
-            <h4 className="text-2xl bg-cyan-900 p-2 rounded-lg my-2">
+            <h4 className="text-2xl bg-cyan-500 p-2 rounded-lg my-2">
               PU Dome
             </h4>
-            <p className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 mb-8 text-gray-400"></p>
+            <p className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 mb-8 text-gray-600"></p>
             <div className="flex sm:flex-row flex-col gap-10 items-center justify-center">
               <img
                 src={thirttwo}

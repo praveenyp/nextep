@@ -6,7 +6,7 @@ import Enquiry from "../components/enquiry/Enquiry";
 import Navbar from "../components/Navbar";
 import Partner from "../components/partner/Partner";
 import ScrollButton from "../components/ScrollButton";
-import Testimonial from "../components/Testimonial";
+// import Testimonial from "../components/Testimonial";
 
 const Home = () => {
   return (
@@ -15,7 +15,7 @@ const Home = () => {
       <Navbar />
       <AutoSlider />
       <AboutUs />
-      <Testimonial />
+      {/* <Testimonial /> */}
       <Partner />
       <Enquiry />
     </div>

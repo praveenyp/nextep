@@ -20,10 +20,10 @@ function Rfidtags() {
     <>
       <div
         id="rfidtags"
-        className="h-full bg-gradient-to-r from-gray-900 to-gray-700 dark:text-gray-300"
+        className="h-full bg-gradient-to-r from-blue-200 to-red-50 dark:text-gray-300"
       >
         <div className="flex flex-col items-center justify-center">
-          <h1 className="mt-4 sm:text-6xl text-3xl sm:my-6 my-2 font-semibold text-gray-200">
+          <h1 className="mt-4 sm:text-6xl text-3xl sm:my-6 my-2 font-semibold text-red-800">
             RFID Tags
           </h1>
           <motion.p
@@ -34,7 +34,7 @@ function Rfidtags() {
             transition={{ duration: 2 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 sm:mx-36 mx-10 text-gray-400"
+            className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 sm:mx-36 mx-10 text-gray-600"
           >
             Nextep provides a comprehensive range of RFID Tag Labels that can be
             used for a variety of applications across manufacturing,
@@ -50,7 +50,7 @@ function Rfidtags() {
             transition={{ duration: 2.2 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 sm:mx-36 mx-10 text-gray-400"
+            className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 sm:mx-36 mx-10 text-gray-600"
           >
             Selecting the right RFID labels for your application can be
             complicated. Nextep’s technical experts will advise you on the best
@@ -72,10 +72,10 @@ function Rfidtags() {
               className="flex flex-col items-center justify-center sm:mr-[0] mr-0 sm:ml-0 ml-0 w-[100%]"
             >
               <div className="mb-3 flex flex-col items-center justify-center sm:mx-36 mx-12 sm:mt-0 mt-4">
-                <h5 className="sm:text-2xl text-md  font-semibold text-gray-300">
+                <h5 className="sm:text-2xl text-md  font-semibold text-red-600">
                   General Purpose
                 </h5>
-                <p className="sm:text-lg text-sm font-semibold text-center mt-3 text-gray-400">
+                <p className="sm:text-lg text-sm font-semibold text-center mt-3 text-gray-800">
                   These labels are designed for use with standard RFID readers
                   and are stocked in a variety of inlay types and sizes. They
                   are available in paper and synthetic materials that work on
@@ -83,7 +83,7 @@ function Rfidtags() {
                 </p>
               </div>
               <div className="mx-12">
-                <ol className="space-y-4 sm:text-lg text-sm list-disc list-inside text-gray-400  items-center justify-center text-start mt-3">
+                <ol className="space-y-4 sm:text-lg text-sm list-disc list-inside text-gray-600  items-center justify-center text-start mt-3">
                   <li>
                     Transportation and Logistics Distribution, shipping and
                     receiving and warehouse operations including case, pallet
@@ -100,7 +100,7 @@ function Rfidtags() {
                 </ol>
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h1 className="sm:text-2xl text-md bg-cyan-900 p-2 rounded-lg my-2">
+                <h1 className="sm:text-2xl text-md bg-cyan-500 p-2 rounded-lg my-2">
                   UHF On Metal Label
                 </h1>
                 <div className="flex sm:flex-row flex-col gap-10 sm:w-[100%] w-[80%]">
@@ -122,7 +122,7 @@ function Rfidtags() {
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h1 className="sm:text-2xl text-md bg-cyan-900 p-2 rounded-lg my-2">
+                <h1 className="sm:text-2xl text-md bg-cyan-500 p-2 rounded-lg my-2">
                   UHF On Metal Tag
                 </h1>
                 <div className="flex sm:flex-row flex-col gap-10 sm:w-[100%] w-[80%]">
@@ -144,7 +144,7 @@ function Rfidtags() {
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h1 className="sm:text-2xl text-md bg-cyan-900 p-2 rounded-lg my-2">
+                <h1 className="sm:text-2xl text-md bg-cyan-500 p-2 rounded-lg my-2">
                   Vehicle Tyre Tag
                 </h1>
                 <div className="flex sm:flex-row flex-col gap-10 sm:w-[100%] w-[80%]">
@@ -166,7 +166,7 @@ function Rfidtags() {
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h1 className="sm:text-2xl text-md bg-cyan-900 p-2 rounded-lg my-2">
+                <h1 className="sm:text-2xl text-md bg-cyan-500 p-2 rounded-lg my-2">
                   Laundry Tags
                 </h1>
                 <div className="flex sm:flex-row flex-col gap-10 sm:w-[100%] w-[80%]">
@@ -189,7 +189,7 @@ function Rfidtags() {
               </div>
 
               <div className="flex flex-col items-center justify-center">
-                <h1 className="sm:text-2xl text-md bg-cyan-900 p-2 rounded-lg my-2">
+                <h1 className="sm:text-2xl text-md bg-cyan-500 p-2 rounded-lg my-2">
                   Jewelry Tags
                 </h1>
                 <div className="flex sm:flex-row flex-col gap-10 sm:w-[100%] w-[80%]">

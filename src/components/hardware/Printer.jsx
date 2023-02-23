@@ -7,9 +7,9 @@ import four from "./assets/pri4.webp"
 function Printer() {
   return (
     <>
-      <div className="sm:h-screen h-full bg-gradient-to-r from-gray-700 to-gray-900 dark:text-gray-300" id="printer">
+      <div className="sm:h-screen h-full bg-gradient-to-r from-blue-200 to-red-50 dark:text-gray-300" id="printer">
         <div className="flex items-center justify-center">
-          <h1 className="sm:text-6xl text-3xl sm:my-6 my-2 font-semibold text-gray-200">
+          <h1 className="sm:text-6xl text-3xl sm:my-6 my-2 font-semibold text-red-800">
             Printers
           </h1>
         </div>
@@ -22,7 +22,7 @@ function Printer() {
             transition={{ duration: 2 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 text-gray-500"
+            className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 text-gray-600"
           >
             In the Manufacturing, EMS, FMCG & Logistics industry a single
             operational flaw impacts the whole supply chain and data capture
@@ -41,7 +41,7 @@ function Printer() {
             transition={{ duration: 2 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-2xl font-semibold text-yellow-700"
+            className="text-2xl font-semibold text-red-600"
           >
             Our Products
           </motion.h2>
@@ -68,7 +68,7 @@ function Printer() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3"
+              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3 text-black"
             >
               Barcode Printers
             </motion.p>
@@ -97,7 +97,7 @@ function Printer() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3"
+              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3 text-black"
             >
               Mobile Printer
             </motion.p>
@@ -123,7 +123,7 @@ function Printer() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3"
+              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3 text-black"
             >
               RFID Printer
             </motion.p>
@@ -149,13 +149,12 @@ function Printer() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3"
+              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3 text-black"
             >
               ID Card printers
             </motion.p>
           </div>
         </div>
-        <hr class="w-48 h-1 mx-auto mt-10 bg-gray-200 border-0 rounded  dark:bg-gray-700"></hr>
       </div>
     </>
   );

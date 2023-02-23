@@ -5,10 +5,10 @@ function Tablets() {
     <>
       <div
         id="tablet"
-        className="h-full bg-gradient-to-r from-gray-900 to-gray-700 dark:text-gray-300"
+        className="h-full bg-gradient-to-r from-blue-200 to-red-50 dark:text-gray-300"
       >
         <div className="flex items-center justify-center">
-          <h1 className="sm:text-6xl text-3xl sm:my-6 my-2 font-semibold text-gray-200">
+          <h1 className="sm:text-6xl text-3xl sm:my-6 my-2 font-semibold text-red-800">
             Industrial Tablet
           </h1>
         </div>
@@ -21,7 +21,7 @@ function Tablets() {
             transition={{ duration: 2 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 text-gray-400"
+            className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 text-gray-600"
           >
             Our Industrial PCs and tablets are designed in such a way as to meet
             different performance and complex interface needs. It has stable
@@ -41,7 +41,7 @@ function Tablets() {
             transition={{ duration: 2 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-2xl font-semibold text-yellow-700"
+            className="text-2xl font-semibold text-red-600"
           >
             Our products
           </motion.h2>
@@ -67,7 +67,7 @@ function Tablets() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3"
+              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3 text-black"
             >
               Rugged Tablet
             </motion.p>
@@ -93,7 +93,7 @@ function Tablets() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3"
+              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3 text-black"
             >
               Industrial PC
             </motion.p>

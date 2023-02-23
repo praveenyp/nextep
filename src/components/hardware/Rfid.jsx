@@ -1,17 +1,20 @@
-import React from 'react'
-import { motion } from 'framer-motion'
-import one from "./assets/rf1.jpg"
-import two from "./assets/rf2.webp"
-import three from "./assets/rf3.jpg"
-import four from "./assets/rf4.png"
-import five from "./assets/rf5.jpg"
+import React from "react";
+import { motion } from "framer-motion";
+import one from "./assets/rf1.jpg";
+import two from "./assets/rf2.webp";
+import three from "./assets/rf3.jpg";
+import four from "./assets/rf4.png";
+import five from "./assets/rf5.jpg";
 
 function Rfid() {
   return (
     <>
-      <div id='rfid' className="sm:h-screen h-full bg-gradient-to-l from-gray-900 to-gray-700 dark:text-gray-300">
+      <div
+        id="rfid"
+        className="sm:h-screen h-full bg-gradient-to-r from-blue-200 to-red-50 dark:text-gray-300"
+      >
         <div className="flex items-center justify-center">
-          <h1 className="sm:text-6xl text-3xl sm:my-6 my-2 font-semibold text-gray-200">
+          <h1 className="sm:text-6xl text-3xl sm:my-6 my-2 font-semibold text-red-800">
             RFID
           </h1>
         </div>
@@ -24,9 +27,14 @@ function Rfid() {
             transition={{ duration: 2 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 text-gray-500"
+            className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 text-gray-600"
           >
-            RFID technology is a way for Manufacturers and retailers to identify items using radio waves. It transmits data from a RFID Tag to a reader giving you accurate real-time tracking data of your inventory. Nextep RFID technology helps in attaining over the top challenges faced by every industry to improve the bottom line by increased efficiency.
+            RFID technology is a way for Manufacturers and retailers to identify
+            items using radio waves. It transmits data from a RFID Tag to a
+            reader giving you accurate real-time tracking data of your
+            inventory. Nextep RFID technology helps in attaining over the top
+            challenges faced by every industry to improve the bottom line by
+            increased efficiency.
           </motion.p>
         </div>
         <div className="flex items-center justify-center sm:my-7 my-2">
@@ -38,7 +46,7 @@ function Rfid() {
             transition={{ duration: 2 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-2xl font-semibold text-yellow-700"
+            className="text-2xl font-semibold text-red-600"
           >
             Our products
           </motion.h2>
@@ -55,7 +63,7 @@ function Rfid() {
               viewport={{ once: true }}
               src={one}
               alt=""
-              className='rounded-3xl'
+              className="rounded-3xl"
             />
             <motion.p
               initial={{
@@ -65,7 +73,7 @@ function Rfid() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3"
+              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3 text-black"
             >
               RFID Handlder
             </motion.p>
@@ -91,7 +99,7 @@ function Rfid() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3"
+              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3 text-black"
             >
               RFID Tunnel
             </motion.p>
@@ -107,7 +115,7 @@ function Rfid() {
               viewport={{ once: true }}
               src={three}
               alt=""
-              className='rounded-3xl'
+              className="rounded-3xl"
             />
             <motion.p
               initial={{
@@ -117,7 +125,7 @@ function Rfid() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3"
+              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3 text-black"
             >
               Fixed RFID Reader
             </motion.p>
@@ -133,7 +141,7 @@ function Rfid() {
               viewport={{ once: true }}
               src={four}
               alt=""
-              className='rounded-3xl'
+              className="rounded-3xl"
             />
             <motion.p
               initial={{
@@ -143,7 +151,7 @@ function Rfid() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3"
+              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3 text-black"
             >
               RFID Reader Antenna
             </motion.p>
@@ -159,7 +167,7 @@ function Rfid() {
               viewport={{ once: true }}
               src={five}
               alt=""
-              className='rounded-3xl'
+              className="rounded-3xl"
             />
             <motion.p
               initial={{
@@ -169,17 +177,15 @@ function Rfid() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3"
+              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3 text-black"
             >
               RFID Printer
             </motion.p>
           </div>
-         
         </div>
-      <hr class="w-48 h-1 mx-auto mt-10 bg-gray-200 border-0 rounded  dark:bg-gray-700"></hr>
       </div>
     </>
-  )
+  );
 }
 
-export default Rfid
+export default Rfid;
