@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { BiArrowFromBottom } from "react-icons/bi";
 
 const ScrollButton = () => {
-  const [isVisible, setIsVisible] = useState(false);
+  const [, setIsVisible] = useState(false);
 
   const toggleVisibility = () => {
     if (window.pageYOffset > 300) {

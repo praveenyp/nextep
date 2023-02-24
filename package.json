@@ -1,6 +1,7 @@
 {
   "name": "nextep",
   "version": "0.1.0",
+  "homepage": "",
   "private": true,
   "dependencies": {
     "@coreui/react": "^4.5.1",
