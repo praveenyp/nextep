@@ -3,17 +3,18 @@ import Enquiry from "../components/enquiry/Enquiry";
 // import Automation from "../components/hardware/Automation";
 import Hero from "../components/hardware/Hero";
 // import Inspection from "../components/hardware/Inspection";
-import Navbar from "../components/hardware/Navbar";
+
 import Printer from "../components/hardware/Printer";
 import Rfid from "../components/hardware/Rfid";
 import Scanning from "../components/hardware/Scanning";
 import Tablets from "../components/hardware/Tablets";
-import Partners from "../components/partner/Partner";
+import Navbar from "../components/Navbar";
+// import Partners from "../components/partner/Partner";
 import ScrollButton from "../components/ScrollButton";
 function Hardware() {
   return (
     <div>
-      <Navbar />
+      <Navbar/>
       <Hero/>
       <ScrollButton />
       <Printer />
@@ -22,7 +23,7 @@ function Hardware() {
       <Rfid />
       {/* <Inspection /> */}
       <Tablets />
-      <Partners />
+      {/* <Partners /> */}
       <Enquiry />
     </div>
   );

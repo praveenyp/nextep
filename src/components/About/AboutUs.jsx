@@ -1,17 +1,18 @@
 import React from "react";
-import NumberCounter from "number-counter";
 import { motion } from "framer-motion";
-import abtone from "../assets/abt1.avif"
-import abttwo from "../assets/abt2.png"
-import abtthree from "../assets/abt3.svg"
-import abtfour from "../assets/abt4.png"
-import abtfive from "../assets/abt5.avif"
-import abtsix from "../assets/abt6.avif"
-import abtseven from "../assets/abt7.avif"
+import abtone from "./asstets/abt1.avif"
+import abtfive from "./asstets/abt5.avif"
+import abtsix from "./asstets/abt6.avif"
+import abtseven from "./asstets/abt7.avif"
+import Partner from "../partner/Partner";
+import Enquiry from "../enquiry/Enquiry";
+import Navbar from "../Navbar";
+
 function AboutUs() {
   return (
     <>
-      <div className=" pt-4 bg-gradient-to-r from-blue-200 to-red-50">
+      <Navbar/>
+      <div id="#about" className=" pt-4 bg-gradient-to-r from-blue-200 to-red-50">
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -89,56 +90,7 @@ function AboutUs() {
             </div>
           </div>
         </motion.div>
-        <div className="flex sm:flex-row flex-col sm:justify-evenly justify-start sm:items-center items-start sm:mt-32 mt-0 sm:mx-0 mx-4 bg-black py-10 md:rounded-none rounded-3xl">
-          <div className="flex flex-row  w-[100%] justify-center">
-            <div className="sm:h-20 h-10 sm:w-20 w-10 transform hover:hue-rotate-180 hover:rotate-180 duration-500 ease-in-out">
-              <img
-                src={abttwo}
-                alt=""
-              />
-            </div>
-            <div className="flex flex-col items-center  justify-center bg">
-              <span className="sm:text-5xl text-xl  font-bold   text-white">
-                <NumberCounter end={100} start={0} delay="3" postFix="+" />
-              </span>
-              <span className="sm:text-lg text-xs  uppercase sm:font-bold font-semibold font-sans text-gray-400">
-                active clients
-              </span>
-            </div>
-          </div>
-          <div className="flex flex-row w-[100%] justify-center sm:pt-0 pt-5">
-            <div className="sm:h-20 h-10 sm:w-20 w-10 transform hover:hue-rotate-180 hover:rotate-180 duration-500 ease-in-out">
-              <img
-                src={abtthree}
-                alt=""
-              />
-            </div>
-            <div className="flex flex-col items-center justify-center">
-              <span className="sm:text-5xl text-xl font-bold text-white">
-                <NumberCounter end={8} start={0} delay="3" postFix="+" />
-              </span>
-              <span className="sm:text-lg text-xs uppercase sm:font-bold font-semibold font-sans text-gray-400">
-                year of experience
-              </span>
-            </div>
-          </div>
-          <div className="flex flex-row w-[100%] justify-center sm:pt-0 pt-5">
-            <div className="sm:h-20 h-10 sm:w-20 w-10 transform hover:hue-rotate-180 hover:rotate-180 duration-500  ease-in-out">
-              <img
-                src={abtfour}
-                alt=""
-              />
-            </div>
-            <div className="flex flex-col items-center justify-center">
-              <span className="sm:text-5xl text-xl font-bold text-white">
-                <NumberCounter end={1} start={0} delay="3" postFix="+" />
-              </span>
-              <span className="sm:text-lg text-xs uppercase sm:font-bold font-semibold font-sans text-gray-400">
-                experience center
-              </span>
-            </div>
-          </div>
-        </div>
+        
       </div>
 
       <div
@@ -291,6 +243,8 @@ function AboutUs() {
           </div>
         </div>
       </div>
+      <Partner/>
+      <Enquiry/>
     </>
   );
 }
