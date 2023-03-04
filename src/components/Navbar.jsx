@@ -168,7 +168,7 @@ const Navbar = () => {
             <div className="md:hidden" id="mobile-menu">
               <div
                 ref={ref}
-                className="text-black px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col items-center justify-center"
+                className="text-black px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col items-center justify-center gap-5"
               >
                 <Link
                   to="/"
