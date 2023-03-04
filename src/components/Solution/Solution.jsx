@@ -6,7 +6,7 @@ import solution from "./solution.jpg"
 function Solution() {
   return (
     <div>
-      <div className="h-full text-white bg-gradient-to-r from-gray-900 to-gray-700">
+      <div className="h-full text-white bg-black">
         <Navbar />
         <div>
           <img

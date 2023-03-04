@@ -16,7 +16,7 @@ import { FaPeopleArrows } from "react-icons/fa";
 import scanner from "./sacanner.png"
 function Home2() {
   return (
-    <div className="bg-gradient-to-r from-gray-900 to-gray-700 text-white">
+    <div className="bg-black text-white">
       <div
         className="sm:h-[800px] h-[590px]  flex flex-col sm:gap-[100px] gap-10"
         id="home"

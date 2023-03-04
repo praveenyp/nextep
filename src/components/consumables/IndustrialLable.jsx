@@ -37,40 +37,40 @@ function IndustrialLable() {
   return (
     <>
       <div
-        className="h-full bg-gradient-to-r from-blue-200 to-red-50 dark:text-gray-300"
+        className="h-full bg-black text-white"
         id="industrial"
       >
         <div className="flex items-center justify-center">
-          <h1 className="mt-4 sm:text-6xl text-3xl sm:my-6 my-2 font-semibold text-red-800 ">
+          <h1 className="mt-4 sm:text-6xl text-3xl sm:my-6 my-2 font-semibold text-green-600 ">
             Industrial Labels
           </h1>
         </div>
         <div className="flex items-center justify-center flex-col">
           <div className="flex flex-col items-center justify-center">
-            <h4 className="text-2xl bg-cyan-500 p-2 rounded-lg my-2">
+            <h4 className="sm:text-2xl text-lg p-2 rounded-lg my-2">
               Automotive Labels
             </h4>
-            <div className="flex sm:flex-row flex-col gap-10">
+            <div className="flex sm:flex-row flex-col gap-10 items-center justify-center">
               <img
                 src={one}
                 alt=""
-                className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
               />
               <img
                 src={two}
                 alt=""
-                className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
               />
               <img
                 src={three}
                 alt=""
-                className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
               />
              
             </div>
           </div>
-          <div className="flex flex-col items-center justify-center">
-            <h4 className="text-2xl bg-cyan-500 p-2 rounded-lg my-2">
+          <div className="flex flex-col items-center justify-center pt-20">
+            <h4 className="sm:text-2xl text-lg  rounded-lg my-2">
               Barcode Labels
             </h4>
             <div className="flex sm:flex-row flex-col gap-10">
@@ -78,109 +78,109 @@ function IndustrialLable() {
                 <img
                   src={four}
                   alt=""
-                  className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                  className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
                 />
-                <h2 className="mt-2 text-black">Water proof</h2>
+                <h2 className="mt-2 text-blue-400">Water proof</h2>
               </div>
               <div className="flex flex-col items-center justify-center">
                 <img
                   src={five}
                   alt=""
-                  className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                  className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
                 />
-                <h2 className="mt-2 text-black">Oil proof</h2>
+                <h2 className="mt-2 text-blue-400">Oil proof</h2>
               </div>
               <div className="flex flex-col items-center justify-center">
                 <img
                   src={six}
                   alt=""
-                  className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                  className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
                 />
-                <h2 className="mt-2 text-black">Scratch proof</h2>
+                <h2 className="mt-2 text-blue-400">Scratch proof</h2>
               </div>
             </div>
           </div>
-          <div className="flex flex-col items-center justify-center">
-            <h4 className="text-2xl bg-cyan-500 p-2 rounded-lg my-2">
+          <div className="flex flex-col items-center justify-center pt-20">
+            <h4 className="sm:text-2xl text-lg rounded-lg my-2">
               Electronics & Appliances
             </h4>
-            <p className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 text-gray-600">
+            <p className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 text-gray-400 px-5">
               Polyamide, High performance Polyester, ESD labels
             </p>
             <div className="flex sm:flex-row flex-col gap-10">
               <img
                 src={seven}
                 alt=""
-                className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
               />
               <img
                 src={eight}
                 alt=""
-                className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
               />
               <img
                 src={nine}
                 alt=""
-                className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
               />
             </div>
           </div>
-          <div className="flex flex-col items-center justify-center">
-            <h4 className="text-2xl bg-cyan-500 p-2 rounded-lg my-2">
+          <div className="flex flex-col items-center justify-center pt-20">
+            <h4 className="sm:text-2xl text-lg rounded-lg my-2">
               Wire And Cable
             </h4>
-            <p className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 text-gray-600">
+            <p className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 text-gray-400 px-5">
               Sleeves, Self-laminating, Wrap around and Flag Label
             </p>
-            <div className="flex sm:flex-row flex-col gap-10">
+            <div className="flex sm:flex-row flex-col gap-10 items-center justify-center">
               <img
                 src={ten}
                 alt=""
-                className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
               />
               <img
                 src={eleven}
                 alt=""
-                className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
               />
               <img
                 src={twelve}
                 alt=""
-                className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
               />
             </div>
           </div>
-          <div className="flex flex-col items-center justify-center">
-            <h4 className="text-2xl bg-cyan-500 p-2 rounded-lg my-2">
+          <div className="flex flex-col items-center justify-center pt-20">
+            <h4 className="text-2xl rounded-lg my-2">
               Food and Beverages
             </h4>
-            <p className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 text-gray-600">
+            <p className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 text-gray-400 px-5">
               Pre-printed multicolor labels, low temperature resistant, Label
               for frozen food, FSSAI and FDA Complaint.
             </p>
-            <div className="flex sm:flex-row flex-col gap-10">
+            <div className="flex sm:flex-row flex-col gap-10 items-center justify-center">
               <img
                 src={thirteen}
                 alt=""
-                className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
               />
               <img
                 src={forteen}
                 alt=""
-                className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl bg-white"
+                className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl bg-white"
               />
               <img
                 src={fifteen}
                 alt=""
-                className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
               />
             </div>
           </div>
-          <div className="flex flex-col items-center justify-center">
-            <h4 className="text-2xl bg-cyan-500 p-2 rounded-lg my-2">
+          <div className="flex flex-col items-center justify-center pt-20">
+            <h4 className="sm:text-2xl text-lg rounded-lg my-2">
               Laboratory and Pharma
             </h4>
-            <p className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 text-gray-600">
+            <p className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 text-gray-400 px-5">
               Brand protection labels, cold chain + cryogenic label, Intelligent
               RFID labels, syringe and blood bag labels.
             </p>
@@ -188,108 +188,108 @@ function IndustrialLable() {
               <img
                 src={sixteen}
                 alt=""
-                className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
               />
               <img
                 src={seventeen}
                 alt=""
-                className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
               />
               <img
                 src={eighteen}
                 alt=""
-                className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
               />
               <img
                 src={ninteen}
                 alt=""
-                className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
               />
             </div>
           </div>
-          <div className="flex flex-col items-center justify-center">
-            <h4 className="text-2xl bg-cyan-500 p-2 rounded-lg my-2">
+          <div className="flex flex-col items-center justify-center pt-20">
+            <h4 className="sm:text-2xl text-lg rounded-lg my-2">
               Chemical and Fertilizers
             </h4>
-            <p className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 text-gray-600">
+            <p className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 text-gray-400">
               Chemical and Oil tolerant Label
             </p>
-            <div className="flex sm:flex-row flex-col gap-10">
+            <div className="flex sm:flex-row flex-col gap-10 items-center justify-center">
               <img
                 src={twenty}
                 alt=""
-                className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
               />
               <img
                 src={twentyone}
                 alt=""
-                className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl bg-white"
               />
               <img
                 src={twentytwo}
                 alt=""
-                className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
               />
             </div>
           </div>
-          <div className="flex flex-col items-center justify-center">
-            <h4 className="text-2xl bg-cyan-500 p-2 rounded-lg my-2">
+          <div className="flex flex-col items-center justify-center pt-20">
+            <h4 className="sm:text-2xl text-lg  rounded-lg my-2">
               Labels by property <br/>and Custom Labels
             </h4>
-            <p className="items-center justify-center sm:text-lg text-sm text-center font-medium mb-8 text-gray-600">
+            <p className="items-center justify-center sm:text-lg text-sm text-center font-medium mb-8 text-gray-400 px-5">
               Body Graphics, Decals, Interior Trims, Name Plates & Logos, High
               Temperature Labels, Asset Tracking Labels and PVC Sun visors
             </p>
-            <div className="flex sm:flex-row flex-col gap-10">
+            <div className="flex sm:flex-row flex-col gap-10 items-center justify-center">
               <img
                 src={twentythree}
                 alt=""
-                className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
               />
               <img
                 src={twentyfour}
                 alt=""
-                className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl bg-white"
+                className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl bg-white"
               />
               <img
                 src={twentyfive}
                 alt=""
-                className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
               />
             </div>
           </div>
-          <div className="flex flex-col items-center justify-center">
-            <h4 className="text-2xl bg-cyan-500 p-2 rounded-lg my-2">
+          <div className="flex flex-col items-center justify-center pt-20">
+            <h4 className="sm:text-2xl text-lg rounded-lg my-2">
               Electrical and Electronics
             </h4>
-            <p className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 mb-8 text-gray-600">
+            <p className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 mb-8 text-gray-400 px-5">
               Tamper evident products, Display articles, Name Plates, EL
               products, Laser marked Solutions and Asset tracking Labels.
             </p>
-            <div className="flex sm:flex-row flex-col gap-10">
+            <div className="flex sm:flex-row flex-col gap-10 items-center justify-center">
               <img
                 src={twentysix}
                 alt=""
-                className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
               />
               <img
                 src={twentyseven}
                 alt=""
-                className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
               />
               <img
                 src={twenteight}
                 alt=""
-                className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
               />
             </div>
           </div>
 
-          <div className="flex flex-col items-center justify-center">
-            <h4 className="text-2xl bg-cyan-500 p-2 rounded-lg my-2">
+          <div className="flex flex-col items-center justify-center pt-20">
+            <h4 className="sm:text-2xl text-lg rounded-lg my-2">
               Name Plates
             </h4>
-            <p className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 mb-8 text-gray-600">
+            <p className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 mb-8 text-gray-400 px-5">
               Aluminum Name Plates, Stainless Steel, Laser Etching and Laser
               Engraving.
             </p>
@@ -297,41 +297,41 @@ function IndustrialLable() {
               <img
                 src={twentynine}
                 alt=""
-                className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
               />
               <img
                 src={thirty}
                 alt=""
-                className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
               />
               <img
                 src={thirtyone}
                 alt=""
-                className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
               />
             </div>
           </div>
 
-          <div className="flex flex-col items-center justify-center">
-            <h4 className="text-2xl bg-cyan-500 p-2 rounded-lg my-2">
+          <div className="flex flex-col items-center justify-center pt-20 pb-20">
+            <h4 className="sm:text-2xl text-lg rounded-lg my-2">
               PU Dome
             </h4>
-            <p className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 mb-8 text-gray-600"></p>
+            <p className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 mb-8 text-gray-400"></p>
             <div className="flex sm:flex-row flex-col gap-10 items-center justify-center">
               <img
                 src={thirttwo}
                 alt=""
-                className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
               />
               <img
                 src={thirtthree}
                 alt=""
-                className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
               />
               <img
                 src={thirtyfour}
                 alt=""
-                className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
               />
             </div>
           </div>

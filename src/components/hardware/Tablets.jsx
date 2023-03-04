@@ -1,14 +1,16 @@
 import React from "react";
 import { motion } from "framer-motion";
+import tabone from "./assets/tab1.webp"
+import tabtwo from "./assets/tab2.webp"
 function Tablets() {
   return (
     <>
       <div
         id="tablet"
-        className="h-full bg-gradient-to-r from-blue-100 to-red-50 dark:text-gray-300"
+        className="h-full bg-black text-white"
       >
         <div className="flex items-center justify-center">
-          <h1 className="sm:text-6xl text-3xl sm:my-6 my-2 font-semibold text-red-800">
+          <h1 className="sm:text-6xl text-3xl sm:my-6 my-2 font-semibold text-green-600">
             Industrial Tablet
           </h1>
         </div>
@@ -21,7 +23,7 @@ function Tablets() {
             transition={{ duration: 2 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 text-gray-600"
+            className="items-center justify-center sm:text-lg text-sm text-justify font-medium my-2 text-gray-400"
           >
             Our Industrial PCs and tablets are designed in such a way as to meet
             different performance and complex interface needs. It has stable
@@ -41,13 +43,13 @@ function Tablets() {
             transition={{ duration: 2 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-2xl font-semibold text-red-600"
+            className="text-2xl font-semibold text-yellow-600"
           >
             Our products
           </motion.h2>
         </div>
-        <div className="flex flex-wrap items-center justify-center cursor-pointer">
-          <div className="sm:h-[16%] h-[20%] sm:w-[16%] w-[20%] sm:mx-10 mx-3 my-5 sm:pt-0 pt-5">
+        <div className="flex sm:flex-row flex-col gap-10 px-20 items-center justify-center cursor-pointer">
+          <div className="">
             <motion.img
               initial={{
                 y: -100,
@@ -56,8 +58,9 @@ function Tablets() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              src="https://www.qodenext.com/images/hardware/Rugged-Tablet.webp"
+              src={tabone}
               alt=""
+              className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
             />
             <motion.p
               initial={{
@@ -67,12 +70,12 @@ function Tablets() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3 text-black"
+              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3 text-blue-400"
             >
               Rugged Tablet
             </motion.p>
           </div>
-          <div className="sm:h-[16%] h-[20%] sm:w-[16%] w-[20%] sm:mx-10 mx-3 my-5 sm:pt-0 pt-10">
+          <div className="">
             <motion.img
               initial={{
                 x: -100,
@@ -81,9 +84,9 @@ function Tablets() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              src="https://www.qodenext.com/images/hardware/Industrial-PC.webp"
+              src={tabtwo}
               alt=""
-              className=""
+              className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
             />
             <motion.p
               initial={{
@@ -93,7 +96,7 @@ function Tablets() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3 text-black"
+              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3 text-blue-400"
             >
               Industrial PC
             </motion.p>

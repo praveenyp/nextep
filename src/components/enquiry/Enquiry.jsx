@@ -16,7 +16,7 @@ function Enquiry() {
 
       {/* footer */}
 
-      <div className="text-gray-500 bg-black">
+      <div className="text-gray-500 bg-slate-900">
         <hr />
         <div className="flex sm:flex-row flex-col justify-between sm:mx-[100px] mx-10 py-10  ">
           {/* address */}

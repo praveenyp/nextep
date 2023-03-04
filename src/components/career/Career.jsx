@@ -6,7 +6,7 @@ function Career() {
   return (
     <div>
         <Navbar/>
-      <div className="sm:h-screen h-[500px] bg-gradient-to-r from-gray-900 to-gray-700">
+      <div className="sm:h-screen h-[500px] bg-black">
         <div>
           <img
             src={career}

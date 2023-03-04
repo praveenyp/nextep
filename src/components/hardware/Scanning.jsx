@@ -1,12 +1,15 @@
 import React from "react";
 import { motion } from "framer-motion";
+import scaone from "./assets/sca1.webp"
+import scatwo from "./assets/sca2.webp"
+import scathree from "./assets/sca3.webp"
 
 function Scanning() {
   return (
     <>
-      <div id="scanning" className="pt-16 sm:h-screen h-full bg-gradient-to-r from-blue-100 to-red-50 dark:text-gray-300">
+      <div id="scanning" className="pt-16 sm:h-screen h-full bg-black text-white pb-20">
         <div className="flex items-center justify-center">
-          <h1 className="sm:text-6xl text-3xl sm:my-6 my-2 font-semibold text-red-800">
+          <h1 className="sm:text-6xl text-3xl sm:my-6 my-2 font-semibold text-green-600">
             Scanning
           </h1>
         </div>
@@ -19,7 +22,7 @@ function Scanning() {
             transition={{ duration: 2 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 text-gray-600"
+            className="items-center justify-center sm:text-lg text-sm text-justify font-medium my-2 text-gray-400"
           >
             Our advanced machine vision & industrial vision systems help improving product quality for any manufacturing process and further make production process error free, reduces cost of production and ensure high quality products are produced at affordable costs.
           </motion.p>
@@ -33,7 +36,7 @@ function Scanning() {
             transition={{ duration: 2 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-2xl font-semibold text-red-600"
+            className="text-2xl font-semibold text-yellow-600"
           >
            Our products
           </motion.h2>
@@ -56,13 +59,13 @@ function Scanning() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-            className="flex bg-green-700 dark:text-black uppercase justify-center items-center w-[100%] rounded-t-lg sm:h-12 h-9 skew-x-12">
+            className="flex bg-blue-600  uppercase justify-center items-center w-[100%] rounded-t-lg sm:h-12 h-9 skew-x-12">
               <h3 className="sm:text-2xl text-md font-semibold">scanner</h3>
             </motion.div>
-            <div className="flex items-center justify-center sm:pt-2 pt-2 border-solid border-2 border-green-700 rounded-b-md">
+            <div className="flex items-center justify-center sm:pt-2 pt-2 border-solid border-2 border-blue-600 rounded-b-md">
               <p 
                
-              className="text-center sm:text-lg text-sm sm:font-medium text-gray-600">
+              className="text-center sm:text-lg text-sm sm:font-medium text-gray-400">
                 Nextep scanner portfolio offers a wide range of scanning capability
                 starting from retail solutions to high speed production lines
                 with high built in intelligence that can read barcode easily
@@ -87,13 +90,13 @@ function Scanning() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-            className="flex bg-green-700 dark:text-black uppercase justify-center items-center w-[100%] rounded-t-lg sm:h-12 h-9 -skew-x-12">
+            className="flex bg-blue-600  uppercase justify-center items-center w-[100%] rounded-t-lg sm:h-12 h-9 -skew-x-12">
               <h3 className="sm:text-2xl text-md font-semibold">Mobility</h3>
             </motion.div>
-            <div className="flex items-center justify-center sm:pt-2 pt-2 border-solid border-2 border-green-700 rounded-b-md">
+            <div className="flex items-center justify-center sm:pt-2 pt-2 border-solid border-2 border-blue-600 rounded-b-md">
               <p 
                
-              className="text-center sm:text-lg text-sm sm:font-medium text-gray-600">
+              className="text-center sm:text-lg text-sm sm:font-medium text-gray-400">
                 Nextep offers different range of mobility scanners and form factors
                 to cater need of production, warehouse and last mile users.
                 These devices have sturdy built-in software intelligence
@@ -103,8 +106,8 @@ function Scanning() {
             </div>
           </motion.div>
         </motion.div>
-        <div className="flex flex-wrap items-center justify-center cursor-pointer">
-        <div className="sm:h-[16%] h-[20%] sm:w-[16%] w-[20%] sm:mx-10 mx-3 my-5 sm:pt-0 pt-5">
+        <div className="flex sm:flex-row flex-col gap-10 px-20 items-center justify-center cursor-pointer">
+        <div className="">
             <motion.img
               initial={{
                 y: 100,
@@ -113,8 +116,9 @@ function Scanning() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              src="https://www.qodenext.com/images/hardware/Mobile-Computers.webp"
+              src={scaone}
               alt=""
+              className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
             />
             <motion.p
               initial={{
@@ -124,12 +128,12 @@ function Scanning() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3 text-black"
+              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3 text-blue-400"
             >
               Mobile Computers
             </motion.p>
           </div>
-          <div className="sm:h-[16%] h-[20%] sm:w-[16%] w-[20%] sm:mx-10 mx-3 my-5 sm:pt-0 pt-5">
+          <div className="">
             <motion.img
               initial={{
                 y: 100,
@@ -138,8 +142,9 @@ function Scanning() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              src="https://www.qodenext.com/images/hardware/Tablets.webp"
+              src={scatwo}
               alt=""
+              className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
             />
             <motion.p
               initial={{
@@ -149,12 +154,12 @@ function Scanning() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3 text-black"
+              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3 text-blue-400"
             >
               Tablets
             </motion.p>
           </div>
-          <div className="sm:h-[16%] h-[20%] sm:w-[16%] w-[20%] sm:mx-10 mx-3 my-5 sm:pt-0 pt-5">
+          <div className="">
             <motion.img
               initial={{
                 y: 100,
@@ -163,8 +168,9 @@ function Scanning() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              src="https://www.qodenext.com/images/hardware/Barcode-Scanners.webp"
+              src={scathree}
               alt=""
+              className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
             />
             <motion.p
               initial={{
@@ -174,7 +180,7 @@ function Scanning() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3 text-black"
+              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3 text-blue-400"
             >
               Barcode Scanners
             </motion.p>

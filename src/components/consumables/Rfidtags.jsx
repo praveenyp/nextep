@@ -20,10 +20,10 @@ function Rfidtags() {
     <>
       <div
         id="rfidtags"
-        className="h-full bg-gradient-to-r from-blue-200 to-red-50 dark:text-gray-300"
+        className="h-full bg-black text-white"
       >
         <div className="flex flex-col items-center justify-center">
-          <h1 className="mt-4 sm:text-6xl text-3xl sm:my-6 my-2 font-semibold text-red-800">
+          <h1 className="mt-4 sm:text-6xl text-3xl sm:my-6 my-2 font-semibold text-green-600">
             RFID Tags
           </h1>
           <motion.p
@@ -34,7 +34,7 @@ function Rfidtags() {
             transition={{ duration: 2 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 sm:mx-36 mx-10 text-gray-600"
+            className="items-center justify-center sm:text-lg text-sm text-justify font-medium my-2 sm:mx-36 mx-10 text-gray-400"
           >
             Nextep provides a comprehensive range of RFID Tag Labels that can be
             used for a variety of applications across manufacturing,
@@ -50,7 +50,7 @@ function Rfidtags() {
             transition={{ duration: 2.2 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 sm:mx-36 mx-10 text-gray-600"
+            className="items-center justify-center sm:text-lg text-sm text-justify font-medium my-2 sm:mx-36 mx-10 text-gray-400"
           >
             Selecting the right RFID labels for your application can be
             complicated. Nextep’s technical experts will advise you on the best
@@ -72,10 +72,10 @@ function Rfidtags() {
               className="flex flex-col items-center justify-center sm:mr-[0] mr-0 sm:ml-0 ml-0 w-[100%]"
             >
               <div className="mb-3 flex flex-col items-center justify-center sm:mx-36 mx-12 sm:mt-0 mt-4">
-                <h5 className="sm:text-2xl text-md  font-semibold text-red-600">
+                <h5 className="sm:text-2xl text-md  font-semibold text-yellow-600">
                   General Purpose
                 </h5>
-                <p className="sm:text-lg text-sm font-semibold text-center mt-3 text-gray-800">
+                <p className="sm:text-lg text-sm font-semibold text-justify mt-3 text-white">
                   These labels are designed for use with standard RFID readers
                   and are stocked in a variety of inlay types and sizes. They
                   are available in paper and synthetic materials that work on
@@ -83,7 +83,7 @@ function Rfidtags() {
                 </p>
               </div>
               <div className="mx-12">
-                <ol className="space-y-4 sm:text-lg text-sm list-disc list-inside text-gray-600  items-center justify-center text-start mt-3">
+                <ol className="space-y-4 sm:text-lg text-sm list-disc list-inside text-gray-400  items-center justify-center text-start mt-3">
                   <li>
                     Transportation and Logistics Distribution, shipping and
                     receiving and warehouse operations including case, pallet
@@ -99,114 +99,114 @@ function Rfidtags() {
                   </li>
                 </ol>
               </div>
-              <div className="flex flex-col items-center justify-center">
-                <h1 className="sm:text-2xl text-md bg-cyan-500 p-2 rounded-lg my-2">
+              <div className="flex flex-col items-center justify-center pt-20">
+                <h1 className="sm:text-2xl text-lg rounded-lg my-2">
                   UHF On Metal Label
                 </h1>
                 <div className="flex sm:flex-row flex-col gap-10 sm:w-[100%] w-[80%]">
                   <img
                     src={one}
                     alt=""
-                    className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                    className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
                   />
                   <img
                     src={two}
                     alt=""
-                    className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                    className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
                   />
                   <img
                     src={three}
                     alt=""
-                    className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                    className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
                   />
                 </div>
               </div>
-              <div className="flex flex-col items-center justify-center">
-                <h1 className="sm:text-2xl text-md bg-cyan-500 p-2 rounded-lg my-2">
+              <div className="flex flex-col items-center justify-center pt-20">
+                <h1 className="sm:text-2xl text-lg rounded-lg my-2">
                   UHF On Metal Tag
                 </h1>
                 <div className="flex sm:flex-row flex-col gap-10 sm:w-[100%] w-[80%]">
                   <img
                     src={four}
                     alt=""
-                    className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                    className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
                   />
                   <img
                     src={five}
                     alt=""
-                    className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                    className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
                   />
                   <img
                     src={six}
                     alt=""
-                    className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                    className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
                   />
                 </div>
               </div>
-              <div className="flex flex-col items-center justify-center">
-                <h1 className="sm:text-2xl text-md bg-cyan-500 p-2 rounded-lg my-2">
+              <div className="flex flex-col items-center justify-center pt-20">
+                <h1 className="sm:text-2xl text-lg rounded-lg my-2">
                   Vehicle Tyre Tag
                 </h1>
                 <div className="flex sm:flex-row flex-col gap-10 sm:w-[100%] w-[80%]">
                   <img
                     src={seven}
                     alt=""
-                    className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                    className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
                   />
                   <img
                     src={eight}
                     alt=""
-                    className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                    className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
                   />
                   <img
                     src={nine}
                     alt=""
-                    className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                    className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
                   />
                 </div>
               </div>
-              <div className="flex flex-col items-center justify-center">
-                <h1 className="sm:text-2xl text-md bg-cyan-500 p-2 rounded-lg my-2">
+              <div className="flex flex-col items-center justify-center pt-20">
+                <h1 className="sm:text-2xl text-lg rounded-lg my-2">
                   Laundry Tags
                 </h1>
                 <div className="flex sm:flex-row flex-col gap-10 sm:w-[100%] w-[80%]">
                   <img
                     src={ten}
                     alt=""
-                    className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                    className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
                   />
                   <img
                     src={leven}
                     alt=""
-                    className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                    className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
                   />
                   <img
                     src={twelve}
                     alt=""
-                    className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                    className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
                   />
                 </div>
               </div>
 
-              <div className="flex flex-col items-center justify-center">
-                <h1 className="sm:text-2xl text-md bg-cyan-500 p-2 rounded-lg my-2">
+              <div className="flex flex-col items-center justify-center pt-20 pb-20">
+                <h1 className="sm:text-2xl text-lg rounded-lg my-2">
                   Jewelry Tags
                 </h1>
                 <div className="flex sm:flex-row flex-col gap-10 sm:w-[100%] w-[80%]">
                   <img
                     src={thirteen}
                     alt=""
-                    className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                    className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
                   />
                   <img
                     src={fourteen}
                     alt=""
-                    className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                    className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
                   />
                   <img
                     src={fifteen}
                     alt=""
-                    className="sm:h-[300px] h-[200px] sm:w-[400px] w-[300px] rounded-xl"
+                    className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
                   />
                 </div>
               </div>

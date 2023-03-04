@@ -6,7 +6,7 @@ import visitor from "./images/visitor.jpg"
 function Visitor() {
   return (
     <div>
-      <div className="h-full text-white bg-gradient-to-r from-gray-900 to-gray-700">
+      <div className="h-full text-white bg-black">
         <Navbar />
         <div>
           <img
@@ -16,11 +16,11 @@ function Visitor() {
           />
         </div>
 
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center pt-20 pb-20">
           <h1 className="sm:text-5xl text-xl font-semibold my-5 text-blue-300">
             Visitor Management System
           </h1>
-          <div className="flex flex-col sm:mx-[300px] mx-10 gap-8">
+          <div className="flex flex-col sm:mx-[300px] mx-10 gap-8 text-gray-400">
             <p className="sm:tracking-wider tracking-tight text-justify sm:text-base text-xs">
               VMS will help to avoid the shared usage of pen, register, lanyard
               etc. This will help to avoid the spread of virus. VMS will

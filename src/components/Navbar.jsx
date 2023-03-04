@@ -25,34 +25,34 @@ const Navbar = () => {
                 <div className="ml-10 flex items-baseline space-x-2 pb-3 text-black gap-10">
                   <Link
                     to="/"
-                    className=" hover:font-extrabold  rounded-md text-md font-medium text-white"
+                    className=" hover:font-extrabold  rounded-md text-md font-medium text-blue-500"
                   >
                     Home
                   </Link>
 
                   <Link
                     to="/about"
-                    className=" hover:font-extrabold  rounded-md text-md font-medium text-white"
+                    className=" hover:font-extrabold  rounded-md text-md font-medium text-blue-500"
                   >
                     About
                   </Link>
                   <Link
                     to="/solutions"
-                    className=" hover:font-extrabold  rounded-md text-md font-medium text-white"
+                    className=" hover:font-extrabold  rounded-md text-md font-medium text-blue-500"
                   >
                     Solutions
                   </Link>
 
                   <Link
                     to="/products"
-                    className=" hover:font-extrabold  rounded-md text-md font-medium text-white"
+                    className=" hover:font-extrabold  rounded-md text-md font-medium text-blue-500"
                   >
                     Products
                   </Link>
 
                   <Link
                     to="/career"
-                    className=" hover:font-extrabold  rounded-md text-md font-medium text-white"
+                    className=" hover:font-extrabold  rounded-md text-md font-medium text-blue-500"
                   >
                     Career
                   </Link>

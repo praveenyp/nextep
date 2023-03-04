@@ -8,10 +8,10 @@ function Ribbons() {
   return (
 		<>
 			<div
-				className="h-full bg-gradient-to-r from-blue-200 to-red-50 dark:text-gray-300"
+				className="h-full bg-black text-white"
 				id="ribbons">
 				<div className="flex flex-col items-center justify-center">
-					<h1 className="sm:text-6xl text-3xl sm:my-6 my-2 font-semibold text-red-800">
+					<h1 className="sm:text-6xl text-3xl sm:my-6 my-2 font-semibold text-green-600">
 						Industrial Ribbons
 					</h1>
 					<motion.p
@@ -22,7 +22,7 @@ function Ribbons() {
 						transition={{ duration: 2 }}
 						whileInView={{ opacity: 1, y: 0 }}
 						viewport={{ once: true }}
-						className="items-center justify-center sm:text-lg text-sm text-center font-medium my-2 sm:mx-36 mx-10 text-gray-600">
+						className="items-center justify-center sm:text-lg text-sm text-justify font-medium my-2 sm:mx-36 mx-10 text-gray-400 ">
 						Nextep provides a comprehensive range of ribbons that are compatible
 						with all printers on the market: Zebra, Sato, Datamax, Honeywell,
 						etc. Since we manufacture ribbons as well we can handle all design
@@ -44,7 +44,7 @@ function Ribbons() {
 							<img
 								src={ribone}
 								alt=""
-								className="sm:h-[400px] h-[200px] rounded-xl"
+								className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
 							/>
 						</motion.div>
 						<div className="flex flex-col items-center justify-center sm:mr-[200px] mr-0 sm:ml-10 ml-0 w-[100%]">
@@ -57,10 +57,10 @@ function Ribbons() {
 								whileInView={{ opacity: 1, y: 0 }}
 								viewport={{ once: true }}
 								className="mb-3 flex flex-col items-center justify-center sm:mx-0 mx-12">
-								<h2 className="sm:text-2xl text-md bg-cyan-500 p-2 rounded-lg my-2">
+								<h2 className="sm:text-2xl text-lg rounded-lg my-2">
 									Our Ribbons addresses the following complications:
 								</h2>
-								<ul className="space-y-4 sm:text-lg text-sm list-disc list-inside text-gray-600  items-center justify-center text-start mt-3">
+								<ul className="space-y-4 sm:text-lg text-sm list-disc list-inside text-gray-400  items-center justify-center text-start mt-3">
 									<li>
 										The bar within the barcode expands or grow beyond their
 										normal growth
@@ -90,7 +90,7 @@ function Ribbons() {
 							<img
 								src={ribtwo}
 								alt=""
-								className="sm:h-[400px] h-[200px] rounded-xl"
+								className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
 							/>
 						</motion.div>
 						<div className="flex flex-col items-center justify-center sm:ml-[200px] ml-0 sm:mr-10 mr-0 w-[100%]">
@@ -103,10 +103,10 @@ function Ribbons() {
 								whileInView={{ opacity: 1, y: 0 }}
 								viewport={{ once: true }}
 								className="mb-3 flex flex-col items-center justify-center sm:mx-0 mx-12 ">
-								<h2 className="sm:text-2xl text-md bg-cyan-500 p-2 rounded-lg my-2">
+								<h2 className="sm:text-2xl text-lg rounded-lg my-2">
 									Wax Ribbons for Cost-Effective Performance
 								</h2>
-								<ul className="space-y-4 sm:text-lg text-sm list-disc list-inside text-gray-600  items-center justify-center text-start mt-3">
+								<ul className="space-y-4 sm:text-lg text-sm list-disc list-inside text-gray-400  items-center justify-center text-start mt-3">
 									<li>For standards printing on paper materials</li>
 									<li>Compatible with uncoated and coated paper</li>
 									<li>
@@ -135,7 +135,7 @@ function Ribbons() {
 							<img
 								src={ribthree}
 								alt=""
-								className="sm:h-[400px] h-[200px] rounded-xl"
+								className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
 							/>
 						</motion.div>
 						<div className="flex flex-col items-center justify-center sm:mr-[200px] mr-0 sm:ml-10 ml-0 w-[100%]">
@@ -148,10 +148,10 @@ function Ribbons() {
 								whileInView={{ opacity: 1, y: 0 }}
 								viewport={{ once: true }}
 								className="mb-3 flex flex-col items-center justify-center sm:mx-0 mx-12">
-								<h2 className="sm:text-2xl text-md bg-cyan-500 p-2 rounded-lg my-2">
+								<h2 className="sm:text-2xltext-lg rounded-lg my-2">
 									Wax/Resin Ribbons for All Around Performance
 								</h2>
-								<ul className="space-y-4 sm:text-lg text-sm list-disc list-inside text-gray-600  items-center justify-center text-start mt-3">
+								<ul className="space-y-4 sm:text-lg text-sm list-disc list-inside text-gray-400  items-center justify-center text-start mt-3">
 									<li>
 										Excellent resistance to chemicals on paper and synthetics
 									</li>
@@ -187,10 +187,10 @@ function Ribbons() {
 							<img
 								src={ribfour}
 								alt=""
-								className="sm:h-[400px] h-[200px] rounded-xl"
+								className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
 							/>
 						</motion.div>
-						<div className="flex flex-col items-center justify-center sm:ml-[200px] ml-0 sm:mr-10 mr-0 w-[100%]">
+						<div className="flex flex-col items-center justify-center sm:ml-[200px] ml-0 sm:mr-10 mr-0 w-[100%] pb-20">
 							<motion.div
 								initial={{
 									y: 100,
@@ -200,10 +200,10 @@ function Ribbons() {
 								whileInView={{ opacity: 1, y: 0 }}
 								viewport={{ once: true }}
 								className="mb-3 flex flex-col items-center justify-center sm:mx-0 mx-12 ">
-								<h2 className="sm:text-2xl text-md bg-cyan-500 p-2 rounded-lg my-2">
+								<h2 className="sm:text-2xl text-lg rounded-lg my-2">
 									Resin Ribbons for Premium Performance
 								</h2>
-								<ul className="space-y-4 sm:text-lg text-sm list-disc list-inside text-gray-500  items-center justify-center text-start mt-3">
+								<ul className="space-y-4 sm:text-lg text-sm list-disc list-inside text-gray-400  items-center justify-center text-start mt-3">
 									<li>
 										Provide ultimate durability against chemicals and heat on
 										synthetics

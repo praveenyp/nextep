@@ -6,7 +6,7 @@ import asset from "./images/asset.jpg"
 function Asset() {
   return (
     <div>
-      <div className="h-full text-white bg-gradient-to-r from-gray-900 to-gray-700">
+      <div className="h-full text-white bg-black">
         <Navbar />
         <div>
           <img
@@ -16,11 +16,11 @@ function Asset() {
           />
         </div>
 
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify- pt-20 pb-20">
           <h1 className="sm:text-5xl text-xl font-semibold my-5 text-blue-300">
             Asset Management System
           </h1>
-          <div className="flex flex-col sm:mx-[300px] mx-10 gap-8">
+          <div className="flex flex-col sm:mx-[300px] mx-10 gap-8 text-gray-400">
             <p className="sm:tracking-wider tracking-tight text-justify sm:text-base text-xs">
               A standout amongst the most vital components of any business is
               the ability to manage assets. Asset tracking software can enhance
