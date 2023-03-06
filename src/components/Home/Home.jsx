@@ -118,7 +118,7 @@ function Home2() {
             <Link to="/asset">
               <div className="flex flex-row items-center justify-center gap-2 px-0">
                 <RiMoneyPoundBoxLine className="sm:h-16 h-8 sm:w-16 w-8 sm:p-2 p-1 border-2 border-solid hover:border-lime-600 rounded-full text-xs" />
-                <h4 className="sm:text-lg text-xs hover:underline decoration-blue-600">
+                <h4 className="sm:text-lg text-xs hover:underline underline-offset-8 decoration-blue-600">
                   Asset Management System
                 </h4>
               </div>
@@ -126,7 +126,7 @@ function Home2() {
             <Link to="/warehouse">
               <div className="flex flex-row items-center justify-center gap-2 px-0">
                 <FaWarehouse className="sm:h-16 h-8 sm:w-16 w-8 sm:p-2 p-1 border-2 border-solid hover:border-lime-600  rounded-full text-xs" />
-                <h4 className="sm:text-lg text-xs hover:underline decoration-blue-600">
+                <h4 className="sm:text-lg text-xs hover:underline underline-offset-8 decoration-blue-600">
                   Warehouse Management System
                 </h4>
               </div>
@@ -135,7 +135,7 @@ function Home2() {
             <Link to="/workin">
               <div className="flex flex-row items-center justify-center gap-2 px-0">
                 <SiProgress className="sm:h-16 h-8 sm:w-16 w-8 sm:p-2 p-1 border-2 border-solid hover:border-lime-600  rounded-full text-xs" />
-                <h4 className="sm:text-lg text-xs hover:underline decoration-blue-600">
+                <h4 className="sm:text-lg text-xs hover:underline underline-offset-8 decoration-blue-600">
                   Work In-Progress Application
                 </h4>
               </div>
@@ -144,7 +144,7 @@ function Home2() {
             <Link to="/file">
               <div className="flex flex-row items-center justify-center gap-2 px-0">
                 <GiFiles className="sm:h-16 h-8 sm:w-16 w-8 sm:p-2 p-1 border-2 border-solid hover:border-lime-600  rounded-full text-xs" />
-                <h4 className="sm:text-lg text-xs hover:underline decoration-blue-600">
+                <h4 className="sm:text-lg text-xs hover:underline underline-offset-8 decoration-blue-600">
                   File Tracking Solution
                 </h4>
               </div>
@@ -153,7 +153,7 @@ function Home2() {
             <Link to="/retail">
               <div className="flex flex-row items-center justify-center gap-2 px-0">
                 <BiShoppingBag className="sm:h-16 h-8 sm:w-16 w-8 sm:p-2 p-1 border-2 border-solid hover:border-lime-600  rounded-full text-xs" />
-                <h4 className="sm:text-lg text-xs hover:underline decoration-blue-600">
+                <h4 className="sm:text-lg text-xs hover:underline underline-offset-8 decoration-blue-600">
                   Retail Management System
                 </h4>
               </div>
@@ -161,7 +161,7 @@ function Home2() {
             <Link to="/track">
               <div className="flex flex-row items-center justify-center gap-2 px-0">
                 <GiDigitalTrace className="sm:h-16 h-8 sm:w-16 w-8 sm:p-2 p-1 border-2 border-solid hover:border-lime-600  rounded-full text-xs" />
-                <h4 className="sm:text-lg text-xs hover:underline decoration-blue-600">
+                <h4 className="sm:text-lg text-xs hover:underline underline-offset-8 decoration-blue-600">
                   Track and Trace Solution
                 </h4>
               </div>
@@ -170,7 +170,7 @@ function Home2() {
             <Link to="/automation">
               <div className="flex flex-row items-center justify-center gap-2 px-0">
                 <BsUpcScan className="sm:h-16 h-8 sm:w-16 w-8 sm:p-2 p-1 border-2 border-solid hover:border-lime-600  rounded-full text-xs" />
-                <h4 className="sm:text-lg text-xs hover:underline decoration-blue-600">
+                <h4 className="sm:text-lg text-xs hover:underline underline-offset-8 decoration-blue-600">
                   Automation Scanning
                 </h4>
               </div>
@@ -178,7 +178,7 @@ function Home2() {
             <Link to="/visitor">
               <div className="flex flex-row items-center justify-center gap-2 px-0">
                 <FaPeopleArrows className="sm:h-16 h-8 sm:w-16 w-8 sm:p-2 p-1 border-2 border-solid hover:border-lime-600  rounded-full text-xs" />
-                <h4 className="sm:text-lg text-xs hover:underline decoration-blue-600">
+                <h4 className="sm:text-lg text-xs hover:underline underline-offset-8 decoration-blue-600">
                   Visitor Management
                 </h4>
               </div>
