@@ -13,23 +13,27 @@ import { GiDigitalTrace } from "react-icons/gi";
 import { BsUpcScan } from "react-icons/bs";
 // import { MdPayment } from "react-icons/md";
 import { FaPeopleArrows } from "react-icons/fa";
-import scanner from "./sacanner.png"
+import scanner from "./sacanner.png";
+import video from "./video.mp4"
 function Home2() {
   return (
     <div className="bg-black text-white">
+      <video autoPlay loop muted className="absolute overflow-hidden">
+            <source src={video} type="video/mp4" />
+           </video>
       <div
         className="sm:h-[800px] h-[590px]  flex flex-col sm:gap-[100px] gap-10"
         id="home"
       >
         <div className="flex items-center justify-center pt-[13%]">
           <div className=" flex flex-col items-center justify-center">
-            <h1 className="sm:text-9xl text-6xl font-bold text-teal-400 tracking-wider">
+            <h1 className="sm:text-9xl text-6xl font-bold text-teal-400 tracking-wider relative">
               NexteP
             </h1>{" "}
-            <h1 className="sm:text-5xl text-xl font-semibold text-slate-500 tracking-widest">
+            <h1 className="sm:text-5xl text-xl font-semibold text-slate-500 tracking-widest relative">
               Engineering
             </h1>{" "}
-            <p className="sm:text-lg text-xs pt-5 sm:font-semibold font-normal uppercase tracking-wider text-center">
+            <p className="sm:text-lg text-xs pt-5 sm:font-semibold font-normal uppercase tracking-wider text-center relative">
               labels & labeling | Rfid | barcode | automation & traceability
             </p>
           </div>
@@ -39,7 +43,7 @@ function Home2() {
             <div className="sm:h-20 h-10 sm:w-20 w-10 transform hover:hue-rotate-180 hover:rotate-180 duration-500 ease-in-out">
               <img src={abttwo} alt="" />
             </div>
-            <div className="flex flex-col items-center  justify-center bg">
+            <div className="flex flex-col items-center  justify-center relative">
               <span className="sm:text-5xl text-xl  font-bold   text-white">
                 <NumberCounter end={100} start={0} delay="3" postFix="+" />
               </span>
@@ -52,7 +56,7 @@ function Home2() {
             <div className="sm:h-20 h-10 sm:w-20 w-10 transform hover:hue-rotate-180 hover:rotate-180 duration-500 ease-in-out">
               <img src={abtthree} alt="" />
             </div>
-            <div className="flex flex-col items-center justify-center">
+            <div className="flex flex-col items-center justify-center relative">
               <span className="sm:text-5xl text-xl font-bold text-white">
                 <NumberCounter end={8} start={0} delay="3" postFix="+" />
               </span>
@@ -65,7 +69,7 @@ function Home2() {
             <div className="sm:h-20 h-10 sm:w-20 w-10 transform hover:hue-rotate-180 hover:rotate-180 duration-500  ease-in-out">
               <img src={abtfour} alt="" />
             </div>
-            <div className="flex flex-col items-center justify-center">
+            <div className="flex flex-col items-center justify-center relative">
               <span className="sm:text-5xl text-xl font-bold text-white">
                 <NumberCounter end={1} start={0} delay="3" postFix="+" />
               </span>
