@@ -6,7 +6,7 @@ import impinj from "./impinj.webp";
 import tsc from "./tsc.svg";
 import sato from "./sato.svg";
 import honeywell from "./honeywell.png";
-import urovo from "./urovo.png";
+import urovo from "./urovo2.webp";
 function Partner() {
   return (
     <>
