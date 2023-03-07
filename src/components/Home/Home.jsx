@@ -101,7 +101,7 @@ function Home2() {
         </div>
       </div>
 
-      <div className="sm:h-[800px] h-[750px]">
+      <div className="sm:h-full h-[750px] pb-[150px]">
         <div className="flex sm:flex-row flex-col items-center justify-center">
           <div className="flex flex-col items-center justify-center sm:gap-10 gap-5 sm:w-[50%] w-[100%]">
             <h1 className="sm:text-6xl text-3xl">
@@ -189,7 +189,7 @@ function Home2() {
           </div>
         </div>
       </div>
-      <div className="h-[750px] flex sm:flex-row flex-col items-center justify-center sm:mx-[16%] mx-10 gap-5">
+      <div className="h-full flex sm:flex-row flex-col items-center justify-center sm:mx-[16%] mx-10 gap-5 pt-10 pb-10">
         <div className="flex flex-col gap-10 sm:w-[50%] w-[100%]">
           <h1 className="sm:text-6xl text-3xl">
             Exceptional <span className="text-pink-500">Products</span> to Grow
