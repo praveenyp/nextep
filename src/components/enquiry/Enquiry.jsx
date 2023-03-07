@@ -17,7 +17,7 @@ function Enquiry() {
         <div className="flex sm:flex-row flex-col justify-between sm:mx-[100px] mx-10 py-10  ">
           {/* address */}
           <div className="flex flex-col items-center">
-            <h1 className=" text-lg underline underline-offset-8 decoration-yellow-600 decoration-2">Address</h1>
+            <h1 className=" text-lg underline underline-offset-8 decoration-white decoration-2">Address</h1>
             <h2 className="mt-4 mb-2">
               (Registered Office)
             </h2>
@@ -95,7 +95,7 @@ function Enquiry() {
           {/* general link */}
           <div className="flex sm:flex-row flex-row gap-5">
             <div className="flex flex-col items-center sm:mt-0 mt-20">
-              <h1 className=" text-lg underline underline-offset-8 decoration-yellow-600 decoration-2">General</h1>
+              <h1 className=" text-lg underline underline-offset-8 decoration-white decoration-2">General</h1>
               <div className="flex flex-col mt-4 gap-2">
                 <Link to="/" className="hover:text-green-600">
                   Home
@@ -115,7 +115,7 @@ function Enquiry() {
               </div>
             </div>
             <div className="flex flex-col  items-center sm:mt-0 mt-20">
-              <h1 className="text-lg underline underline-offset-8 decoration-yellow-600 decoration-2">Solutions</h1>
+              <h1 className="text-lg underline underline-offset-8 decoration-white decoration-2">Solutions</h1>
               <div className="flex flex-col  mt-4 gap-2">
                 <Link to="/asset" className="hover:text-green-600">
                   Asset Management
@@ -144,7 +144,7 @@ function Enquiry() {
               </div>
             </div>
             <div className="flex flex-col items-center sm:mt-0 mt-20">
-              <h1 className=" text-lg underline underline-offset-8 decoration-yellow-600 decoration-2">Products</h1>
+              <h1 className=" text-lg underline underline-offset-8 decoration-white decoration-2">Products</h1>
               <div className="flex flex-col mt-4 gap-2">
                 <Link to="/consumable" className="hover:text-green-600">
                   Consumables
@@ -158,7 +158,7 @@ function Enquiry() {
           </div>
           {/* social */}
           <div className="flex flex-col items-center sm:mt-0 mt-20">
-            <h1 className="text-lg underline underline-offset-8 decoration-yellow-600 decoration-2">Follow Us On</h1>
+            <h1 className="text-lg underline underline-offset-8 decoration-white decoration-2">Follow Us On</h1>
             <div className="flex sm:flex-col flex-row gap-3 mt-4">
               <SocialIcon
                 url="https://www.linkedin.com/company/nextep-engineering-pvt-ltd/"
