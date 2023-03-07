@@ -17,7 +17,7 @@ import scanner from "./sacanner.png";
 import video from "./video.mp4"
 function Home2() {
   return (
-    <div className="bg-black text-white">
+    <div className="bg-black text-white w-full">
       <video autoPlay loop muted className="absolute overflow-hidden">
             <source src={video} type="video/mp4" />
            </video>
@@ -27,25 +27,24 @@ function Home2() {
       >
         <div className="flex items-center justify-center pt-[13%]">
           <div className=" flex flex-col items-center justify-center">
-            <h1 className="sm:text-9xl text-6xl font-bold text-teal-400 tracking-wider relative">
-              NexteP
-            </h1>{" "}
-            <h1 className="sm:text-5xl text-xl font-semibold text-slate-500 tracking-widest relative">
-              Engineering
-            </h1>{" "}
+            <span className=" flex flex-row  relative">
+              <h1 className="sm:text-9xl text-5xl font-bold text-teal-400 tracking-wider">Nextep</h1>
+              <h1 className="flex items-center justify-center sm:text-9xl font-bold text-5xl  text-amber-600">india</h1>
+            </span>{" "}
+            
             <p className="sm:text-lg text-xs pt-5 sm:font-semibold font-normal uppercase tracking-wider text-center relative">
               labels & labeling | Rfid | barcode | automation & traceability
             </p>
           </div>
         </div>
-        <div className="flex sm:flex-row flex-col sm:justify-evenly justify-start sm:items-center items-start sm:mt-32 mt-10 sm:mx-0 mx-4 bg-transparent py-10 md:rounded-none rounded-3xl">
+        <div className="flex sm:flex-row flex-col sm:justify-evenly justify-start sm:items-center items-start sm:mt-32 mt-10 sm:mx-0 mx-0 bg-transparent py-10 md:rounded-none rounded-3xl">
           <div className="flex flex-row  w-[100%] justify-center">
             <div className="sm:h-20 h-10 sm:w-20 w-10 transform hover:hue-rotate-180 hover:rotate-180 duration-500 ease-in-out">
               <img src={abttwo} alt="" />
             </div>
             <div className="flex flex-col items-center  justify-center relative">
               <span className="sm:text-5xl text-xl  font-bold   text-white">
-                <NumberCounter end={100} start={0} delay="3" postFix="+" />
+                <NumberCounter end={700} start={0} delay="3" postFix="+" />
               </span>
               <span className="sm:text-lg text-xs  uppercase sm:font-bold font-semibold font-sans text-gray-400">
                 active clients
@@ -58,7 +57,7 @@ function Home2() {
             </div>
             <div className="flex flex-col items-center justify-center relative">
               <span className="sm:text-5xl text-xl font-bold text-white">
-                <NumberCounter end={8} start={0} delay="3" postFix="+" />
+                <NumberCounter end={15} start={0} delay="3" postFix="+" />
               </span>
               <span className="sm:text-lg text-xs uppercase sm:font-bold font-semibold font-sans text-gray-400">
                 year of experience
@@ -85,10 +84,10 @@ function Home2() {
         <div className="flex flex-col items-center justify-center gap-10 sm:pt-0 pt-16">
           <h1 className="sm:text-6xl text-3xl">
             <span className="text-yellow-500">About</span> <br />
-            Nextep Engineering
+            Nextep india
           </h1>
           <p className="sm:text-lg text-sm font-serif sm:mx-[30%] mx-10 tracking-wider text-slate-300">
-            Nextep Engineering provides Barcode | RFID | Automation | POS |
+            Nextep india provides Barcode | RFID | Automation | POS |
             Software | Consumables to clients in India and the Middle East, as
             partners to conceptualize and realize their initiatives, to reach
             out their Vision. Whether it is Manufacturing, Retail, Textile,
@@ -207,12 +206,12 @@ function Home2() {
           </span>{" "}
           <div>
             <h1 className="text-2xl">Our Product Categories</h1>
-            <ul className="text-yellow-600 flex flex-col items-start justify-center gap-3">
+            <ul className="text-white flex flex-col items-start justify-center gap-3">
               <Link to="/consumable">
-                <li className="border-2 border-solid p-2">Consumables</li>
+                <li className="border-2 border-solid p-2 bg-lime-800">Consumables</li>
               </Link>
               <Link to="/hardware">
-                <li className="border-2 border-solid p-2 px-6">Hardware</li>
+                <li className="border-2 border-solid p-2 px-6 bg-lime-800">Hardware</li>
               </Link>
             </ul>
           </div>

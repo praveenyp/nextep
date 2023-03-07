@@ -60,7 +60,7 @@ function Tablets() {
               viewport={{ once: true }}
               src={tabone}
               alt=""
-              className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
+              className="sm:h-[200px] h-[100px] sm:w-[300px] w-[150px] rounded-xl"
             />
             <motion.p
               initial={{
@@ -86,7 +86,7 @@ function Tablets() {
               viewport={{ once: true }}
               src={tabtwo}
               alt=""
-              className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
+              className="sm:h-[200px] h-[100px] sm:w-[300px] w-[150px] rounded-xl"
             />
             <motion.p
               initial={{

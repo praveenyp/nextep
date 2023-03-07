@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../Navbar";
 import { GiCheckMark } from "react-icons/gi";
 import Enquiry from "../enquiry/Enquiry";
-import visitor from "./images/visitor.jpg"
+import visitor from "./images/visitorr.png"
 function Visitor() {
   return (
     <div>

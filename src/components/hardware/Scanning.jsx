@@ -1,16 +1,28 @@
 import React from "react";
 import { motion } from "framer-motion";
-import scaone from "./assets/sca1.webp"
-import scatwo from "./assets/sca2.webp"
-import scathree from "./assets/sca3.webp"
-
+// import scaone from "./assets/sca1.webp"
+// import scatwo from "./assets/sca2.webp"
+// import scathree from "./assets/sca3.webp"
+import general from "./assets/general.jpg"
+import ultra from "./assets/ultra.jpg"
+import health from "./assets/health.jpg"
+import incounter from "./assets/incounter.jpg"
+import comapanion from "./assets/companion.jpg"
+import fixed from "./assets/fixed.jpg"
+import terminal from "./assets/terminals.jpg"
+import handled from "./assets/handled.jpg"
+import wearable from "./assets/wearable.jpg"
+import vehicle from "./assets/vehcle.jpg"
+import tablet from "./assets/tablet.jpg"
+import healthcare from "./assets/healtcare.jpg"
+import rfidhandled from "./assets/rfidhandled.jpg"
 function Scanning() {
   return (
     <>
-      <div id="scanning" className="pt-16 sm:h-screen h-full bg-black text-white pb-20">
+      <div id="scanning" className="pt-16 h-full bg-black text-white pb-20">
         <div className="flex items-center justify-center">
-          <h1 className="sm:text-6xl text-3xl sm:my-6 my-2 font-semibold text-green-600">
-            Scanning
+          <h1 className="sm:text-6xl text-3xl sm:my-6 my-2 font-semibold text-green-600 flex text-center">
+            Scanners and Data Capture
           </h1>
         </div>
         <div className="flex items-center justify-center sm:mx-36 mx-10">
@@ -106,7 +118,7 @@ function Scanning() {
             </div>
           </motion.div>
         </motion.div>
-        <div className="flex sm:flex-row flex-col gap-10 px-20 items-center justify-center cursor-pointer">
+        <div className="flex flex-wrap gap-10 px-20 items-center justify-center cursor-pointer">
         <div className="">
             <motion.img
               initial={{
@@ -116,9 +128,9 @@ function Scanning() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              src={scaone}
+              src={general}
               alt=""
-              className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
+              className="sm:h-[200px] h-[100px] sm:w-[300px] w-[150px] rounded-xl"
             />
             <motion.p
               initial={{
@@ -130,10 +142,10 @@ function Scanning() {
               viewport={{ once: true }}
               className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3 text-blue-400"
             >
-              Mobile Computers
+              General Purpose Scanners
             </motion.p>
           </div>
-          <div className="">
+          <div className="flex flex-col items-center justify-center">
             <motion.img
               initial={{
                 y: 100,
@@ -142,9 +154,243 @@ function Scanning() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              src={scatwo}
+              src={ultra}
               alt=""
-              className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
+              className="sm:h-[200px] h-[100px] sm:w-[300px] w-[150px] rounded-xl"
+            />
+            <motion.p
+              initial={{
+                y: 200,
+                opacity: 0,
+              }}
+              transition={{ duration: 2 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3 text-blue-400"
+            >
+              Ultra-Rugged Barcode Scanners
+            </motion.p>
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <motion.img
+              initial={{
+                y: 100,
+                opacity: 0,
+              }}
+              transition={{ duration: 2 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              src={health}
+              alt=""
+              className="sm:h-[200px] h-[100px] sm:w-[300px] w-[150px] rounded-xl"
+            />
+            <motion.p
+              initial={{
+                y: 200,
+                opacity: 0,
+              }}
+              transition={{ duration: 2 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3 text-blue-400"
+            >
+              Healthcare Barcode Scanners
+            </motion.p>
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <motion.img
+              initial={{
+                y: 100,
+                opacity: 0,
+              }}
+              transition={{ duration: 2 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              src={incounter}
+              alt=""
+              className="sm:h-[200px] h-[100px] sm:w-[300px] w-[150px] rounded-xl"
+            />
+            <motion.p
+              initial={{
+                y: 200,
+                opacity: 0,
+              }}
+              transition={{ duration: 2 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3 text-blue-400"
+            >
+              In-Counter Barcode Scanners
+            </motion.p>
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <motion.img
+              initial={{
+                y: 100,
+                opacity: 0,
+              }}
+              transition={{ duration: 2 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              src={comapanion}
+              alt=""
+              className="sm:h-[200px] h-[100px] sm:w-[300px] w-[150px] rounded-xl"
+            />
+            <motion.p
+              initial={{
+                y: 200,
+                opacity: 0,
+              }}
+              transition={{ duration: 2 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3 text-blue-400"
+            >
+              Companion Barcode Scanners
+            </motion.p>
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <motion.img
+              initial={{
+                y: 100,
+                opacity: 0,
+              }}
+              transition={{ duration: 2 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              src={fixed}
+              alt=""
+              className="sm:h-[200px] h-[100px] sm:w-[300px] w-[150px] rounded-xl"
+            />
+            <motion.p
+              initial={{
+                y: 200,
+                opacity: 0,
+              }}
+              transition={{ duration: 2 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3 text-blue-400"
+            >
+              Fixed Mount Barcode Scanners
+            </motion.p>
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <motion.img
+              initial={{
+                y: 100,
+                opacity: 0,
+              }}
+              transition={{ duration: 2 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              src={terminal}
+              alt=""
+              className="sm:h-[200px] h-[100px] sm:w-[300px] w-[150px] rounded-xl"
+            />
+            <motion.p
+              initial={{
+                y: 200,
+                opacity: 0,
+              }}
+              transition={{ duration: 2 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3 text-blue-400"
+            >
+              Mobile Terminals
+            </motion.p>
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <motion.img
+              initial={{
+                y: 100,
+                opacity: 0,
+              }}
+              transition={{ duration: 2 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              src={handled}
+              alt=""
+              className="sm:h-[200px] h-[100px] sm:w-[300px] w-[150px] rounded-xl"
+            />
+            <motion.p
+              initial={{
+                y: 200,
+                opacity: 0,
+              }}
+              transition={{ duration: 2 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3 text-blue-400"
+            >
+              Handheld Computers
+            </motion.p>
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <motion.img
+              initial={{
+                y: 100,
+                opacity: 0,
+              }}
+              transition={{ duration: 2 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              src={wearable}
+              alt=""
+              className="sm:h-[200px] h-[100px] sm:w-[300px] w-[150px] rounded-xl"
+            />
+            <motion.p
+              initial={{
+                y: 200,
+                opacity: 0,
+              }}
+              transition={{ duration: 2 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3 text-blue-400"
+            >
+              Wearable Computers
+            </motion.p>
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <motion.img
+              initial={{
+                y: 100,
+                opacity: 0,
+              }}
+              transition={{ duration: 2 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              src={vehicle}
+              alt=""
+              className="sm:h-[200px] h-[100px] sm:w-[300px] w-[150px] rounded-xl"
+            />
+            <motion.p
+              initial={{
+                y: 200,
+                opacity: 0,
+              }}
+              transition={{ duration: 2 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3 text-blue-400"
+            >
+              Vehicle-Mounted Computers
+            </motion.p>
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <motion.img
+              initial={{
+                y: 100,
+                opacity: 0,
+              }}
+              transition={{ duration: 2 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              src={tablet}
+              alt=""
+              className="sm:h-[200px] h-[100px] sm:w-[300px] w-[150px] rounded-xl"
             />
             <motion.p
               initial={{
@@ -159,7 +405,7 @@ function Scanning() {
               Tablets
             </motion.p>
           </div>
-          <div className="">
+          <div className="flex flex-col items-center justify-center">
             <motion.img
               initial={{
                 y: 100,
@@ -168,9 +414,9 @@ function Scanning() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              src={scathree}
+              src={healthcare}
               alt=""
-              className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
+              className="sm:h-[200px] h-[100px] sm:w-[300px] w-[150px] rounded-xl"
             />
             <motion.p
               initial={{
@@ -182,7 +428,33 @@ function Scanning() {
               viewport={{ once: true }}
               className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3 text-blue-400"
             >
-              Barcode Scanners
+              Healthcare Mobile Computers
+            </motion.p>
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <motion.img
+              initial={{
+                y: 100,
+                opacity: 0,
+              }}
+              transition={{ duration: 2 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              src={rfidhandled}
+              alt=""
+              className="sm:h-[200px] h-[100px] sm:w-[300px] w-[150px] rounded-xl"
+            />
+            <motion.p
+              initial={{
+                y: 200,
+                opacity: 0,
+              }}
+              transition={{ duration: 2 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3 text-blue-400"
+            >
+              Handheld RFID Readers
             </motion.p>
           </div>
          

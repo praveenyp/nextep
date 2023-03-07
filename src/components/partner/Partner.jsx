@@ -22,7 +22,7 @@ function Partner() {
           </p>
         </div>
 
-        <div className="flex flex-wrap  sm:justify-center justify-center items-center sm:gap-16 gap-10 mt-10 pb-8 px-10">
+        <div className="flex flex-wrap  sm:justify-center justify-center items-center sm:gap-16 gap-10 mt-10 pb-8 px-0">
           <img className="sm:h-20 h-10 sm:w-56 w-32" src={threem} alt="3m" />
           <img className="sm:h-20 h-10 sm:w-56 w-32" src={ad} alt="avery dennison" />
           <img className="sm:h-20 h-10 sm:w-56 w-32" src={zebra} alt="zebra" />

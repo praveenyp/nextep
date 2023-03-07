@@ -25,11 +25,11 @@ function Products() {
           We offer a wide range of Barcode Printers, Barcode Scanners,<br/> RFID,
           EAS, POS, Software, Marking & Coding, Consumables
         </p>
-        <h3 className="text-xl text-yellow-600">Our Major Product Categories :-</h3>
+      
       </div>
-      <div className="flex flex-col items-center justify-center sm:gap-[3 0px] gap-5 sm:mt-5 mt-10">
-        <button className="border-2 border-solid p-3 uppercase sm:ml-[0%] ml-0 sm:text-lg text-lime-600 hover:text-white hover:border-green-600 text-xs"><Link to="/consumable">Consumables</Link></button>
-        <button className="border-2 border-solid p-3 px-7 uppercase sm:ml-[0%] ml-0 sm:text-lg text-lime-600 hover:text-white hover:border-green-600 text-xs"><Link to="/hardware">Hardware</Link></button>
+      <div className="flex flex-row items-center justify-center sm:gap-[3 0px] gap-5 sm:mt-5 mt-10">
+        <button className="border-2 border-solid p-3 uppercase sm:ml-[0%] ml-0 sm:text-lg text-black hover:text-yellow-600 hover:border-green-600 text-xs bg-yellow-600 hover:bg-transparent"><Link to="/consumable">Consumables</Link></button>
+        <button className="border-2 border-solid p-3 px-7 uppercase sm:ml-[0%] ml-0 sm:text-lg text-black hover:text-yellow-600 hover:border-green-600 text-xs bg-yellow-600 hover:bg-transparent"><Link to="/hardware">Hardware</Link></button>
       </div>
       </div>
       <Enquiry/>

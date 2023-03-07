@@ -51,7 +51,7 @@ function Rfid() {
             Our products
           </motion.h2>
         </div>
-        <div className="flex sm:flex-row flex-col gap-10 px-20 items-center justify-center cursor-pointer">
+        <div className="flex flex-wrap gap-10 px-20 items-center justify-center cursor-pointer">
           <div className="">
             <motion.img
               initial={{
@@ -63,7 +63,7 @@ function Rfid() {
               viewport={{ once: true }}
               src={one}
               alt=""
-              className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
+              className="sm:h-[200px] h-[100px] sm:w-[300px] w-[150px] rounded-xl"
             />
             <motion.p
               initial={{
@@ -89,7 +89,7 @@ function Rfid() {
               viewport={{ once: true }}
               src={two}
               alt=""
-              className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
+              className="sm:h-[200px] h-[100px] sm:w-[300px] w-[150px] rounded-xl"
             />
             <motion.p
               initial={{
@@ -115,7 +115,7 @@ function Rfid() {
               viewport={{ once: true }}
               src={three}
               alt=""
-              className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
+              className="sm:h-[200px] h-[100px] sm:w-[300px] w-[150px] rounded-xl"
             />
             <motion.p
               initial={{
@@ -141,7 +141,7 @@ function Rfid() {
               viewport={{ once: true }}
               src={four}
               alt=""
-              className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
+              className="sm:h-[200px] h-[100px] sm:w-[300px] w-[150px] rounded-xl"
             />
             <motion.p
               initial={{
@@ -167,7 +167,7 @@ function Rfid() {
               viewport={{ once: true }}
               src={five}
               alt=""
-              className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
+              className="sm:h-[200px] h-[100px] sm:w-[300px] w-[150px] rounded-xl"
             />
             <motion.p
               initial={{

@@ -1,13 +1,18 @@
 import React from "react";
 import { motion } from "framer-motion";
-import one from "./assets/pri1.jpg"
+// import one from "./assets/pri1.jpg"
 import two from "./assets/pri2.jpg"
-import three from "./assets/pri3.webp"
+// import three from "./assets/pri3.webp"
 import four from "./assets/pri4.webp"
+import desktop from "./assets/desktopprinter.jpg"
+import Industrial from "./assets/indusrtrial.jpg"
+import engine from "./assets/printengines.jpg"
+import rfid from "./assets/rfidprinter.jpg"
+import barcode from "./assets/arcode.jpg"
 function Printer() {
   return (
     <>
-      <div className="sm:h-screen h-full bg-black text-white" id="printer">
+      <div className="sm:h-full h-full bg-black text-white" id="printer">
         <div className="flex items-center justify-center">
           <h1 className="sm:text-6xl text-3xl sm:my-6 my-2 font-semibold text-green-600">
             Printers
@@ -46,7 +51,7 @@ function Printer() {
             Our Products
           </motion.h2>
         </div>
-        <div className="flex sm:flex-row flex-col gap-10 px-20 items-center justify-center cursor-pointer">
+        <div className="flex flex-wrap gap-10 px-10 items-center justify-center cursor-pointer">
           <div className="">
             <motion.img
               initial={{
@@ -56,9 +61,9 @@ function Printer() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              src={one}
+              src={barcode}
               alt=""
-              className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
+              className="sm:h-[200px] h-[100px] sm:w-[300px] w-[150px] rounded-xl"
             />
             <motion.p
               initial={{
@@ -87,7 +92,7 @@ function Printer() {
               viewport={{ once: true }}
               src={two}
               alt=""
-              className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
+              className="sm:h-[200px] h-[100px] sm:w-[300px] w-[150px] rounded-xl"
             />
             <motion.p
               initial={{
@@ -111,9 +116,9 @@ function Printer() {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              src={three}
+              src={rfid}
               alt=""
-              className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
+              className="sm:h-[200px] h-[100px] sm:w-[300px] w-[150px] rounded-xl"
             />
             <motion.p
               initial={{
@@ -139,7 +144,7 @@ function Printer() {
               viewport={{ once: true }}
               src={four}
               alt=""
-              className="sm:h-[300px] h-[150px] sm:w-[400px] w-[250px] rounded-xl"
+              className="sm:h-[200px] h-[100px] sm:w-[300px] w-[150px] rounded-xl"
             />
             <motion.p
               initial={{
@@ -152,6 +157,84 @@ function Printer() {
               className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3 text-blue-400"
             >
               ID Card printers
+            </motion.p>
+          </div>
+          <div className="">
+            <motion.img
+              initial={{
+                y: 100,
+                opacity: 0,
+              }}
+              transition={{ duration: 2 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              src={desktop}
+              alt=""
+              className="sm:h-[200px] h-[100px] sm:w-[300px] w-[150px] rounded-xl"
+            />
+            <motion.p
+              initial={{
+                y: -100,
+                opacity: 0,
+              }}
+              transition={{ duration: 2 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3 text-blue-400"
+            >
+              Desktop Printer
+            </motion.p>
+          </div>
+          <div className="">
+            <motion.img
+              initial={{
+                y: 100,
+                opacity: 0,
+              }}
+              transition={{ duration: 2 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              src={Industrial}
+              alt=""
+              className="sm:h-[200px] h-[100px] sm:w-[300px] w-[150px] rounded-xl"
+            />
+            <motion.p
+              initial={{
+                y: -100,
+                opacity: 0,
+              }}
+              transition={{ duration: 2 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3 text-blue-400"
+            >
+              Industrial Printers
+            </motion.p>
+          </div>
+          <div className="">
+            <motion.img
+              initial={{
+                y: 100,
+                opacity: 0,
+              }}
+              transition={{ duration: 2 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              src={engine}
+              alt=""
+              className="sm:h-[200px] h-[100px] sm:w-[300px] w-[150px] rounded-xl"
+            />
+            <motion.p
+              initial={{
+                y: -100,
+                opacity: 0,
+              }}
+              transition={{ duration: 2 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="flex items-center justify-center sm:font-semibold font-light sm:text-lg text-xs text-center mt-3 text-blue-400"
+            >
+              Print Engines
             </motion.p>
           </div>
         </div>

@@ -13,10 +13,7 @@ function AboutUs() {
     <>
       <div className="bg-black">
         <Navbar />
-        <div
-          id="#about"
-          className=" pt-4 "
-        >
+        <div id="#about" className=" pt-4 ">
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
@@ -204,7 +201,7 @@ function AboutUs() {
           </div>
         </div>
 
-        <div className=" h-full flex sm:flex-row flex-col items-center justify-evenly   mt-0">
+        <div className=" h-full flex sm:flex-row flex-col items-center justify-evenly   mb-10">
           <div className="sm:w-[30%] w-[80%] sm:ml-32 ml-0">
             <img
               src={abtseven}
@@ -212,22 +209,47 @@ function AboutUs() {
               className="sm:h-[300px] h-[220px] sm:w-[400px] w-[550px] sm:mt-20 mt-10 sm:my-20 my-0 rounded-3xl"
             />
           </div>
-          <div className="w-[70%] sm:mr-32 mr-0">
+          <div className="w-[70%] sm:mr-32 mr-0 mt-10">
             <div className="flex justify-start uppercase font-semibold text-lg text-yellow-600">
               <h3>who we are</h3>
             </div>
-            <div>
+            <div className="flex flex-col sm:gap-0 gap-5">
               <h1 className="sm:text-2xl text-lg font-bold sm:pr-10 pr-0 sm:ml-5 ml-0 mt-3 text-cyan-900">
                 Right Partner Right Product.
               </h1>
 
               <p className="sm:text-lg text-sm font-medium  text-gray-400 items-center text-justify justify-center sm:pr-10 pr-0 sm:m-5 m-1">
-                Nextep Engineering Pvt Ltd was established in the year 2015 as
+                Nextep india was established in the year 2015 as
                 manufacturer of specialty labels and printed electronics
                 products specific to the electronics, electrical and automobile
                 industries. We have an excellent and unique combination of
                 expertise and rich array of products providing customers with
                 superior solutions to their requirements.
+              </p>
+              <p className="sm:text-lg text-sm font-medium  text-gray-400 items-center text-justify justify-center sm:pr-10 pr-0 sm:m-5 m-1">
+                Manufacturing facility printing with advanced label conversion
+                set-up Equipped with all the capability to make veriety of
+                printed, security, specialty labels as per industry needs.
+              </p>
+              <p className="sm:text-lg text-sm font-medium  text-gray-400 items-center text-justify justify-center sm:pr-10 pr-0 sm:m-5 m-1">
+                Headquartered in Bengaluru India, Nextep having footprints
+                across India, Middle East and Europe continents.
+              </p>
+              <p className="sm:text-lg text-sm font-medium  text-gray-400 items-center text-justify justify-center sm:pr-10 pr-0 sm:m-5 m-1">
+                We harness the power of Barcode, RFID, Vision, Cognitive
+                Computing, Predictive Analysis and emerging technologies to
+                enable our clients integrate their supply chains and facilitate
+                end-to- end visibility and connectivity.
+              </p>
+              <p className="sm:text-lg text-sm font-medium  text-gray-400 items-center text-justify justify-center sm:pr-10 pr-0 sm:m-5 m-1">
+                Our solutions are deployed in mission critical processes by some
+                of the best organizations in the world.
+              </p>
+              <p className="sm:text-lg text-sm font-medium  text-gray-400 items-center text-justify justify-center sm:pr-10 pr-0 sm:m-5 m-1">
+                We derive strength from our experienced team of professionals
+                who have in-depth domain knowledge and deep technical skills
+                which helps Nextep to identify and understand customer problems
+                and provide industry best solutions to address them.
               </p>
               <h1 className="text-xl font-semibold text-yellow-600 mb-4">
                 Our products Portfolio Includes
