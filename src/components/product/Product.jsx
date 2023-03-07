@@ -6,7 +6,7 @@ import product from "./assets/product.jpg"
 function Products() {
   return (
     <div >
-      <div className="h-screen text-white bg-black">
+      <div className="h-full text-white bg-black pb-10">
 
       <Navbar />
       <div>
