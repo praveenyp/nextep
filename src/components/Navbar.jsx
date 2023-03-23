@@ -9,13 +9,13 @@ const Navbar = () => {
   return (
     <>
       <nav className="bg-gradient-to-r from-black to-black sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
             <div className="flex items-center">
               <div className="flex-shrink-0">
                 <Link to={"/"}>
                   <img
-                    className="sm:h-20 h-16 sm:w-40 w-32 cursor-pointer"
+                    className="md:h-20 h-16 md:w-40 w-32 cursor-pointer"
                     src={Logo}
                     alt="Workflow"
                   />

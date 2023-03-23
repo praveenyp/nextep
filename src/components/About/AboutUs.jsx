@@ -49,7 +49,7 @@ function AboutUs() {
                   viewport={{ once: true }}
                   className="sm:text-lg text-sm font-medium sm:pr-10 pr-0 sm:ml-5 ml-0 text-gray-400 text-justify"
                 >
-                  Nextep is one of the leading players in the Indian Label
+                  Nextep India is one of the leading players in the Indian Label
                   manufacturing industry. We are a “design-to-delivery” Labeling
                   solutions provider with the ability to design, develop and
                   manufacture a diverse product portfolio for a wide range of
@@ -68,7 +68,7 @@ function AboutUs() {
                 >
                   Our product offerings blank labels, pre-printed labels, domes,
                   overlays, aluminum name plates etc., <br />
-                  Nextep has a strong focus on new product development and it
+                  Nextep India has a strong focus on new product development and it
                   has a dedicated ‘new product development’ team. Our products
                   are subject to stringent quality checks and testing in
                   laboratories.
@@ -219,7 +219,7 @@ function AboutUs() {
               </h1>
 
               <p className="sm:text-lg text-sm font-medium  text-gray-400 items-center text-justify justify-center sm:pr-10 pr-0 sm:m-5 m-1">
-                Nextep india was established in the year 2015 as
+                Nextep India was established in the year 2015 as
                 manufacturer of specialty labels and printed electronics
                 products specific to the electronics, electrical and automobile
                 industries. We have an excellent and unique combination of

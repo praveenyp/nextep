@@ -2,18 +2,15 @@ import React from "react";
 import Navbar from "../Navbar";
 import { GiCheckMark } from "react-icons/gi";
 import Enquiry from "../enquiry/Enquiry";
-import asset from "./images/asset.jpg"
+import asset from "./images/asset.jpg";
+import { AiOutlineFilePdf } from "react-icons/ai";
 function Asset() {
   return (
     <div>
       <div className="h-full text-white bg-black">
         <Navbar />
         <div>
-          <img
-            src={asset}
-            alt=""
-            className="w-[100%] sm:h-[500px] h-[200px]"
-          />
+          <img src={asset} alt="" className="w-[100%] sm:h-[500px] h-[200px]" />
         </div>
 
         <div className="flex flex-col items-center justify- pt-20 pb-20">
@@ -87,112 +84,122 @@ function Asset() {
                 <div className="flex flex-row  gap-5">
                   <GiCheckMark className="text-green-600 h-5 w-5" />
                   <p className="sm:tracking-wider tracking-tight text-justify sm:text-base text-xs">
-                  Preparation of auspicious reports and exhortation on the status of benefits
+                    Preparation of auspicious reports and exhortation on the
+                    status of benefits
                   </p>
                 </div>
                 <div className="flex flex-row  gap-5">
                   <GiCheckMark className="text-green-600 h-5 w-5" />
                   <p className="sm:tracking-wider tracking-tight text-justify sm:text-base text-xs">
-                  Fewer Error
+                    Fewer Error
                   </p>
                 </div>
                 <div className="flex flex-row  gap-5">
                   <GiCheckMark className="text-green-600 h-5 w-5" />
                   <p className="sm:tracking-wider tracking-tight text-justify sm:text-base text-xs">
-                  Reduction of Paper Work
+                    Reduction of Paper Work
                   </p>
                 </div>
                 <div className="flex flex-row  gap-5">
                   <GiCheckMark className="text-green-600 h-5 w-5" />
                   <p className="sm:tracking-wider tracking-tight text-justify sm:text-base text-xs">
-                  Identification and re-sending of abundance gear
+                    Identification and re-sending of abundance gear
                   </p>
                 </div>
                 <div className="flex flex-row  gap-5">
                   <GiCheckMark className="text-green-600 h-5 w-5" />
                   <p className="sm:tracking-wider tracking-tight text-justify sm:text-base text-xs">
-                  Easy to identify replaced and retired asset.
+                    Easy to identify replaced and retired asset.
                   </p>
                 </div>
                 <div className="flex flex-row  gap-5">
                   <GiCheckMark className="text-green-600 h-5 w-5" />
                   <p className="sm:tracking-wider tracking-tight text-justify sm:text-base text-xs">
-                  The reduced absolute expense of proprietorship.
+                    The reduced absolute expense of proprietorship.
                   </p>
                 </div>
                 <div className="flex flex-row  gap-5">
                   <GiCheckMark className="text-green-600 h-5 w-5" />
                   <p className="sm:tracking-wider tracking-tight text-justify sm:text-base text-xs">
-                  Reduce evaluating the time of benefit.
+                    Reduce evaluating the time of benefit.
                   </p>
                 </div>
               </div>
             </div>
             <div>
               <h1 className="sm:text-3xl text-lg text-blue-400">
-              Advantages of the Asset Management system
+                Advantages of the Asset Management system
               </h1>
               <div className="flex flex-col gap-5 my-3">
                 <div className="flex flex-row  gap-5">
                   <GiCheckMark className="text-green-600 h-5 w-5" />
                   <p className="sm:tracking-wider tracking-tight text-justify sm:text-base text-xs">
-                  Immediate Access to Asset Location
+                    Immediate Access to Asset Location
                   </p>
                 </div>
                 <div className="flex flex-row  gap-5">
                   <GiCheckMark className="text-green-600 h-5 w-5" />
                   <p className="sm:tracking-wider tracking-tight text-justify sm:text-base text-xs">
-                  Provides High Level of Data Integrity
+                    Provides High Level of Data Integrity
                   </p>
                 </div>
                 <div className="flex flex-row  gap-5">
                   <GiCheckMark className="text-green-600 h-5 w-5" />
                   <p className="sm:tracking-wider tracking-tight text-justify sm:text-base text-xs">
-                  Increases Efficiency
+                    Increases Efficiency
                   </p>
                 </div>
                 <div className="flex flex-row  gap-5">
                   <GiCheckMark className="text-green-600 h-5 w-5" />
                   <p className="sm:tracking-wider tracking-tight text-justify sm:text-base text-xs">
-                  Lowers Costs
+                    Lowers Costs
                   </p>
                 </div>
                 <div className="flex flex-row  gap-5">
                   <GiCheckMark className="text-green-600 h-5 w-5" />
                   <p className="sm:tracking-wider tracking-tight text-justify sm:text-base text-xs">
-                  Increases Accuracy
+                    Increases Accuracy
                   </p>
                 </div>
                 <div className="flex flex-row  gap-5">
                   <GiCheckMark className="text-green-600 h-5 w-5" />
                   <p className="sm:tracking-wider tracking-tight text-justify sm:text-base text-xs">
-                  Inventory Visibility
+                    Inventory Visibility
                   </p>
                 </div>
                 <div className="flex flex-row  gap-5">
                   <GiCheckMark className="text-green-600 h-5 w-5" />
                   <p className="sm:tracking-wider tracking-tight text-justify sm:text-base text-xs">
-                  Real time Traceability of asset
+                    Real time Traceability of asset
                   </p>
                 </div>
                 <div className="flex flex-row  gap-5">
                   <GiCheckMark className="text-green-600 h-5 w-5" />
                   <p className="sm:tracking-wider tracking-tight text-justify sm:text-base text-xs">
-                  Easy to get Asset current value as per IT Act & Company Act.
+                    Easy to get Asset current value as per IT Act & Company Act.
                   </p>
                 </div>
                 <div className="flex flex-row  gap-5">
                   <GiCheckMark className="text-green-600 h-5 w-5" />
                   <p className="sm:tracking-wider tracking-tight text-justify sm:text-base text-xs">
-                  Easy to get Current status of Asset
+                    Easy to get Current status of Asset
                   </p>
                 </div>
               </div>
             </div>
           </div>
+          <a
+            href="https://drive.google.com/file/d/1SHK17h9wJrwXrnA7Rmz8-hFilWzhnQ-b/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+            className="flex flex-row items-center justify-center gap-2 mt-10 text-lg text-yellow-500 border-2 border-red-600 p-2"
+          >
+            <button className="">View.pdf</button>
+            <AiOutlineFilePdf />
+          </a>
         </div>
       </div>
-      <Enquiry/>
+      <Enquiry />
     </div>
   );
 }

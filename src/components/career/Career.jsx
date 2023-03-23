@@ -6,7 +6,7 @@ function Career() {
   return (
     <div>
         <Navbar/>
-      <div className="sm:h-screen h-[500px] bg-black">
+      <div className="h-full bg-black pb-20">
         <div>
           <img
             src={career}
@@ -15,7 +15,7 @@ function Career() {
           />
         </div>
         <div className="flex flex-col items-center justify-center sm:mt-[150px] mt-20 pb-5">
-          <h3 className="sm:text-3xl text-md text-green-500 mx-5">Click the following Button to send your Resume</h3>
+          <h3 className="sm:text-3xl text-md text-green-500 mx-5 text-center">Click the following Button to send your Resume</h3>
           <a href="mailto:nagaraj@nextepind.com">
             <span className="">
               <button className="text-gray-200 sm:text-2xl text-xl bg-blue-800 sm:px-[100px] px-10 sm:py-5 py-2 sm:mt-10  rounded-full">Send Resume</button>

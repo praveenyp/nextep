@@ -14,7 +14,7 @@ function Enquiry() {
 
       <div className="text-gray-500 bg-slate-900">
         <hr />
-        <div className="flex sm:flex-row flex-col justify-between sm:mx-[100px] mx-10 py-10  ">
+        <div className="flex md:flex-row flex-col justify-between md:mx-[100px] mx-10 py-10  ">
           {/* address */}
           <div className="flex flex-col items-center">
             <h1 className=" text-lg underline underline-offset-8 decoration-white decoration-2">Address</h1>
@@ -55,7 +55,7 @@ function Enquiry() {
               </a>
               <div className="flex flex-row gap-6">
                 <MdEmail className="text-red-500 mt-1 text-xl" />
-                <span className="flex sm:flex-row flex-col">
+                <span className="flex md:flex-row flex-col">
                   <a
                     href="mailto:info@nextepind.com"
                     className="hover:text-green-600"
@@ -74,7 +74,7 @@ function Enquiry() {
               <div className="flex flex-row gap-6">
                 <BiMobile className="text-red-500 mt-1 text-xl" />
                 +91
-                <span className="flex sm:flex-row flex-col  ">
+                <span className="flex md:flex-row flex-col  ">
                   <a href="tel:08884440909" className="hover:text-green-600">
                     88844 40909 /{" "}
                   </a>
@@ -93,8 +93,8 @@ function Enquiry() {
             </div>
           </div>
           {/* general link */}
-          <div className="flex sm:flex-row flex-row gap-5">
-            <div className="flex flex-col items-center sm:mt-0 mt-20">
+          <div className="flex md:flex-row flex-row gap-5">
+            <div className="flex flex-col items-center md:mt-0 mt-20">
               <h1 className=" text-lg underline underline-offset-8 decoration-white decoration-2">General</h1>
               <div className="flex flex-col mt-4 gap-2">
                 <Link to="/" className="hover:text-green-600">
@@ -114,7 +114,7 @@ function Enquiry() {
                 </Link>
               </div>
             </div>
-            <div className="flex flex-col  items-center sm:mt-0 mt-20">
+            <div className="flex flex-col  items-center md:mt-0 mt-20">
               <h1 className="text-lg underline underline-offset-8 decoration-white decoration-2">Solutions</h1>
               <div className="flex flex-col  mt-4 gap-2">
                 <Link to="/asset" className="hover:text-green-600">
@@ -143,7 +143,7 @@ function Enquiry() {
                 </Link>
               </div>
             </div>
-            <div className="flex flex-col items-center sm:mt-0 mt-20">
+            <div className="flex flex-col items-center md:mt-0 mt-20">
               <h1 className=" text-lg underline underline-offset-8 decoration-white decoration-2">Products</h1>
               <div className="flex flex-col mt-4 gap-2">
                 <Link to="/consumable" className="hover:text-green-600">
@@ -159,7 +159,7 @@ function Enquiry() {
           {/* social */}
           <div className="flex flex-col items-center sm:mt-0 mt-20">
             <h1 className="text-lg underline underline-offset-8 decoration-white decoration-2">Follow Us On</h1>
-            <div className="flex sm:flex-col flex-row gap-3 mt-4">
+            <div className="flex md:flex-col flex-row gap-3 mt-4">
               <SocialIcon
                 url="https://www.linkedin.com/company/nextep-engineering-pvt-ltd/"
                 fgColor="white"

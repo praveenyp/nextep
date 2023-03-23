@@ -1,8 +1,9 @@
 import React from "react";
 import Navbar from "../Navbar";
-// import { GiCheckMark } from "react-icons/gi";
+import { AiOutlineFilePdf } from "react-icons/ai";
 import Enquiry from "../enquiry/Enquiry";
 import track from "./images/track.jfif"
+
 
 function Track() {
   return (
@@ -75,6 +76,7 @@ function Track() {
               pharmaceutical makers, restorative gadgets makers, and others.
             </p>
           </div>
+        <a href="https://drive.google.com/file/d/1WkzEjvoqFI1aVhnlkiKI_hPOTXaMj2mb/view?usp=sharing" target="_blank" rel="noreferrer" className="flex flex-row items-center justify-center gap-2 mt-10 text-lg text-yellow-500 border-2 border-red-600 p-2" ><button className="">View.pdf</button><AiOutlineFilePdf/></a>
         </div>
       </div>
       <Enquiry />

@@ -2,7 +2,8 @@ import React from "react";
 import Navbar from "../Navbar";
 import { GiCheckMark } from "react-icons/gi";
 import Enquiry from "../enquiry/Enquiry";
-import automation from "./images/automation.jfif"
+import automation from "./images/automation.jfif";
+import { AiOutlineFilePdf } from "react-icons/ai";
 function Automation() {
   return (
     <div>
@@ -48,33 +49,44 @@ function Automation() {
               distribution centre answers for programmed ID applications,
               including the accompanying:
             </p>
-        <div className="">
-          <div className="flex flex-row  gap-5">
-            <GiCheckMark className="text-green-600 h-5 w-5" />
-            <p className="sm:tracking-wider tracking-tight text-justify sm:text-base text-xs">
-              Receiving and returns
-            </p>
+            <div className="">
+              <div className="flex flex-row  gap-5">
+                <GiCheckMark className="text-green-600 h-5 w-5" />
+                <p className="sm:tracking-wider tracking-tight text-justify sm:text-base text-xs">
+                  Receiving and returns
+                </p>
+              </div>
+              <div className="flex flex-row  gap-5">
+                <GiCheckMark className="text-green-600 h-5 w-5" />
+                <p className="sm:tracking-wider tracking-tight text-justify sm:text-base text-xs">
+                  Verification and clarity approval
+                </p>
+              </div>{" "}
+              <div className="flex flex-row  gap-5">
+                <GiCheckMark className="text-green-600 h-5 w-5" />
+                <p className="sm:tracking-wider tracking-tight text-justify sm:text-base text-xs">
+                  Scanning burrows, multi-sided scanner tag examining, and
+                  information assortment
+                </p>
+              </div>{" "}
+              <div className="flex flex-row  gap-5">
+                <GiCheckMark className="text-green-600 h-5 w-5" />
+                <p className="sm:tracking-wider tracking-tight text-justify sm:text-base text-xs">
+                  Conveyor mounted scanners material taking care of for
+                  warehousing and appropriation
+                </p>
+              </div>
+            </div>
           </div>
-          <div className="flex flex-row  gap-5">
-            <GiCheckMark className="text-green-600 h-5 w-5" />
-            <p className="sm:tracking-wider tracking-tight text-justify sm:text-base text-xs">
-            Verification and clarity approval
-            </p>
-          </div>{" "}
-          <div className="flex flex-row  gap-5">
-            <GiCheckMark className="text-green-600 h-5 w-5" />
-            <p className="sm:tracking-wider tracking-tight text-justify sm:text-base text-xs">
-            Scanning burrows, multi-sided scanner tag examining, and information assortment
-            </p>
-          </div>{" "}
-          <div className="flex flex-row  gap-5">
-            <GiCheckMark className="text-green-600 h-5 w-5" />
-            <p className="sm:tracking-wider tracking-tight text-justify sm:text-base text-xs">
-            Conveyor mounted scanners material taking care of for warehousing and appropriation
-            </p>
-          </div>
-        </div>
-          </div>
+          <a
+            href="https://drive.google.com/file/d/1JFwr9zcZv88l20mD4RVlDhasIq4mPRui/view?usp=share_link"
+            target="_blank"
+            rel="noreferrer"
+            className="flex flex-row items-center justify-center gap-2 mt-10 text-lg text-yellow-500 border-2 border-red-600 p-2"
+          >
+            <button className="">View.pdf</button>
+            <AiOutlineFilePdf />
+          </a>
         </div>
       </div>
       <Enquiry />

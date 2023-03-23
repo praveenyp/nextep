@@ -26,11 +26,11 @@
   }
 
   *::-webkit-scrollbar-track {
-    background: rgb(9, 15, 24);
+    background: rgb(136, 201, 17);
   }
 
   *::-webkit-scrollbar-thumb {
-    background-color: #010111;
+    background-color: #5bc311;
     border-radius: 10px;
     border: 1px dotted rgb(243, 246, 243);
   }

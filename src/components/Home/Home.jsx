@@ -29,7 +29,7 @@ function Home2() {
           <div className=" flex flex-col items-center justify-center">
             <span className=" flex flex-row  relative">
               <h1 className="sm:text-9xl text-5xl font-bold text-teal-400 tracking-wider">Nextep</h1>
-              <h1 className="flex items-center justify-center sm:text-9xl font-bold text-5xl  text-amber-600">india</h1>
+              <h1 className="flex items-center justify-center sm:text-9xl font-bold text-5xl  text-amber-600">India</h1>
             </span>{" "}
             
             <p className="sm:text-lg text-xs pt-5 sm:font-semibold font-normal uppercase tracking-wider text-center relative">
@@ -84,10 +84,10 @@ function Home2() {
         <div className="flex flex-col items-center justify-center gap-10 sm:pt-0 pt-16">
           <h1 className="sm:text-6xl text-3xl">
             <span className="text-yellow-500">About</span> <br />
-            Nextep india
+            Nextep India
           </h1>
-          <p className="sm:text-lg text-sm font-serif sm:mx-[30%] mx-10 tracking-wider text-slate-300">
-            Nextep india provides Barcode | RFID | Automation | POS |
+          <p className="sm:text-lg text-sm font-serif sm:mx-[30%] mx-10 text-justify tracking-wider text-slate-300">
+            Nextep India provides Barcode | RFID | Automation | POS |
             Software | Consumables to clients in India and the Middle East, as
             partners to conceptualize and realize their initiatives, to reach
             out their Vision. Whether it is Manufacturing, Retail, Textile,
@@ -109,7 +109,7 @@ function Home2() {
               Your Business
               <br /> with <span className="text-cyan-600">Nextep</span>
             </h1>
-            <p className="sm:text-lg text-sm font-serif sm:mx-[25%] mx-10  tracking-wider text-slate-300">
+            <p className="sm:text-lg text-sm font-serif sm:mx-[25%] mx-10 text-justify tracking-wider text-slate-300">
               We offer an entire range of innovative IT solutions and services
               to customers making their inevitable presence in the globe...
             </p>
@@ -195,7 +195,7 @@ function Home2() {
             Exceptional <span className="text-pink-500">Products</span> to Grow
             your <span className="text-blue-500">Business.</span>
           </h1>
-          <p className="sm:text-lg text-sm font-serif  tracking-wider text-slate-300">
+          <p className="sm:text-lg text-sm font-serif text-justify tracking-wider text-slate-300">
             We offer a wide range of Barcode Printers, Barcode Scanners, RFID,
             EAS, POS, Software, Marking & Coding, Consumables
           </p>

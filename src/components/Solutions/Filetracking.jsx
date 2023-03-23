@@ -2,18 +2,15 @@ import React from "react";
 import Navbar from "../Navbar";
 import { GiCheckMark } from "react-icons/gi";
 import Enquiry from "../enquiry/Enquiry";
-import file from "./images/file.jpg"
+import file from "./images/file.jpg";
+import { AiOutlineFilePdf } from "react-icons/ai";
 function Filetracking() {
   return (
     <div>
       <div className="h-full text-white bg-black">
         <Navbar />
         <div>
-          <img
-            src={file}
-            alt=""
-            className="w-[100%] sm:h-[500px] h-[200px]"
-          />
+          <img src={file} alt="" className="w-[100%] sm:h-[500px] h-[200px]" />
         </div>
 
         <div className="flex flex-col items-center justify-center pt-20 pb-20">
@@ -211,6 +208,15 @@ function Filetracking() {
               </div>
             </div>
           </div>
+            <a
+              href="https://drive.google.com/file/d/1JFwr9zcZv88l20mD4RVlDhasIq4mPRui/view?usp=share_link"
+              target="_blank"
+              rel="noreferrer"
+              className="flex flex-row items-center justify-center gap-2 mt-10 text-lg text-yellow-500 border-2 border-red-600 p-2"
+            >
+              <button className="">View.pdf</button>
+              <AiOutlineFilePdf />
+            </a>
         </div>
       </div>
       <Enquiry />

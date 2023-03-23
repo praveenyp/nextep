@@ -3,6 +3,7 @@ import Navbar from "../Navbar";
 import { GiCheckMark } from "react-icons/gi";
 import Enquiry from "../enquiry/Enquiry";
 import retail from "./images/retail.jpg"
+import {AiOutlineFilePdf} from 'react-icons/ai'
 function Retail() {
   return (
     <div>
@@ -98,6 +99,15 @@ function Retail() {
               </div>
             </div>
           </div>
+            <a
+              href="https://drive.google.com/file/d/1JFwr9zcZv88l20mD4RVlDhasIq4mPRui/view?usp=share_link"
+              target="_blank"
+              rel="noreferrer"
+              className="flex flex-row items-center justify-center gap-2 mt-10 text-lg text-yellow-500 border-2 border-red-600 p-2"
+            >
+              <button className="">View.pdf</button>
+              <AiOutlineFilePdf />
+            </a>
         </div>
       </div>
       <Enquiry />
