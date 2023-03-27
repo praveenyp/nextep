@@ -3,7 +3,7 @@ import Navbar from "../Navbar";
 import { GiCheckMark } from "react-icons/gi";
 import Enquiry from "../enquiry/Enquiry";
 import asset from "./images/asset.jpg";
-import { AiOutlineFilePdf } from "react-icons/ai";
+
 function Asset() {
   return (
     <div>
@@ -188,15 +188,7 @@ function Asset() {
               </div>
             </div>
           </div>
-          <a
-            href="https://drive.google.com/file/d/1SHK17h9wJrwXrnA7Rmz8-hFilWzhnQ-b/view?usp=sharing"
-            target="_blank"
-            rel="noreferrer"
-            className="flex flex-row items-center justify-center gap-2 mt-10 text-lg text-yellow-500 border-2 border-red-600 p-2"
-          >
-            <button className="">View.pdf</button>
-            <AiOutlineFilePdf />
-          </a>
+          
         </div>
       </div>
       <Enquiry />
