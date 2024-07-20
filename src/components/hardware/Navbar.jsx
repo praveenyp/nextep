@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
-import Logo from "./logo/Nextep logo.png";
+import Logo from "./logo/NE Logo.png";
 import { Link } from "react-router-dom";
 
 function Navbar() {
@@ -8,12 +8,12 @@ function Navbar() {
   return (
     <>
       <nav className="bg-gradient-to-r from-indigo-400 to-indigo-400 sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 md:py-6">
           <div className="flex items-center justify-between h-20">
             <div className="flex items-center">
               <div className="flex-shrink-0">
                 <Link to={"/"}>
-                  <img className="sm:h-20 h-16 sm:w-40 w-32" src={Logo} alt="Workflow" />
+                  <img className="sm:h-20 h-16 sm:w-56 w-32" src={Logo} alt="Workflow" />
                 </Link>
               </div>
               <div className="hidden md:block">

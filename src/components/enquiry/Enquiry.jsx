@@ -17,12 +17,12 @@ function Enquiry() {
         <div className="flex md:flex-row flex-col justify-between md:mx-[100px] mx-10 py-10  ">
           {/* address */}
           <div className="flex flex-col items-center">
-            <h1 className=" text-lg underline underline-offset-8 decoration-white decoration-2">Address</h1>
-            <h2 className="mt-4 mb-2">
+            <h1 className=" text-lg underline underline-offset-8 decoration-white decoration-2 pb-3">Address</h1>
+            {/* <h2 className="mt-4 mb-2">
               (Registered Office)
-            </h2>
+            </h2> */}
             <div className="flex flex-col gap-5">
-              <a href="/">
+              {/* <a href="/">
                 <div className="flex flex-row gap-6">
                   <FaMapPin className="text-red-500 mt-8 text-xl" />
                   <span className="flex flex-col hover:text-green-600">
@@ -34,21 +34,21 @@ function Enquiry() {
                     </p>
                   </span>
                 </div>
-              </a>
-              <h2 className="flex items-center justify-center">
+              </a> */}
+              {/* <h2 className="flex items-center justify-center">
                 (Factory)
-              </h2>
+              </h2> */}
 
-              <a href="https://www.google.com/maps/dir/12.8845097,77.6035522/Nextep+Engineering+Pvt+Ltd,+207%2F2,+Bommasandra+Lake+Rd,+Tranquil+City,+Bommasandra+Village,+Bommasandra,+Karnataka+560099/@12.8514323,77.5714167,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bae6d992e923ab3:0x7305a5b4fbd07601!2m2!1d77.6983561!2d12.8137019">
+              <a href="/">
                 <div className="flex flex-row gap-6">
                   <FaMapPin className="text-red-500 mt-8 text-xl" />
                   <span className="flex flex-col hover:text-green-600">
-                    <h2 className="font-bold">NEXTEP ENGINEERING PVT.LTD</h2>
+                    <h2 className="font-bold">NEXTEP ENGINEERING PRIVATE LIMITED</h2>
                     <p className="">
-                      No. 02 Plot no.215/2, Padmapriya Industrial Estate,
+                      Q-20 3rd Main Road, KSSIDC Industrial Estate Phase-2,
                       <br />
-                      Tranquil city Bommasandra Industrial Area,
-                      <br /> Bangalore-560099.
+                      Jigani Industrial Area, Jigani, Bengaluru,
+                      <br /> Karnataka-560106.
                     </p>
                   </span>
                 </div>
