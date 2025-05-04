@@ -13,7 +13,11 @@ function Navbar() {
             <div className="flex items-center">
               <div className="flex-shrink-0">
                 <Link to={"/"}>
-                  <img className="sm:h-20 h-16 sm:w-56 w-32" src={Logo} alt="Workflow" />
+                  <img
+                    className="sm:h-20 h-16 sm:w-56 w-32"
+                    src={Logo}
+                    alt="Workflow"
+                  />
                 </Link>
               </div>
               <div className="hidden md:block">
@@ -42,7 +46,7 @@ function Navbar() {
                     href="#rfid"
                     className="hover:font-extrabold  rounded-md text-md font-medium"
                   >
-                   RFID
+                    RFID
                   </a>
 
                   {/* <a
@@ -55,7 +59,7 @@ function Navbar() {
                     href="#tablet"
                     className="hover:font-extrabold  rounded-md text-md font-medium"
                   >
-                   Industrial Tablet
+                    Industrial Tablet
                   </a>
 
                   <div className="ml-[400px] pl-[200px] flex flex-row items-center justify-between gap-10">
@@ -160,7 +164,10 @@ function Navbar() {
         >
           {(ref) => (
             <div className="md:hidden" id="mobile-menu">
-              <div ref={ref} className=" flex flex-col px-2 pt-2 pb-3 space-y-1 sm:px-3 items-center justify-center text-black">
+              <div
+                ref={ref}
+                className=" flex flex-col px-2 pt-2 pb-3 space-y-1 sm:px-3 items-center justify-center text-black"
+              >
                 <a
                   href="#printer"
                   className="hover:font-extrabold  rounded-md text-md font-medium"
@@ -185,7 +192,7 @@ function Navbar() {
                   href="#rifd"
                   className="hover:font-extrabold  rounded-md text-md font-medium"
                 >
-                 RFID
+                  RFID
                 </a>
                 {/* <a
                   href="#inspection"

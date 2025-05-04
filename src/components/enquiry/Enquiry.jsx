@@ -57,7 +57,7 @@ function Enquiry() {
                 <MdEmail className="text-red-500 mt-1 text-xl" />
                 <span className="flex md:flex-row flex-col">
                   <a
-                    href="mailto:info@nextepind.com"
+                    href="mailto:praveenyp11@gmail.com"
                     className="hover:text-green-600"
                   >
                     info@nextepind.com /{" "}
@@ -66,7 +66,7 @@ function Enquiry() {
                     href="mailto:sales@nextepind.com"
                     className="hover:text-green-600"
                   >
-                    sales@nextepind.com
+                    xyz@gmail.com
                   </a>
                 </span>
               </div>
@@ -75,8 +75,8 @@ function Enquiry() {
                 <BiMobile className="text-red-500 mt-1 text-xl" />
                 +91
                 <span className="flex md:flex-row flex-col  ">
-                  <a href="tel:08884440909" className="hover:text-green-600">
-                    88844 40909 /{" "}
+                  <a href="tel:9999999999" className="hover:text-green-600">
+                    9999999999 /{" "}
                   </a>
                   <a href="tel:09980063407" className="hover:text-green-600">
                     99800 63407
@@ -87,7 +87,7 @@ function Enquiry() {
                 <HiPhone className="text-red-500 mt-1 text-xl" />
 
                 <span className="flex flex-row hover:text-green-600">
-                  <a href="tel:08029604414">080 2960 4414</a>
+                  <a href="tel:0000000000">00000000000</a>
                 </span>
               </div>
             </div>
