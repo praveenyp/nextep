@@ -45,10 +45,10 @@ function Enquiry() {
                   <span className="flex flex-col hover:text-green-600">
                     <h2 className="font-bold">NEXTEP ENGINEERING PRIVATE LIMITED</h2>
                     <p className="">
-                      Q-20 3rd Main Road, KSSIDC Industrial Estate Phase-2,
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe placeat  expedita tenetur,
                       <br />
-                      Jigani Industrial Area, Jigani, Bengaluru,
-                      <br /> Karnataka-560106.
+                      corrupti maxime. Adipisci odio reprehenderit corporis vero beatae iusto quis.
+                      <br /> ad minima amet tempore obcaecati exercitationem nisi fugiat
                     </p>
                   </span>
                 </div>
@@ -60,7 +60,7 @@ function Enquiry() {
                     href="mailto:praveenyp11@gmail.com"
                     className="hover:text-green-600"
                   >
-                    info@nextepind.com /{" "}
+                    abc@gmail.com /{" "}
                   </a>
                   <a
                     href="mailto:sales@nextepind.com"
@@ -78,8 +78,8 @@ function Enquiry() {
                   <a href="tel:9999999999" className="hover:text-green-600">
                     9999999999 /{" "}
                   </a>
-                  <a href="tel:09980063407" className="hover:text-green-600">
-                    99800 63407
+                  <a href="tel:1234567890" className="hover:text-green-600">
+                    1234567890
                   </a>
                 </span>
               </div>
