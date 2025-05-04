@@ -62,7 +62,7 @@ const Navbar = () => {
                     className="text-gray-300  py-0 rounded-md text-sm font-medium"
                   > */}
                   <span className="flex flex-row items-center justify-between gap-10 pl-[200px]">
-                    <a href="tel:08029064414">
+                    <a href="tel:0000000000">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
